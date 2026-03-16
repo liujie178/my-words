@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>英语单词通</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root { --p: #4f46e5; }
+        body { font-family: sans-serif; background: #f8fafc; touch-action: manipulation; -webkit-tap-highlight-color: transparent; }
+        .safe-pb { padding-bottom: env(safe-area-inset-bottom); }
+        .safe-pt { padding-top: env(safe-area-inset-top); }
+        .card { transition: all 0.3s ease; }
+        .btn-active:active { transform: scale(0.95); opacity: 0.8; }
+    </style>
+</head>
+<body class="flex flex-col h-screen overflow-hidden">
+
+    <header class="p-4 bg-white border-b flex justify-between items-center safe-pt">
+        <div>
+            <h1 class="text-xl font-bold text-indigo-600">英语单词通</h1>
+            <div id="idx" class="text-[10px] text-gray-400">加载中...</div>
+        </div>
+        <div class="text-right">
+            <div id="perc" class="text-xs font-bold text-indigo-500">0%</div>
+            <div id="st" class="text-[10px] text-gray-400">熟悉:0 | 模糊:0</div>
+        </div>
+    </header>
+
+    <main class="flex-grow p-4 overflow-hidden flex flex-col">
+        <div id="empty" class="hidden flex-grow flex flex-col items-center justify-center text-gray-400">
+            暂无数据，请在“设置”中导入
+        </div>
+
+        <div id="content" class="flex-grow flex flex-col">
+            <div class="relative flex-grow flex items-center justify-center">
+                <!-- 左右触控切换区 -->
+                <div onclick="app.prev()" class="absolute inset-y-0 left-0 w-1/4 z-10"></div>
+                <div onclick="app.next()" class="absolute inset-y-0 right-0 w-1/4 z-10"></div>
+                
+                <div class="card w-full bg-white rounded-3xl shadow-xl p-6 relative border border-gray-100 flex flex-col h-full max-h-[500px]">
+                    <button onclick="app.fav()" id="fav" class="absolute top-4 right-4 text-2xl text-gray-300">☆</button>
+                    
+                    <div class="flex-grow flex flex-col justify-center items-center">
+                        <div id="w" class="text-5xl font-bold text-gray-800 mb-4">Word</div>
+                        <div class="flex gap-2 mb-6">
+                            <button onclick="app.spk('us')" class="bg-indigo-600 text-white px-4 py-1.5 rounded-full text-xs flex items-center gap-1">
+                                美 <span id="ps">/--/</span>
+                            </button>
+                        </div>
+                        <div class="w-full text-left space-y-4">
+                            <p id="m" class="text-gray-700 text-lg font-medium"></p>
+                            <div class="p-3 bg-gray-50 rounded-xl">
+                                <p id="en" class="text-gray-800 text-sm italic"></p>
+                                <p id="cn" class="text-gray-500 text-xs mt-1"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4 grid grid-cols-2 gap-4">
+                <button id="b1" onclick="app.mark(1)" class="py-4 bg-orange-50 text-orange-600 rounded-2xl font-bold border-2 border-transparent btn-active">模糊</button>
+                <button id="b2" onclick="app.mark(2)" class="py-4 bg-green-50 text-green-600 rounded-2xl font-bold border-2 border-transparent btn-active">熟悉</button>
+            </div>
+            
+            <div class="mt-4 flex justify-between items-center text-indigo-600 font-bold px-2">
+                <button onclick="app.prev()" class="p-2">❮ 上一个</button>
+                <div class="flex-grow mx-4 h-1.5 bg-gray-200 rounded-full overflow-hidden">
+                    <div id="pb" class="h-full bg-indigo-500" style="width:0%"></div>
+                </div>
+                <button onclick="app.next()" class="p-2">下一个 ❯</button>
+            </div>
+        </div>
+    </main>
+
+    <nav class="bg-white border-t flex justify-around p-3 safe-pb">
+        <button onclick="app.tab('s')" id="ns" class="flex flex-col items-center text-indigo-600">
+            <span class="text-xl">📖</span><span class="text-[10px]">学习</span>
+        </button>
+        <button onclick="app.tab('p')" id="np" class="flex flex-col items-center text-gray-400">
+            <span class="text-xl">⚙️</span><span class="text-[10px]">设置</span>
+        </button>
+    </nav>
+
+    <div id="pset" class="hidden fixed inset-0 bg-white z-50 p-6 safe-pt">
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="text-xl font-bold">设置与导入</h2>
+            <button onclick="app.tab('s')" class="text-indigo-600">返回</button>
+        </div>
+        <div class="space-y-4">
+            <div class="p-4 bg-indigo-50 rounded-2xl">
+                <div class="text-sm text-gray-600">总掌握率</div>
+                <div id="set-p" class="text-3xl font-black text-indigo-600">0%</div>
+            </div>
+            <button onclick="app.imp()" class="w-full py-4 bg-gray-100 rounded-xl font-bold">导入词库 JSON</button>
+            <button onclick="app.exp()" class="w-full py-4 bg-gray-100 rounded-xl font-bold">备份进度 (复制)</button>
+            <p class="text-[10px] text-gray-400 text-center">注意：如果清理浏览器缓存，进度会丢失。<br>建议定期点击“备份进度”保存文本。</p>
+        </div>
+    </div>
+
+    <script>
+        const KEY = 'WORD_DATA_V4';
+        class App {
+            constructor() {
+                this.words = []; this.cur = 0; this.hist = {};
+                this.load();
+                // 解决 iOS 自动朗读限制：第一次点击屏幕后启动语音
+                window.addEventListener('touchstart', () => { 
+                    const m = new SpeechSynthesisUtterance('');
+                    window.speechSynthesis.speak(m);
+                }, { once: true });
+            }
+            load() {
+                const s = localStorage.getItem(KEY);
+                if (s) {
+                    const d = JSON.parse(s);
+                    this.words = d.words || [];
+                    this.hist = d.hist || {};
+                    this.cur = d.cur || 0;
+                }
+                if (!this.words.length) this.words = [{id:0,word:"Hello",us_phonetic:"/həˈloʊ/",meaning:"int. 你好",example_en:"Hello, how are you?",example_cn:"你好，你好吗？"}];
+                this.render();
+            }
+            save() {
+                localStorage.setItem(KEY, JSON.stringify({words:this.words, hist:this.hist, cur:this.cur}));
+                this.render();
+            }
+            render() {
+                if(!this.words.length) return;
+                const w = this.words[this.cur];
+                const h = this.hist[w.id] || {s:0,f:false};
+                document.getElementById('w').innerText = w.word;
+                document.getElementById('ps').innerText = w.us_phonetic;
+                document.getElementById('m').innerText = w.meaning;
+                document.getElementById('en').innerText = w.example_en;
+                document.getElementById('cn').innerText = w.example_cn;
+                document.getElementById('idx').innerText = `词库: ${this.cur+1}/${this.words.length}`;
+                document.getElementById('fav').innerText = h.f ? '★' : '☆';
+                document.getElementById('fav').style.color = h.f ? '#f59e0b' : '#d1d5db';
+                document.getElementById('pb').style.width = `${((this.cur+1)/this.words.length)*100}%`;
+                
+                const hs = Object.values(this.hist);
+                const kn = hs.filter(x=>x.s===2).length;
+                const vg = hs.filter(x=>x.s===1).length;
+                const p = Math.round((kn/this.words.length)*100);
+                document.getElementById('perc').innerText = p+'%';
+                document.getElementById('st').innerText = `熟悉:${kn} | 模糊:${vg}`;
+                document.getElementById('set-p').innerText = p+'%';
+                
+                document.getElementById('b1').style.borderColor = h.s===1 ? '#f97316' : 'transparent';
+                document.getElementById('b2').style.borderColor = h.s===2 ? '#22c55e' : 'transparent';
+                
+                this.spk('us');
+            }
+            next() { if(this.cur < this.words.length-1) { this.cur++; this.save(); } }
+            prev() { if(this.cur > 0) { this.cur--; this.save(); } }
+            mark(s) {
+                const id = this.words[this.cur].id;
+                if(!this.hist[id]) this.hist[id] = {s:0,f:false};
+                this.hist[id].s = (this.hist[id].s === s) ? 0 : s;
+                this.save();
+            }
+            fav() {
+                const id = this.words[this.cur].id;
+                if(!this.hist[id]) this.hist[id] = {s:0,f:false};
+                this.hist[id].f = !this.hist[id].f;
+                this.save();
+            }
+            spk(t) {
+                window.speechSynthesis.cancel();
+                const m = new SpeechSynthesisUtterance(this.words[this.cur].word);
+                m.lang = t === 'uk' ? 'en-GB' : 'en-US';
+                m.rate = 0.8;
+                window.speechSynthesis.speak(m);
+            }
+            tab(t) {
+                document.getElementById('pset').classList.toggle('hidden', t === 's');
+            }
+            imp() {
+                const s = prompt('请粘贴 JSON：');
+                if(s) {
+                    try {
+                        const d = JSON.parse(s);
+                        this.words = Array.isArray(d) ? d : d.words;
+                        if(!Array.isArray(d)) this.hist = d.hist || {};
+                        this.cur = 0; this.save();
+                    } catch(e) { alert('失败'); }
+                }
+            }
+            exp() {
+                const data = JSON.stringify({words:this.words, hist:this.hist, cur:this.cur});
+                const t = document.createElement('textarea');
+                t.value = data; document.body.appendChild(t); t.select();
+                document.execCommand('copy'); document.body.removeChild(t);
+                alert('已复制到剪贴板');
+            }
+        }
+        const app = new App();
+    </script>
+</body>
+</html>
