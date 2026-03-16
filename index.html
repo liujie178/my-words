@@ -44,16 +44,7 @@
         
         <!-- 1. 学习页面 -->
         <div id="page-study" class="flex-grow flex flex-col animate-in fade-in duration-300">
-            <div class="flex-grow flex flex-col items-center justify-center py-2 relative">
-                
-                <!-- 左右切换箭头 -->
-                <button onclick="app.prev()" class="absolute left-0 z-30 p-2 text-gray-300 hover:text-indigo-500 transition-colors">
-                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7"></path></svg>
-                </button>
-                <button onclick="app.next()" class="absolute right-0 z-30 p-2 text-gray-300 hover:text-indigo-500 transition-colors">
-                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
-                </button>
-
+            <div class="flex-grow flex flex-col items-center justify-center py-2">
                 <!-- 单词卡片 -->
                 <div class="w-full max-w-md bg-white rounded-[2rem] shadow-xl p-6 relative border border-gray-50 flex flex-col h-full max-h-[500px]">
                     <button onclick="app.toggleFav()" id="btn-fav" class="absolute top-5 right-5 text-2xl transition-transform active:scale-125">☆</button>
@@ -78,13 +69,29 @@
                                 <p id="meaning-text" class="text-gray-800 text-lg font-bold leading-tight"></p>
                             </div>
                             <div class="p-4 bg-gray-50 rounded-2xl border border-gray-100">
-                                <div class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-1">场景例句</div>
+                                <div class="flex justify-between items-center mb-1">
+                                    <div class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">场景例句</div>
+                                    <button onclick="app.speakExample()" class="text-indigo-500 text-xs font-bold flex items-center gap-1">
+                                        <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                                        朗读
+                                    </button>
+                                </div>
                                 <p id="ex-en" class="text-gray-700 text-sm italic font-medium leading-snug"></p>
                                 <p id="ex-cn" class="text-gray-500 text-xs mt-2"></p>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <!-- 左右切换箭头 -->
+            <div class="flex justify-between items-center mb-4 px-4">
+                <button onclick="app.prev()" class="p-2 text-gray-300 hover:text-indigo-500 transition-colors">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7"></path></svg>
+                </button>
+                <button onclick="app.next()" class="p-2 text-gray-300 hover:text-indigo-500 transition-colors">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+                </button>
             </div>
 
             <!-- 状态操作区 (模糊/熟悉) -->
@@ -95,14 +102,6 @@
                 <button id="mark-known" onclick="app.markStatus(2)" class="py-4 bg-white text-emerald-500 rounded-2xl font-bold border-2 border-emerald-50 shadow-sm active:scale-95 transition-all">
                     熟悉 (减频)
                 </button>
-            </div>
-
-            <!-- 学习进度条 -->
-            <div class="flex items-center px-1">
-                <div class="flex-grow h-1.5 bg-gray-200 rounded-full overflow-hidden">
-                    <div id="progress-bar" class="h-full bg-indigo-500 transition-all duration-500" style="width:0%"></div>
-                </div>
-                <span class="ml-4 text-[10px] font-bold text-gray-400 min-w-[30px]" id="progress-text">0%</span>
             </div>
         </div>
 
@@ -196,6 +195,7 @@
                 this.currentIndex = 0;
                 this.defaultVoice = 'en-US';
                 this.filterType = 'all';
+                this.visitedIndices = []; // 记录访问历史
                 this.init();
             }
 
@@ -207,6 +207,7 @@
                     this.history = data.history || {};
                     this.currentIndex = data.currentIndex || 0;
                     this.defaultVoice = data.defaultVoice || 'en-US';
+                    this.visitedIndices = data.visitedIndices || [];
                 } else {
                     this.words = DEFAULT_LIB;
                 }
@@ -218,12 +219,21 @@
             }
 
             save() {
-                localStorage.setItem(STORAGE_KEY, JSON.stringify({
-                    words: this.words,
-                    history: this.history,
-                    currentIndex: this.currentIndex,
-                    defaultVoice: this.defaultVoice
-                }));
+                try {
+                    localStorage.setItem(STORAGE_KEY, JSON.stringify({
+                        words: this.words,
+                        history: this.history,
+                        currentIndex: this.currentIndex,
+                        defaultVoice: this.defaultVoice,
+                        visitedIndices: this.visitedIndices
+                    }));
+                    // 存储成功提示（可选）
+                    // console.log('数据保存成功');
+                } catch (error) {
+                    // 处理存储失败的情况
+                    console.warn('存储失败:', error);
+                    // 可以在这里添加降级策略，比如只保存最重要的数据
+                }
             }
 
             render() {
@@ -237,7 +247,8 @@
                 document.getElementById('meaning-text').innerText = word.meaning;
                 document.getElementById('ex-en').innerText = word.example_en;
                 document.getElementById('ex-cn').innerText = word.example_cn;
-                document.getElementById('idx-text').innerText = `词库进度: ${this.currentIndex + 1} / ${this.words.length}`;
+                // 移除词库进度显示
+                document.getElementById('idx-text').innerText = '智能学习模式';
 
                 // 收藏按钮
                 const favBtn = document.getElementById('btn-fav');
@@ -250,11 +261,6 @@
                 
                 bVague.className = `py-4 rounded-2xl font-bold border-2 transition-all active:scale-95 ${state.s === 1 ? 'bg-orange-50 border-orange-400 text-orange-600 shadow-inner' : 'bg-white border-orange-50 text-orange-500 shadow-sm'}`;
                 bKnown.className = `py-4 rounded-2xl font-bold border-2 transition-all active:scale-95 ${state.s === 2 ? 'bg-emerald-50 border-emerald-400 text-emerald-600 shadow-inner' : 'bg-white border-emerald-50 text-emerald-500 shadow-sm'}`;
-
-                // 进度条
-                const progress = ((this.currentIndex + 1) / this.words.length) * 100;
-                document.getElementById('progress-bar').style.width = `${progress}%`;
-                document.getElementById('progress-text').innerText = Math.round(progress) + '%';
 
                 // 掌握度统计 (熟悉占100%，模糊占30%)
                 const stats = Object.values(this.history);
@@ -271,18 +277,47 @@
                 this.renderProfileList();
             }
 
-            // 核心逻辑：带权重的随机跳转（点击“下一个”时尝试根据状态过滤，此处由于要求固定顺序+手动切换，我们保持线性，但统计处体现频率逻辑）
+            // 核心逻辑：带权重的随机跳转
             next() {
-                if (this.currentIndex < this.words.length - 1) {
-                    this.currentIndex++;
-                    this.save();
-                    this.render();
+                // 记录当前索引到历史
+                if (this.visitedIndices.length === 0 || this.visitedIndices[this.visitedIndices.length - 1] !== this.currentIndex) {
+                    this.visitedIndices.push(this.currentIndex);
+                    // 限制历史记录长度
+                    if (this.visitedIndices.length > 50) {
+                        this.visitedIndices.shift();
+                    }
                 }
+
+                // 计算每个单词的权重
+                const weightedWords = this.words.map((word, index) => {
+                    const state = this.history[word.id] || { s: 0, f: false };
+                    let weight = 1; // 默认权重
+                    if (state.s === 1) weight = 3; // 模糊的单词权重更高
+                    if (state.s === 2) weight = 0.5; // 熟悉的单词权重降低但仍会出现
+                    return { index, weight };
+                });
+
+                // 计算总权重
+                const totalWeight = weightedWords.reduce((sum, item) => sum + item.weight, 0);
+
+                // 随机选择
+                let random = Math.random() * totalWeight;
+                for (const item of weightedWords) {
+                    random -= item.weight;
+                    if (random <= 0) {
+                        this.currentIndex = item.index;
+                        break;
+                    }
+                }
+
+                this.save();
+                this.render();
             }
 
             prev() {
-                if (this.currentIndex > 0) {
-                    this.currentIndex--;
+                // 从历史记录中返回上一个单词
+                if (this.visitedIndices.length > 0) {
+                    this.currentIndex = this.visitedIndices.pop();
                     this.save();
                     this.render();
                 }
@@ -310,6 +345,15 @@
                 const word = this.words[this.currentIndex].word;
                 const msg = new SpeechSynthesisUtterance(word);
                 msg.lang = lang;
+                msg.rate = 0.8;
+                window.speechSynthesis.speak(msg);
+            }
+
+            speakExample() {
+                window.speechSynthesis.cancel();
+                const example = this.words[this.currentIndex].example_en;
+                const msg = new SpeechSynthesisUtterance(example);
+                msg.lang = this.defaultVoice;
                 msg.rate = 0.8;
                 window.speechSynthesis.speak(msg);
             }
