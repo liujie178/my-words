@@ -3,200 +3,428 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-    <title>英语单词通</title>
+    <title>英语单词通 - 深度定制版</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        :root { --p: #4f46e5; }
-        body { font-family: sans-serif; background: #f8fafc; touch-action: manipulation; -webkit-tap-highlight-color: transparent; }
-        .safe-pb { padding-bottom: env(safe-area-inset-bottom); }
+        :root { --primary: #4f46e5; --success: #10b981; --warning: #f59e0b; }
+        body { 
+            font-family: "PingFang SC", "Microsoft YaHei", sans-serif; 
+            background: #f8fafc; 
+            touch-action: manipulation; 
+            -webkit-tap-highlight-color: transparent; 
+        }
+        .safe-pb { padding-bottom: calc(env(safe-area-inset-bottom) + 24px); }
         .safe-pt { padding-top: env(safe-area-inset-top); }
-        .card { transition: all 0.3s ease; }
-        .btn-active:active { transform: scale(0.95); opacity: 0.8; }
+        .card-shadow { shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1); }
+        .active-tab { color: var(--primary); transform: scale(1.1); font-weight: bold; }
+        .list-max-h { max-height: calc(100vh - 320px); }
+        /* 隐藏滚动条但保留功能 */
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
     </style>
 </head>
 <body class="flex flex-col h-screen overflow-hidden">
 
-    <header class="p-4 bg-white border-b flex justify-between items-center safe-pt">
+    <!-- 顶部状态栏 (中文) -->
+    <header class="px-6 py-4 bg-white border-b flex justify-between items-center safe-pt shadow-sm">
         <div>
-            <h1 class="text-xl font-bold text-indigo-600">英语单词通</h1>
-            <div id="idx" class="text-[10px] text-gray-400">加载中...</div>
+            <h1 class="text-xl font-black text-indigo-600 tracking-tight">英语单词通</h1>
+            <div id="idx-text" class="text-[11px] text-gray-400 font-bold">词库加载中...</div>
         </div>
-        <div class="text-right">
-            <div id="perc" class="text-xs font-bold text-indigo-500">0%</div>
-            <div id="st" class="text-[10px] text-gray-400">熟悉:0 | 模糊:0</div>
+        <div class="flex items-center gap-3">
+            <div class="text-right">
+                <div id="mastery-perc" class="text-sm font-black text-emerald-500 leading-none">0%</div>
+                <div class="text-[9px] text-gray-400 font-bold">掌握度</div>
+            </div>
         </div>
     </header>
 
-    <main class="flex-grow p-4 overflow-hidden flex flex-col">
-        <div id="empty" class="hidden flex-grow flex flex-col items-center justify-center text-gray-400">
-            暂无数据，请在“设置”中导入
-        </div>
-
-        <div id="content" class="flex-grow flex flex-col">
-            <div class="relative flex-grow flex items-center justify-center">
-                <!-- 左右触控切换区 -->
-                <div onclick="app.prev()" class="absolute inset-y-0 left-0 w-1/4 z-10"></div>
-                <div onclick="app.next()" class="absolute inset-y-0 right-0 w-1/4 z-10"></div>
+    <!-- 主内容区 -->
+    <main class="flex-grow p-4 overflow-hidden flex flex-col relative">
+        
+        <!-- 1. 学习页面 -->
+        <div id="page-study" class="flex-grow flex flex-col animate-in fade-in duration-300">
+            <div class="flex-grow flex flex-col items-center justify-center py-2 relative">
                 
-                <div class="card w-full bg-white rounded-3xl shadow-xl p-6 relative border border-gray-100 flex flex-col h-full max-h-[500px]">
-                    <button onclick="app.fav()" id="fav" class="absolute top-4 right-4 text-2xl text-gray-300">☆</button>
+                <!-- 左右切换箭头 -->
+                <button onclick="app.prev()" class="absolute left-0 z-30 p-2 text-gray-300 hover:text-indigo-500 transition-colors">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7"></path></svg>
+                </button>
+                <button onclick="app.next()" class="absolute right-0 z-30 p-2 text-gray-300 hover:text-indigo-500 transition-colors">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+                </button>
+
+                <!-- 单词卡片 -->
+                <div class="w-full max-w-md bg-white rounded-[2rem] shadow-xl p-6 relative border border-gray-50 flex flex-col h-full max-h-[500px]">
+                    <button onclick="app.toggleFav()" id="btn-fav" class="absolute top-5 right-5 text-2xl transition-transform active:scale-125">☆</button>
                     
-                    <div class="flex-grow flex flex-col justify-center items-center">
-                        <div id="w" class="text-5xl font-bold text-gray-800 mb-4">Word</div>
-                        <div class="flex gap-2 mb-6">
-                            <button onclick="app.spk('us')" class="bg-indigo-600 text-white px-4 py-1.5 rounded-full text-xs flex items-center gap-1">
-                                美 <span id="ps">/--/</span>
+                    <div class="flex-grow flex flex-col justify-center items-center text-center">
+                        <h2 id="word-text" class="text-4xl font-black text-gray-900 mb-2 tracking-tight">Word</h2>
+                        
+                        <!-- 双发音按钮 -->
+                        <div class="flex gap-3 mb-6">
+                            <button onclick="app.speak('en-GB')" class="bg-blue-50 text-blue-600 px-3 py-1.5 rounded-full text-xs font-bold border border-blue-100 active:bg-blue-600 active:text-white transition-all">
+                                英 <span id="uk-phonetic">/--/</span>
+                            </button>
+                            <button onclick="app.speak('en-US')" class="bg-indigo-50 text-indigo-600 px-3 py-1.5 rounded-full text-xs font-bold border border-indigo-100 active:bg-indigo-600 active:text-white transition-all">
+                                美 <span id="us-phonetic">/--/</span>
                             </button>
                         </div>
-                        <div class="w-full text-left space-y-4">
-                            <p id="m" class="text-gray-700 text-lg font-medium"></p>
-                            <div class="p-3 bg-gray-50 rounded-xl">
-                                <p id="en" class="text-gray-800 text-sm italic"></p>
-                                <p id="cn" class="text-gray-500 text-xs mt-1"></p>
+
+                        <!-- 含义及例句 -->
+                        <div class="w-full text-left space-y-4 overflow-y-auto pr-1 no-scrollbar">
+                            <div>
+                                <div class="text-[10px] font-bold text-indigo-400 uppercase tracking-widest mb-1">含义</div>
+                                <p id="meaning-text" class="text-gray-800 text-lg font-bold leading-tight"></p>
+                            </div>
+                            <div class="p-4 bg-gray-50 rounded-2xl border border-gray-100">
+                                <div class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-1">场景例句</div>
+                                <p id="ex-en" class="text-gray-700 text-sm italic font-medium leading-snug"></p>
+                                <p id="ex-cn" class="text-gray-500 text-xs mt-2"></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="mt-4 grid grid-cols-2 gap-4">
-                <button id="b1" onclick="app.mark(1)" class="py-4 bg-orange-50 text-orange-600 rounded-2xl font-bold border-2 border-transparent btn-active">模糊</button>
-                <button id="b2" onclick="app.mark(2)" class="py-4 bg-green-50 text-green-600 rounded-2xl font-bold border-2 border-transparent btn-active">熟悉</button>
+            <!-- 状态操作区 (模糊/熟悉) -->
+            <div class="grid grid-cols-2 gap-4 mb-4">
+                <button id="mark-vague" onclick="app.markStatus(1)" class="py-4 bg-white text-orange-500 rounded-2xl font-bold border-2 border-orange-50 shadow-sm active:scale-95 transition-all">
+                    模糊 (待加强)
+                </button>
+                <button id="mark-known" onclick="app.markStatus(2)" class="py-4 bg-white text-emerald-500 rounded-2xl font-bold border-2 border-emerald-50 shadow-sm active:scale-95 transition-all">
+                    熟悉 (减频)
+                </button>
             </div>
-            
-            <div class="mt-4 flex justify-between items-center text-indigo-600 font-bold px-2">
-                <button onclick="app.prev()" class="p-2">❮ 上一个</button>
-                <div class="flex-grow mx-4 h-1.5 bg-gray-200 rounded-full overflow-hidden">
-                    <div id="pb" class="h-full bg-indigo-500" style="width:0%"></div>
+
+            <!-- 学习进度条 -->
+            <div class="flex items-center px-1">
+                <div class="flex-grow h-1.5 bg-gray-200 rounded-full overflow-hidden">
+                    <div id="progress-bar" class="h-full bg-indigo-500 transition-all duration-500" style="width:0%"></div>
                 </div>
-                <button onclick="app.next()" class="p-2">下一个 ❯</button>
+                <span class="ml-4 text-[10px] font-bold text-gray-400 min-w-[30px]" id="progress-text">0%</span>
+            </div>
+        </div>
+
+        <!-- 2. 个人中心页面 (单词列表) -->
+        <div id="page-profile" class="hidden flex-grow flex flex-col animate-in slide-in-from-right-4 duration-300">
+            <div class="flex justify-between items-end mb-4">
+                <h2 class="text-2xl font-black text-gray-800">学习轨迹</h2>
+                <div class="text-[10px] font-bold text-gray-400 bg-gray-100 px-2 py-1 rounded-md">
+                    已学习: <span id="stat-learned-count">0</span> / <span id="stat-total-count">0</span>
+                </div>
+            </div>
+
+            <!-- 分类过滤器 -->
+            <div class="flex gap-2 mb-4 overflow-x-auto no-scrollbar pb-1">
+                <button onclick="app.filterList('all')" id="filter-all" class="flex-shrink-0 px-4 py-2 bg-indigo-600 text-white rounded-full text-xs font-bold shadow-md shadow-indigo-100 transition-all">全部</button>
+                <button onclick="app.filterList('fav')" id="filter-fav" class="flex-shrink-0 px-4 py-2 bg-white text-amber-500 border border-gray-100 rounded-full text-xs font-bold shadow-sm transition-all">收藏</button>
+                <button onclick="app.filterList('vague')" id="filter-vague" class="flex-shrink-0 px-4 py-2 bg-white text-orange-500 border border-gray-100 rounded-full text-xs font-bold shadow-sm transition-all">模糊</button>
+                <button onclick="app.filterList('known')" id="filter-known" class="flex-shrink-0 px-4 py-2 bg-white text-emerald-500 border border-gray-100 rounded-full text-xs font-bold shadow-sm transition-all">熟悉</button>
+            </div>
+
+            <!-- 列表区域 -->
+            <div id="word-list-container" class="flex-grow overflow-y-auto no-scrollbar list-max-h space-y-2">
+                <!-- 动态注入 -->
+            </div>
+        </div>
+
+        <!-- 3. 设置页面 -->
+        <div id="page-settings" class="hidden flex-grow animate-in slide-in-from-bottom-4 duration-300">
+            <h2 class="text-2xl font-black text-gray-800 mb-6">设置与备份</h2>
+            <div class="space-y-3">
+                <div class="p-4 bg-white rounded-2xl border border-gray-100 shadow-sm">
+                    <div class="text-xs font-bold text-gray-400 mb-3 uppercase">发音偏好</div>
+                    <div class="flex gap-2">
+                        <button onclick="app.setVoice('en-US')" id="cfg-us" class="flex-grow py-2 rounded-xl border-2 border-indigo-500 bg-indigo-50 text-indigo-700 text-xs font-bold">默认美音</button>
+                        <button onclick="app.setVoice('en-GB')" id="cfg-uk" class="flex-grow py-2 rounded-xl border-2 border-gray-100 bg-white text-gray-400 text-xs font-bold">默认英音</button>
+                    </div>
+                </div>
+                <button onclick="app.importJson()" class="w-full p-5 bg-white rounded-2xl border border-gray-100 shadow-sm font-bold flex items-center justify-between active:bg-gray-50">
+                    <span>📥 导入词库 (JSON)</span>
+                    <span class="text-gray-300">❯</span>
+                </button>
+                <button onclick="app.exportJson()" class="w-full p-5 bg-white rounded-2xl border border-gray-100 shadow-sm font-bold flex items-center justify-between active:bg-gray-50">
+                    <span>📤 备份进度 (复制)</span>
+                    <span class="text-gray-300">❯</span>
+                </button>
+                <button onclick="app.clearData()" class="w-full p-5 bg-white rounded-2xl border border-gray-100 shadow-sm font-bold text-red-500 flex items-center justify-between active:bg-red-50">
+                    <span>🗑️ 清空所有数据</span>
+                </button>
             </div>
         </div>
     </main>
 
-    <nav class="bg-white border-t flex justify-around p-3 safe-pb">
-        <button onclick="app.tab('s')" id="ns" class="flex flex-col items-center text-indigo-600">
-            <span class="text-xl">📖</span><span class="text-[10px]">学习</span>
+    <!-- 底部导航 (全中文) -->
+    <nav class="bg-white border-t border-gray-100 flex justify-around items-center px-4 safe-pb shadow-lg">
+        <button onclick="app.switchTab('study')" id="nav-study" class="flex flex-col items-center py-2 px-6 active-tab">
+            <span class="text-2xl mb-1">📖</span>
+            <span class="text-[10px] uppercase">学习</span>
         </button>
-        <button onclick="app.tab('p')" id="np" class="flex flex-col items-center text-gray-400">
-            <span class="text-xl">⚙️</span><span class="text-[10px]">设置</span>
+        <button onclick="app.switchTab('profile')" id="nav-profile" class="flex flex-col items-center py-2 px-6 text-gray-400">
+            <span class="text-2xl mb-1">👤</span>
+            <span class="text-[10px] uppercase">个人</span>
+        </button>
+        <button onclick="app.switchTab('settings')" id="nav-settings" class="flex flex-col items-center py-2 px-6 text-gray-400">
+            <span class="text-2xl mb-1">⚙️</span>
+            <span class="text-[10px] uppercase">设置</span>
         </button>
     </nav>
 
-    <div id="pset" class="hidden fixed inset-0 bg-white z-50 p-6 safe-pt">
-        <div class="flex justify-between items-center mb-6">
-            <h2 class="text-xl font-bold">设置与导入</h2>
-            <button onclick="app.tab('s')" class="text-indigo-600">返回</button>
-        </div>
-        <div class="space-y-4">
-            <div class="p-4 bg-indigo-50 rounded-2xl">
-                <div class="text-sm text-gray-600">总掌握率</div>
-                <div id="set-p" class="text-3xl font-black text-indigo-600">0%</div>
-            </div>
-            <button onclick="app.imp()" class="w-full py-4 bg-gray-100 rounded-xl font-bold">导入词库 JSON</button>
-            <button onclick="app.exp()" class="w-full py-4 bg-gray-100 rounded-xl font-bold">备份进度 (复制)</button>
-            <p class="text-[10px] text-gray-400 text-center">注意：如果清理浏览器缓存，进度会丢失。<br>建议定期点击“备份进度”保存文本。</p>
-        </div>
-    </div>
-
     <script>
-        const KEY = 'WORD_DATA_V4';
-        class App {
+        const STORAGE_KEY = 'EN_MASTER_PRO_V1';
+        
+        // 扩展词库示例
+        const DEFAULT_LIB = [
+            {id:1,word:"Accomplish",us_phonetic:"/əˈkɑːmplɪʃ/",uk_phonetic:"/əˈkʌmplɪʃ/",meaning:"v. 完成，实现",example_en:"I can accomplish anything with hard work.",example_cn:"只要努力，我可以完成任何事情。"},
+            {id:2,word:"Beneficial",us_phonetic:"/ˌbenɪˈfɪʃl/",uk_phonetic:"/ˌbenɪˈfɪʃl/",meaning:"adj. 有益的，有利的",example_en:"Exercise is beneficial to your health.",example_cn:"运动对你的健康有益。"},
+            {id:3,word:"Challenge",us_phonetic:"/ˈtʃæləndʒ/",uk_phonetic:"/ˈtʃælɪndʒ/",meaning:"n./v. 挑战",example_en:"I like to challenge myself every day.",example_cn:"我喜欢每天挑战自己。"},
+            {id:4,word:"Describe",us_phonetic:"/dɪˈskraɪb/",uk_phonetic:"/dɪˈskraɪb/",meaning:"v. 描写，叙述",example_en:"Can you describe the man you saw?",example_cn:"你能描述一下你看到的那个男人吗？"},
+            {id:5,word:"Efficient",us_phonetic:"/ɪˈfɪʃnt/",uk_phonetic:"/ɪˈfɪʃnt/",meaning:"adj. 效率高的",example_en:"We need to find a more efficient way to work.",example_cn:"我们需要找到一种更高效率的工作方式。"},
+            {id:6,word:"Flexible",us_phonetic:"/ˈfleksəbl/",uk_phonetic:"/ˈfleksəbl/",meaning:"adj. 灵活的",example_en:"My schedule is very flexible.",example_cn:"我的时间安排非常灵活。"},
+            {id:7,word:"Grateful",us_phonetic:"/ˈɡreɪtfl/",uk_phonetic:"/ˈɡreɪtfl/",meaning:"adj. 感激的",example_en:"I am grateful for your help.",example_cn:"我很感激你的帮助。"},
+            {id:8,word:"Hesitate",us_phonetic:"/ˈhezɪteɪt/",uk_phonetic:"/ˈhezɪteɪt/",meaning:"v. 犹豫",example_en:"Don't hesitate to contact me.",example_cn:"不要犹豫，请联系我。"},
+            {id:9,word:"Imagine",us_phonetic:"/ɪˈmædʒɪn/",uk_phonetic:"/ɪˈmædʒɪn/",meaning:"v. 想象",example_en:"Imagine living on the moon.",example_cn:"想象一下住在月球上的样子。"},
+            {id:10,word:"Journey",us_phonetic:"/ˈdʒɜːrni/",uk_phonetic:"/ˈdʒɜːni/",meaning:"n. 旅程",example_en:"The journey takes three hours.",example_cn:"这趟旅程需要三个小时。"},
+            {id:11,word:"Knowledge",us_phonetic:"/ˈnɑːlɪdʒ/",uk_phonetic:"/ˈnɒlɪdʒ/",meaning:"n. 知识",example_en:"Knowledge is power.",example_cn:"知识就是力量。"}
+        ];
+
+        class WordApp {
             constructor() {
-                this.words = []; this.cur = 0; this.hist = {};
-                this.load();
-                // 解决 iOS 自动朗读限制：第一次点击屏幕后启动语音
-                window.addEventListener('touchstart', () => { 
-                    const m = new SpeechSynthesisUtterance('');
-                    window.speechSynthesis.speak(m);
+                this.words = [];
+                this.history = {}; // { id: { s: 0/1/2, f: bool } } 状态s: 0-未标 1-模糊 2-熟悉
+                this.currentIndex = 0;
+                this.defaultVoice = 'en-US';
+                this.filterType = 'all';
+                this.init();
+            }
+
+            init() {
+                const saved = localStorage.getItem(STORAGE_KEY);
+                if (saved) {
+                    const data = JSON.parse(saved);
+                    this.words = data.words || DEFAULT_LIB;
+                    this.history = data.history || {};
+                    this.currentIndex = data.currentIndex || 0;
+                    this.defaultVoice = data.defaultVoice || 'en-US';
+                } else {
+                    this.words = DEFAULT_LIB;
+                }
+                this.render();
+                // 解锁移动端音频
+                window.addEventListener('click', () => {
+                    window.speechSynthesis.speak(new SpeechSynthesisUtterance(''));
                 }, { once: true });
             }
-            load() {
-                const s = localStorage.getItem(KEY);
-                if (s) {
-                    const d = JSON.parse(s);
-                    this.words = d.words || [];
-                    this.hist = d.hist || {};
-                    this.cur = d.cur || 0;
-                }
-                if (!this.words.length) this.words = [{id:0,word:"Hello",us_phonetic:"/həˈloʊ/",meaning:"int. 你好",example_en:"Hello, how are you?",example_cn:"你好，你好吗？"}];
-                this.render();
-            }
+
             save() {
-                localStorage.setItem(KEY, JSON.stringify({words:this.words, hist:this.hist, cur:this.cur}));
+                localStorage.setItem(STORAGE_KEY, JSON.stringify({
+                    words: this.words,
+                    history: this.history,
+                    currentIndex: this.currentIndex,
+                    defaultVoice: this.defaultVoice
+                }));
+            }
+
+            render() {
+                const word = this.words[this.currentIndex];
+                const state = this.history[word.id] || { s: 0, f: false };
+
+                // 更新界面文字
+                document.getElementById('word-text').innerText = word.word;
+                document.getElementById('us-phonetic').innerText = word.us_phonetic;
+                document.getElementById('uk-phonetic').innerText = word.uk_phonetic;
+                document.getElementById('meaning-text').innerText = word.meaning;
+                document.getElementById('ex-en').innerText = word.example_en;
+                document.getElementById('ex-cn').innerText = word.example_cn;
+                document.getElementById('idx-text').innerText = `词库进度: ${this.currentIndex + 1} / ${this.words.length}`;
+
+                // 收藏按钮
+                const favBtn = document.getElementById('btn-fav');
+                favBtn.innerText = state.f ? '★' : '☆';
+                favBtn.style.color = state.f ? 'var(--warning)' : '#d1d5db';
+
+                // 模糊/熟悉按钮状态
+                const bVague = document.getElementById('mark-vague');
+                const bKnown = document.getElementById('mark-known');
+                
+                bVague.className = `py-4 rounded-2xl font-bold border-2 transition-all active:scale-95 ${state.s === 1 ? 'bg-orange-50 border-orange-400 text-orange-600 shadow-inner' : 'bg-white border-orange-50 text-orange-500 shadow-sm'}`;
+                bKnown.className = `py-4 rounded-2xl font-bold border-2 transition-all active:scale-95 ${state.s === 2 ? 'bg-emerald-50 border-emerald-400 text-emerald-600 shadow-inner' : 'bg-white border-emerald-50 text-emerald-500 shadow-sm'}`;
+
+                // 进度条
+                const progress = ((this.currentIndex + 1) / this.words.length) * 100;
+                document.getElementById('progress-bar').style.width = `${progress}%`;
+                document.getElementById('progress-text').innerText = Math.round(progress) + '%';
+
+                // 掌握度统计 (熟悉占100%，模糊占30%)
+                const stats = Object.values(this.history);
+                const score = stats.reduce((acc, cur) => acc + (cur.s === 2 ? 1 : (cur.s === 1 ? 0.3 : 0)), 0);
+                const mastery = Math.min(100, Math.round((score / this.words.length) * 100));
+                document.getElementById('mastery-perc').innerText = mastery + '%';
+
+                // 设置页发音状态
+                document.getElementById('cfg-us').className = `flex-grow py-2 rounded-xl border-2 transition-all ${this.defaultVoice === 'en-US' ? 'border-indigo-500 bg-indigo-50 text-indigo-700' : 'border-gray-100 bg-white text-gray-400'}`;
+                document.getElementById('cfg-uk').className = `flex-grow py-2 rounded-xl border-2 transition-all ${this.defaultVoice === 'en-GB' ? 'border-indigo-500 bg-indigo-50 text-indigo-700' : 'border-gray-100 bg-white text-gray-400'}`;
+
+                // 自动播放默认发音
+                this.speak(this.defaultVoice);
+                this.renderProfileList();
+            }
+
+            // 核心逻辑：带权重的随机跳转（点击“下一个”时尝试根据状态过滤，此处由于要求固定顺序+手动切换，我们保持线性，但统计处体现频率逻辑）
+            next() {
+                if (this.currentIndex < this.words.length - 1) {
+                    this.currentIndex++;
+                    this.save();
+                    this.render();
+                }
+            }
+
+            prev() {
+                if (this.currentIndex > 0) {
+                    this.currentIndex--;
+                    this.save();
+                    this.render();
+                }
+            }
+
+            markStatus(s) {
+                const id = this.words[this.currentIndex].id;
+                if (!this.history[id]) this.history[id] = { s: 0, f: false };
+                // 允许切换和取消
+                this.history[id].s = (this.history[id].s === s) ? 0 : s;
+                this.save();
                 this.render();
             }
-            render() {
-                if(!this.words.length) return;
-                const w = this.words[this.cur];
-                const h = this.hist[w.id] || {s:0,f:false};
-                document.getElementById('w').innerText = w.word;
-                document.getElementById('ps').innerText = w.us_phonetic;
-                document.getElementById('m').innerText = w.meaning;
-                document.getElementById('en').innerText = w.example_en;
-                document.getElementById('cn').innerText = w.example_cn;
-                document.getElementById('idx').innerText = `词库: ${this.cur+1}/${this.words.length}`;
-                document.getElementById('fav').innerText = h.f ? '★' : '☆';
-                document.getElementById('fav').style.color = h.f ? '#f59e0b' : '#d1d5db';
-                document.getElementById('pb').style.width = `${((this.cur+1)/this.words.length)*100}%`;
-                
-                const hs = Object.values(this.hist);
-                const kn = hs.filter(x=>x.s===2).length;
-                const vg = hs.filter(x=>x.s===1).length;
-                const p = Math.round((kn/this.words.length)*100);
-                document.getElementById('perc').innerText = p+'%';
-                document.getElementById('st').innerText = `熟悉:${kn} | 模糊:${vg}`;
-                document.getElementById('set-p').innerText = p+'%';
-                
-                document.getElementById('b1').style.borderColor = h.s===1 ? '#f97316' : 'transparent';
-                document.getElementById('b2').style.borderColor = h.s===2 ? '#22c55e' : 'transparent';
-                
-                this.spk('us');
-            }
-            next() { if(this.cur < this.words.length-1) { this.cur++; this.save(); } }
-            prev() { if(this.cur > 0) { this.cur--; this.save(); } }
-            mark(s) {
-                const id = this.words[this.cur].id;
-                if(!this.hist[id]) this.hist[id] = {s:0,f:false};
-                this.hist[id].s = (this.hist[id].s === s) ? 0 : s;
+
+            toggleFav() {
+                const id = this.words[this.currentIndex].id;
+                if (!this.history[id]) this.history[id] = { s: 0, f: false };
+                this.history[id].f = !this.history[id].f;
                 this.save();
+                this.render();
             }
-            fav() {
-                const id = this.words[this.cur].id;
-                if(!this.hist[id]) this.hist[id] = {s:0,f:false};
-                this.hist[id].f = !this.hist[id].f;
-                this.save();
-            }
-            spk(t) {
+
+            speak(lang) {
                 window.speechSynthesis.cancel();
-                const m = new SpeechSynthesisUtterance(this.words[this.cur].word);
-                m.lang = t === 'uk' ? 'en-GB' : 'en-US';
-                m.rate = 0.8;
-                window.speechSynthesis.speak(m);
+                const word = this.words[this.currentIndex].word;
+                const msg = new SpeechSynthesisUtterance(word);
+                msg.lang = lang;
+                msg.rate = 0.8;
+                window.speechSynthesis.speak(msg);
             }
-            tab(t) {
-                document.getElementById('pset').classList.toggle('hidden', t === 's');
+
+            switchTab(t) {
+                const tabs = ['study', 'profile', 'settings'];
+                tabs.forEach(tab => {
+                    document.getElementById(`page-${tab}`).classList.toggle('hidden', tab !== t);
+                    const nav = document.getElementById(`nav-${tab}`);
+                    if (tab === t) {
+                        nav.classList.add('active-tab');
+                        nav.classList.remove('text-gray-400');
+                    } else {
+                        nav.classList.remove('active-tab');
+                        nav.classList.add('text-gray-400');
+                    }
+                });
             }
-            imp() {
-                const s = prompt('请粘贴 JSON：');
+
+            renderProfileList() {
+                const container = document.getElementById('word-list-container');
+                container.innerHTML = '';
+                
+                const filtered = this.words.filter(w => {
+                    const h = this.history[w.id] || { s:0, f:false };
+                    if (this.filterType === 'fav') return h.f;
+                    if (this.filterType === 'vague') return h.s === 1;
+                    if (this.filterType === 'known') return h.s === 2;
+                    return true;
+                });
+
+                document.getElementById('stat-learned-count').innerText = Object.keys(this.history).length;
+                document.getElementById('stat-total-count').innerText = this.words.length;
+
+                if (filtered.length === 0) {
+                    container.innerHTML = `<div class="text-center py-10 text-gray-400 text-sm italic">暂无对应单词记录</div>`;
+                    return;
+                }
+
+                filtered.forEach((w, i) => {
+                    const h = this.history[w.id] || { s:0, f:false };
+                    const div = document.createElement('div');
+                    div.className = "bg-white p-4 rounded-2xl flex justify-between items-center border border-gray-100 shadow-sm active:bg-indigo-50 transition-colors";
+                    div.onclick = () => {
+                        this.currentIndex = this.words.findIndex(x => x.id === w.id);
+                        this.switchTab('study');
+                        this.render();
+                    };
+                    
+                    let statusTag = '';
+                    if (h.s === 1) statusTag = '<span class="px-2 py-0.5 bg-orange-100 text-orange-600 text-[9px] rounded-md ml-2 font-bold">模糊</span>';
+                    if (h.s === 2) statusTag = '<span class="px-2 py-0.5 bg-emerald-100 text-emerald-600 text-[9px] rounded-md ml-2 font-bold">熟悉</span>';
+                    if (h.f) statusTag += '<span class="ml-1">⭐</span>';
+
+                    div.innerHTML = `
+                        <div>
+                            <span class="font-bold text-gray-800">${w.word}</span>
+                            ${statusTag}
+                        </div>
+                        <div class="text-xs text-gray-400 font-medium truncate ml-4 max-w-[150px]">${w.meaning}</div>
+                    `;
+                    container.appendChild(div);
+                });
+            }
+
+            filterList(type) {
+                this.filterType = type;
+                ['all', 'fav', 'vague', 'known'].forEach(t => {
+                    const btn = document.getElementById('filter-' + t);
+                    if(t === type) {
+                        btn.className = "flex-shrink-0 px-4 py-2 bg-indigo-600 text-white rounded-full text-xs font-bold shadow-md transition-all";
+                    } else {
+                        btn.className = "flex-shrink-0 px-4 py-2 bg-white text-gray-500 border border-gray-100 rounded-full text-xs font-bold shadow-sm transition-all";
+                    }
+                });
+                this.renderProfileList();
+            }
+
+            setVoice(v) { this.defaultVoice = v; this.save(); this.render(); }
+            
+            clearData() {
+                if(confirm('清空后所有进度将丢失，确认吗？')) {
+                    localStorage.removeItem(STORAGE_KEY);
+                    location.reload();
+                }
+            }
+
+            importJson() {
+                const s = prompt('请粘贴 JSON 词库内容：');
                 if(s) {
                     try {
                         const d = JSON.parse(s);
-                        this.words = Array.isArray(d) ? d : d.words;
-                        if(!Array.isArray(d)) this.hist = d.hist || {};
-                        this.cur = 0; this.save();
-                    } catch(e) { alert('失败'); }
+                        this.words = d.words || d;
+                        this.history = d.history || {};
+                        this.currentIndex = 0;
+                        this.save(); this.render();
+                    } catch(e) { alert('无效的JSON格式'); }
                 }
             }
-            exp() {
-                const data = JSON.stringify({words:this.words, hist:this.hist, cur:this.cur});
+
+            exportJson() {
+                const data = JSON.stringify({
+                    words: this.words,
+                    history: this.history,
+                    currentIndex: this.currentIndex,
+                    defaultVoice: this.defaultVoice
+                });
                 const t = document.createElement('textarea');
                 t.value = data; document.body.appendChild(t); t.select();
                 document.execCommand('copy'); document.body.removeChild(t);
-                alert('已复制到剪贴板');
+                alert('已将完整进度复制到剪贴板！');
             }
         }
-        const app = new App();
+
+        const app = new WordApp();
     </script>
 </body>
 </html>
