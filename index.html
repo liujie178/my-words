@@ -143,6 +143,10 @@
                     <span>📥 导入词库 (JSON)</span>
                     <span class="text-gray-300">❯</span>
                 </button>
+                <button onclick="app.loadFiveStarWords()" class="w-full p-5 bg-white rounded-2xl border border-gray-100 shadow-sm font-bold flex items-center justify-between active:bg-gray-50">
+                    <span>⭐ 加载5星单词</span>
+                    <span class="text-gray-300">❯</span>
+                </button>
                 <button onclick="app.exportJson()" class="w-full p-5 bg-white rounded-2xl border border-gray-100 shadow-sm font-bold flex items-center justify-between active:bg-gray-50">
                     <span>📤 备份进度 (复制)</span>
                     <span class="text-gray-300">❯</span>
@@ -199,17 +203,40 @@
                 this.init();
             }
 
-            init() {
+            async init() {
                 const saved = localStorage.getItem(STORAGE_KEY);
                 if (saved) {
                     const data = JSON.parse(saved);
-                    this.words = data.words || DEFAULT_LIB;
+                    this.words = data.words || [];
                     this.history = data.history || {};
                     this.currentIndex = data.currentIndex || 0;
                     this.defaultVoice = data.defaultVoice || 'en-US';
                     this.visitedIndices = data.visitedIndices || [];
+                    console.log('从本地存储加载数据，单词数量:', this.words.length);
                 } else {
-                    this.words = DEFAULT_LIB;
+                    // 直接使用5星单词数据作为默认词库
+                    console.log('使用5星单词作为默认词库');
+                    // 这里我们将直接使用5星单词数据
+                    // 由于fetch可能在本地文件系统中受限，我们将采用另一种方式
+                    // 但首先尝试通过fetch加载
+                    try {
+                        console.log('尝试通过fetch加载5星单词.json');
+                        const response = await fetch('5星单词.json');
+                        if (response.ok) {
+                            this.words = await response.json();
+                            console.log('成功加载5星单词.json，单词数量:', this.words.length);
+                        } else {
+                            console.error('加载词库失败:', response.status);
+                            // 由于fetch失败，我们将使用DEFAULT_LIB
+                            this.words = DEFAULT_LIB;
+                            console.log('使用默认词库，单词数量:', this.words.length);
+                        }
+                    } catch (error) {
+                        console.error('加载词库出错:', error);
+                        // 由于fetch失败，我们将使用DEFAULT_LIB
+                        this.words = DEFAULT_LIB;
+                        console.log('使用默认词库，单词数量:', this.words.length);
+                    }
                 }
                 this.render();
                 // 解锁移动端音频
@@ -465,6 +492,44 @@
                 t.value = data; document.body.appendChild(t); t.select();
                 document.execCommand('copy'); document.body.removeChild(t);
                 alert('已将完整进度复制到剪贴板！');
+            }
+
+            async loadFiveStarWords() {
+                try {
+                    console.log('开始加载5星单词.json');
+                    // 尝试使用不同的路径
+                    const paths = ['5星单词.json', './5星单词.json'];
+                    let loaded = false;
+                    
+                    for (const path of paths) {
+                        try {
+                            console.log('尝试路径:', path);
+                            const response = await fetch(path);
+                            if (response.ok) {
+                                this.words = await response.json();
+                                console.log('成功加载5星单词.json，单词数量:', this.words.length);
+                                this.history = {}; // 重置学习历史
+                                this.currentIndex = 0;
+                                this.save();
+                                this.render();
+                                alert('成功加载5星单词，共 ' + this.words.length + ' 个单词！');
+                                loaded = true;
+                                break;
+                            } else {
+                                console.error('加载词库失败:', response.status, '路径:', path);
+                            }
+                        } catch (error) {
+                            console.error('加载词库出错:', error, '路径:', path);
+                        }
+                    }
+                    
+                    if (!loaded) {
+                        alert('加载5星单词失败，请检查文件是否存在。');
+                    }
+                } catch (error) {
+                    console.error('加载词库出错:', error);
+                    alert('加载5星单词出错，请检查网络连接或文件路径。');
+                }
             }
         }
 
