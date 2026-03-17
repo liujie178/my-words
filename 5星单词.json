@@ -1,0 +1,5906 @@
+[
+  {
+    "id": 1,
+    "word": "a",
+    "us_phonetic": "/ei/",
+    "uk_phonetic": "/ә/",
+    "meaning": "art.一(个),每一(个)",
+    "example_en": "I have a book.",
+    "example_cn": "我有一本书。"
+  },
+  {
+    "id": 2,
+    "word": "able",
+    "us_phonetic": "/eibl/",
+    "uk_phonetic": "/eibl/",
+    "meaning": "a.有能力的,出色的",
+    "example_en": "She is able to speak English fluently.",
+    "example_cn": "她能够流利地说英语。"
+  },
+  {
+    "id": 3,
+    "word": "about",
+    "us_phonetic": "/әbaut/",
+    "uk_phonetic": "/әbaut/",
+    "meaning": "prep.关于,在…周围",
+    "example_en": "Let's talk about the weather.",
+    "example_cn": "让我们谈论天气。"
+  },
+  {
+    "id": 4,
+    "word": "accept",
+    "us_phonetic": "/әksept/",
+    "uk_phonetic": "/әksept/",
+    "meaning": "vt.vi.接受,同意",
+    "example_en": "I accept your invitation.",
+    "example_cn": "我接受你的邀请。"
+  },
+  {
+    "id": 5,
+    "word": "accord",
+    "us_phonetic": "/әkɔ:d/",
+    "uk_phonetic": "/әkɔ:d/",
+    "meaning": "vt.使一致,给予",
+    "example_en": "Their actions accord with their beliefs.",
+    "example_cn": "他们的行动与他们的信仰一致。"
+  },
+  {
+    "id": 7,
+    "word": "account",
+    "us_phonetic": "/әkaunt/",
+    "uk_phonetic": "/әkaunt/",
+    "meaning": "n.记述,解释,帐目",
+    "example_en": "I need to check my bank account.",
+    "example_cn": "我需要检查我的银行账户。"
+  },
+  {
+    "id": 8,
+    "word": "across",
+    "us_phonetic": "/әkrɔs/",
+    "uk_phonetic": "/әkrɔs/",
+    "meaning": "prep.横过,在…对面",
+    "example_en": "The cat walked across the street.",
+    "example_cn": "猫穿过了街道。"
+  },
+  {
+    "id": 9,
+    "word": "act",
+    "us_phonetic": "/ækt/",
+    "uk_phonetic": "/ækt/",
+    "meaning": "vi.行动,见效 n.行为",
+    "example_en": "He decided to act immediately.",
+    "example_cn": "他决定立即行动。"
+  },
+  {
+    "id": 10,
+    "word": "action",
+    "us_phonetic": "/ækʃәn/",
+    "uk_phonetic": "/ækʃәn/",
+    "meaning": "n.行动,作用,功能",
+    "example_en": "We need to take action now.",
+    "example_cn": "我们现在需要采取行动。"
+  },
+  {
+    "id": 11,
+    "word": "actually",
+    "us_phonetic": "/æktjuәli/",
+    "uk_phonetic": "/æktjuәli/",
+    "meaning": "ad.实际上,竟然",
+    "example_en": "Actually, I think you're right.",
+    "example_cn": "实际上，我认为你是对的。"
+  },
+  {
+    "id": 12,
+    "word": "add",
+    "us_phonetic": "/æd/",
+    "uk_phonetic": "/æd/",
+    "meaning": "vt.添加,附加,掺加",
+    "example_en": "Please add some sugar to the tea.",
+    "example_cn": "请在茶里加一些糖。"
+  },
+  {
+    "id": 13,
+    "word": "after",
+    "us_phonetic": "/a:ftә/",
+    "uk_phonetic": "/a:ftә/",
+    "meaning": "prep.在…以后,次于",
+    "example_en": "We'll meet after lunch.",
+    "example_cn": "我们午饭后见面。"
+  },
+  {
+    "id": 14,
+    "word": "again",
+    "us_phonetic": "/әgein/",
+    "uk_phonetic": "/әgen/",
+    "meaning": "ad.又一次,而且",
+    "example_en": "Can you say that again?",
+    "example_cn": "你能再说一遍吗？"
+  },
+  {
+    "id": 15,
+    "word": "against",
+    "us_phonetic": "/әgeinst/",
+    "uk_phonetic": "/әgenst/",
+    "meaning": "prep.靠在,反对,对着",
+    "example_en": "He is against the new policy.",
+    "example_cn": "他反对新政策。"
+  },
+  {
+    "id": 16,
+    "word": "age",
+    "us_phonetic": "/eidʒ/",
+    "uk_phonetic": "/eidʒ/",
+    "meaning": "n.年龄,时代 vt.变老",
+    "example_en": "What's your age?",
+    "example_cn": "你多大了？"
+  },
+  {
+    "id": 17,
+    "word": "ago",
+    "us_phonetic": "/әgәu/",
+    "uk_phonetic": "/әgәu/",
+    "meaning": "ad.以前",
+    "example_en": "I met her three years ago.",
+    "example_cn": "我三年前见过她。"
+  },
+  {
+    "id": 18,
+    "word": "agree",
+    "us_phonetic": "/әgri:/",
+    "uk_phonetic": "/әgri:/",
+    "meaning": "vi.同意,持相同意见",
+    "example_en": "I agree with you.",
+    "example_cn": "我同意你的看法。"
+  },
+  {
+    "id": 19,
+    "word": "aid",
+    "us_phonetic": "/eid/",
+    "uk_phonetic": "/eid/",
+    "meaning": "n.帮助,救护,助手",
+    "example_en": "She provided aid to the victims.",
+    "example_cn": "她向受害者提供了援助。"
+  },
+  {
+    "id": 20,
+    "word": "air",
+    "us_phonetic": "/ɛә/",
+    "uk_phonetic": "/ɛә/",
+    "meaning": "n.空气,空中,外观",
+    "example_en": "The air is fresh in the morning.",
+    "example_cn": "早晨的空气很新鲜。"
+  },
+  {
+    "id": 21,
+    "word": "all",
+    "us_phonetic": "/ɔ:l/",
+    "uk_phonetic": "/ɔ:l/",
+    "meaning": "a.全部的 prep.全部",
+    "example_en": "All students must attend the meeting.",
+    "example_cn": "所有学生必须参加会议。"
+  },
+  {
+    "id": 22,
+    "word": "allow",
+    "us_phonetic": "/әlau/",
+    "uk_phonetic": "/әlau/",
+    "meaning": "vt.允许,准许",
+    "example_en": "My parents allow me to go out on weekends.",
+    "example_cn": "我父母允许我周末出去。"
+  },
+  {
+    "id": 23,
+    "word": "almost",
+    "us_phonetic": "/ɔ:lmәust/",
+    "uk_phonetic": "/ɔ:lmәust/",
+    "meaning": "ad.几乎,差不多",
+    "example_en": "It's almost time for dinner.",
+    "example_cn": "快到吃晚饭的时间了。"
+  },
+  {
+    "id": 24,
+    "word": "along",
+    "us_phonetic": "/әlɔŋ/",
+    "uk_phonetic": "/әlɔŋ/",
+    "meaning": "prep.沿着 ad.向前",
+    "example_en": "We walked along the beach.",
+    "example_cn": "我们沿着海滩散步。"
+  },
+  {
+    "id": 25,
+    "word": "already",
+    "us_phonetic": "/ɔ:lredi/",
+    "uk_phonetic": "/ɔ:lredi/",
+    "meaning": "ad.早已,已经",
+    "example_en": "I've already finished my homework.",
+    "example_cn": "我已经完成了作业。"
+  },
+  {
+    "id": 26,
+    "word": "also",
+    "us_phonetic": "/ɔ:lsәu/",
+    "uk_phonetic": "/ɔ:lsәu/",
+    "meaning": "ad.亦,也,而且,还",
+    "example_en": "She is also a good singer.",
+    "example_cn": "她也是一个好歌手。"
+  },
+  {
+    "id": 27,
+    "word": "although",
+    "us_phonetic": "/ɔ:lðәu/",
+    "uk_phonetic": "/ɔ:lðәu/",
+    "meaning": "conj.尽管,虽然",
+    "example_en": "Although it's raining, we still go out.",
+    "example_cn": "虽然在下雨，我们仍然出去。"
+  },
+  {
+    "id": 28,
+    "word": "always",
+    "us_phonetic": "/ɔ:lweiz/",
+    "uk_phonetic": "/ɔ:lwәz/",
+    "meaning": "ad.总是,一直,永远",
+    "example_en": "He always helps others.",
+    "example_cn": "他总是帮助别人。"
+  },
+  {
+    "id": 29,
+    "word": "among",
+    "us_phonetic": "/әmʌŋ/",
+    "uk_phonetic": "/әmʌŋ/",
+    "meaning": "prep.在…之中",
+    "example_en": "She is the best among her classmates.",
+    "example_cn": "她在同学中是最好的。"
+  },
+  {
+    "id": 30,
+    "word": "and",
+    "us_phonetic": "/ænd/",
+    "uk_phonetic": "/әnd/",
+    "meaning": "conj.和,又,并,则",
+    "example_en": "I like apples and bananas.",
+    "example_cn": "我喜欢苹果和香蕉。"
+  },
+  {
+    "id": 31,
+    "word": "announce",
+    "us_phonetic": "/әnauns/",
+    "uk_phonetic": "/әnauns/",
+    "meaning": "vt.宣布,发表",
+    "example_en": "The government will announce the new policy tomorrow.",
+    "example_cn": "政府明天将宣布新政策。"
+  },
+  {
+    "id": 32,
+    "word": "another",
+    "us_phonetic": "/әnʌðә/",
+    "uk_phonetic": "/әnʌðә/",
+    "meaning": "a.再一个的,别的",
+    "example_en": "I need another cup of coffee.",
+    "example_cn": "我需要再来一杯咖啡。"
+  },
+  {
+    "id": 33,
+    "word": "answer",
+    "us_phonetic": "/a:nsә/",
+    "uk_phonetic": "/a:nsә/",
+    "meaning": "vt.回答,响应,适应",
+    "example_en": "Please answer my question.",
+    "example_cn": "请回答我的问题。"
+  },
+  {
+    "id": 34,
+    "word": "any",
+    "us_phonetic": "/eni/",
+    "uk_phonetic": "/eni/",
+    "meaning": "a.什么,一些,任何的",
+    "example_en": "Do you have any questions?",
+    "example_cn": "你有任何问题吗？"
+  },
+  {
+    "id": 35,
+    "word": "anything",
+    "us_phonetic": "/eniθiŋ/",
+    "uk_phonetic": "/eniθiŋ/",
+    "meaning": "pron.任何事物,一切",
+    "example_en": "Is there anything I can help you with?",
+    "example_cn": "有什么我可以帮你的吗？"
+  },
+  {
+    "id": 36,
+    "word": "appear",
+    "us_phonetic": "/әpiә/",
+    "uk_phonetic": "/әpiә/",
+    "meaning": "vi.出现,来到,似乎",
+    "example_en": "A rainbow appeared in the sky.",
+    "example_cn": "天空中出现了一道彩虹。"
+  },
+  {
+    "id": 37,
+    "word": "area",
+    "us_phonetic": "/ɛәriә/",
+    "uk_phonetic": "/ɛәriә/",
+    "meaning": "n.面积,地区,领域",
+    "example_en": "This area is very beautiful.",
+    "example_cn": "这个地区非常美丽。"
+  },
+  {
+    "id": 38,
+    "word": "arm",
+    "us_phonetic": "/a:m/",
+    "uk_phonetic": "/a:m/",
+    "meaning": "n.手臂,武器",
+    "example_en": "He hurt his arm in the accident.",
+    "example_cn": "他在事故中伤了手臂。"
+  },
+  {
+    "id": 39,
+    "word": "army",
+    "us_phonetic": "/a:mi/",
+    "uk_phonetic": "/a:mi/",
+    "meaning": "n.军队,陆军",
+    "example_en": "He joined the army last year.",
+    "example_cn": "他去年参军了。"
+  },
+  {
+    "id": 40,
+    "word": "around",
+    "us_phonetic": "/әraund/",
+    "uk_phonetic": "/әraund/",
+    "meaning": "prep.在…周围",
+    "example_en": "There are many trees around the house.",
+    "example_cn": "房子周围有许多树。"
+  },
+  {
+    "id": 41,
+    "word": "art",
+    "us_phonetic": "/a:t/",
+    "uk_phonetic": "/a:t/",
+    "meaning": "n.艺术,美术",
+    "example_en": "She is studying art at university.",
+    "example_cn": "她在大学学习艺术。"
+  },
+  {
+    "id": 42,
+    "word": "as",
+    "us_phonetic": "/æz/",
+    "uk_phonetic": "/әz/",
+    "meaning": "conj.当…的时候",
+    "example_en": "As a teacher, I must be patient.",
+    "example_cn": "作为一名教师，我必须有耐心。"
+  },
+  {
+    "id": 43,
+    "word": "ask",
+    "us_phonetic": "/a:sk/",
+    "uk_phonetic": "/a:sk/",
+    "meaning": "vt.问,要求,邀请",
+    "example_en": "May I ask you a question?",
+    "example_cn": "我可以问你一个问题吗？"
+  },
+  {
+    "id": 44,
+    "word": "at",
+    "us_phonetic": "/æt/",
+    "uk_phonetic": "/әt/",
+    "meaning": "prep.在…里,在…时",
+    "example_en": "I'll meet you at the station.",
+    "example_cn": "我将在车站见你。"
+  },
+  {
+    "id": 45,
+    "word": "attack",
+    "us_phonetic": "/әtæk/",
+    "uk_phonetic": "/әtæk/",
+    "meaning": "vt.vi.n.攻击,进攻",
+    "example_en": "The dog attacked the intruder.",
+    "example_cn": "狗攻击了入侵者。"
+  },
+  {
+    "id": 46,
+    "word": "attempt",
+    "us_phonetic": "/әtempt/",
+    "uk_phonetic": "/әtempt/",
+    "meaning": "vt.尝试,试图 n.企图",
+    "example_en": "He made an attempt to climb the mountain.",
+    "example_cn": "他尝试爬山。"
+  },
+  {
+    "id": 47,
+    "word": "authority",
+    "us_phonetic": "/ɔ:θɔriti/",
+    "uk_phonetic": "/ɔ:θɔriti/",
+    "meaning": "n.当局,官方,权力",
+    "example_en": "The authorities are investigating the case.",
+    "example_cn": "当局正在调查这个案件。"
+  },
+  {
+    "id": 48,
+    "word": "available",
+    "us_phonetic": "/әveilәbl/",
+    "uk_phonetic": "/әveilәbl/",
+    "meaning": "a.可利用的,通用的",
+    "example_en": "The tickets are available now.",
+    "example_cn": "门票现在可以购买了。"
+  },
+  {
+    "id": 49,
+    "word": "away",
+    "us_phonetic": "/әwei/",
+    "uk_phonetic": "/әwei/",
+    "meaning": "ad.离开,远离,…去",
+    "example_en": "He went away for a week.",
+    "example_cn": "他离开了一个星期。"
+  },
+  {
+    "id": 50,
+    "word": "back",
+    "us_phonetic": "/bæk/",
+    "uk_phonetic": "/bæk/",
+    "meaning": "ad.在后,向后 n.背后",
+    "example_en": "Please come back soon.",
+    "example_cn": "请尽快回来。"
+  },
+  {
+    "id": 51,
+    "word": "bad",
+    "us_phonetic": "/bæd/",
+    "uk_phonetic": "/bæd/",
+    "meaning": "a.坏的,恶的,严重的",
+    "example_en": "The weather is bad today.",
+    "example_cn": "今天天气不好。"
+  },
+  {
+    "id": 52,
+    "word": "bank",
+    "us_phonetic": "/bæŋk/",
+    "uk_phonetic": "/bæŋk/",
+    "meaning": "n.银行,库,堤",
+    "example_en": "I need to go to the bank.",
+    "example_cn": "我需要去银行。"
+  },
+  {
+    "id": 53,
+    "word": "base",
+    "us_phonetic": "/beis/",
+    "uk_phonetic": "/beis/",
+    "meaning": "n.基础,底层,基地",
+    "example_en": "The company has a strong customer base.",
+    "example_cn": "这家公司有强大的客户基础。"
+  },
+  {
+    "id": 54,
+    "word": "based",
+    "us_phonetic": "//",
+    "uk_phonetic": "//",
+    "meaning": "v. 立基于,以...为基础",
+    "example_en": "The word 'based' is important.",
+    "example_cn": "单词 'based' 很重要。"
+  },
+  {
+    "id": 55,
+    "word": "be",
+    "us_phonetic": "/bi:/",
+    "uk_phonetic": "/bi:/",
+    "meaning": "aux.v.vi.是,在,做",
+    "example_en": "I want to be a doctor.",
+    "example_cn": "我想成为一名医生。"
+  },
+  {
+    "id": 56,
+    "word": "beat",
+    "us_phonetic": "/bi:t/",
+    "uk_phonetic": "/bi:t/",
+    "meaning": "vt.vi.打,敲,打败",
+    "example_en": "He beat the drum loudly.",
+    "example_cn": "他大声击鼓。"
+  },
+  {
+    "id": 57,
+    "word": "because",
+    "us_phonetic": "/bikɔz/",
+    "uk_phonetic": "/bikɔz/",
+    "meaning": "conj.由于,因为",
+    "example_en": "I stayed home because it was raining.",
+    "example_cn": "因为下雨，我待在家里。"
+  },
+  {
+    "id": 58,
+    "word": "become",
+    "us_phonetic": "/bikʌm/",
+    "uk_phonetic": "/bikʌm/",
+    "meaning": "vi.变成,成为,变得",
+    "example_en": "She became a famous singer.",
+    "example_cn": "她成为了一名著名的歌手。"
+  },
+  {
+    "id": 59,
+    "word": "before",
+    "us_phonetic": "/bifɔ:/",
+    "uk_phonetic": "/bifɔ:/",
+    "meaning": "prep.在…以前",
+    "example_en": "I need to finish this before tomorrow.",
+    "example_cn": "我需要在明天之前完成这个。"
+  },
+  {
+    "id": 60,
+    "word": "begin",
+    "us_phonetic": "/bigin/",
+    "uk_phonetic": "/bigin/",
+    "meaning": "vi.开始 vt.开始",
+    "example_en": "Let's begin the meeting.",
+    "example_cn": "让我们开始会议。"
+  },
+  {
+    "id": 61,
+    "word": "behind",
+    "us_phonetic": "/bihaind/",
+    "uk_phonetic": "/bihaind/",
+    "meaning": "prep.在…后面",
+    "example_en": "The cat is behind the door.",
+    "example_cn": "猫在门后面。"
+  },
+  {
+    "id": 62,
+    "word": "believe",
+    "us_phonetic": "/bili:v/",
+    "uk_phonetic": "/bili:v/",
+    "meaning": "vt.相信,认为",
+    "example_en": "I believe in you.",
+    "example_cn": "我相信你。"
+  },
+  {
+    "id": 63,
+    "word": "better",
+    "us_phonetic": "/betә/",
+    "uk_phonetic": "/betә/",
+    "meaning": "a.较好的 ad.更好地",
+    "example_en": "You can do better than that.",
+    "example_cn": "你可以做得更好。"
+  },
+  {
+    "id": 64,
+    "word": "between",
+    "us_phonetic": "/bitwi:n/",
+    "uk_phonetic": "/bitwi:n/",
+    "meaning": "prep.在…中间",
+    "example_en": "The park is between the school and the hospital.",
+    "example_cn": "公园在学校和医院之间。"
+  },
+  {
+    "id": 65,
+    "word": "big",
+    "us_phonetic": "/big/",
+    "uk_phonetic": "/big/",
+    "meaning": "a.大的",
+    "example_en": "That's a big house.",
+    "example_cn": "那是一座大房子。"
+  },
+  {
+    "id": 66,
+    "word": "billion",
+    "us_phonetic": "/biljәn/",
+    "uk_phonetic": "/biljәn/",
+    "meaning": "num.十亿",
+    "example_en": "The company is worth over a billion dollars.",
+    "example_cn": "这家公司价值超过十亿美元。"
+  },
+  {
+    "id": 67,
+    "word": "bit",
+    "us_phonetic": "/bit/",
+    "uk_phonetic": "/bit/",
+    "meaning": "n.一点,一些,小片",
+    "example_en": "I need a bit of help.",
+    "example_cn": "我需要一点帮助。"
+  },
+  {
+    "id": 68,
+    "word": "bite",
+    "us_phonetic": "/bait/",
+    "uk_phonetic": "/bait/",
+    "meaning": "vt.咬,叮,螫",
+    "example_en": "The dog bit the boy.",
+    "example_cn": "狗咬了那个男孩。"
+  },
+  {
+    "id": 69,
+    "word": "black",
+    "us_phonetic": "/blæk/",
+    "uk_phonetic": "/blæk/",
+    "meaning": "a.黑色的,黑暗的",
+    "example_en": "She is wearing a black dress.",
+    "example_cn": "她穿着一件黑色的连衣裙。"
+  },
+  {
+    "id": 70,
+    "word": "blue",
+    "us_phonetic": "/blu:/",
+    "uk_phonetic": "/blu:/",
+    "meaning": "a.蓝色的 n.蓝色",
+    "example_en": "The sky is blue today.",
+    "example_cn": "今天天空是蓝色的。"
+  },
+  {
+    "id": 71,
+    "word": "body",
+    "us_phonetic": "/bɔdi/",
+    "uk_phonetic": "/bɔdi/",
+    "meaning": "n.身体,主体,尸体",
+    "example_en": "Exercise is good for the body.",
+    "example_cn": "运动对身体有好处。"
+  },
+  {
+    "id": 72,
+    "word": "Book",
+    "us_phonetic": "/buk/",
+    "uk_phonetic": "/buk/",
+    "meaning": "n.书籍 vt.预定",
+    "example_en": "I bought a new book yesterday.",
+    "example_cn": "我昨天买了一本新书。"
+  },
+  {
+    "id": 73,
+    "word": "Both",
+    "us_phonetic": "/bәuθ/",
+    "uk_phonetic": "/bәuθ/",
+    "meaning": "pron.两者都",
+    "example_en": "Both of us are happy.",
+    "example_cn": "我们两个都很开心。"
+  },
+  {
+    "id": 74,
+    "word": "boy",
+    "us_phonetic": "/bɔi/",
+    "uk_phonetic": "/bɔi/",
+    "meaning": "n.男孩,少年,家伙",
+    "example_en": "The boy is playing football.",
+    "example_cn": "那个男孩在踢足球。"
+  },
+  {
+    "id": 75,
+    "word": "break",
+    "us_phonetic": "/breik/",
+    "uk_phonetic": "/breik/",
+    "meaning": "vt.打破,损坏",
+    "example_en": "He broke the window.",
+    "example_cn": "他打破了窗户。"
+  },
+  {
+    "id": 76,
+    "word": "bring",
+    "us_phonetic": "/briŋ/",
+    "uk_phonetic": "/briŋ/",
+    "meaning": "vt.带来,引出,促使",
+    "example_en": "Please bring me a glass of water.",
+    "example_cn": "请给我拿一杯水。"
+  },
+  {
+    "id": 77,
+    "word": "brother",
+    "us_phonetic": "/brʌðә/",
+    "uk_phonetic": "/brʌðә/",
+    "meaning": "n.兄弟",
+    "example_en": "My brother is taller than me.",
+    "example_cn": "我哥哥比我高。"
+  },
+  {
+    "id": 78,
+    "word": "brown",
+    "us_phonetic": "/braun/",
+    "uk_phonetic": "/braun/",
+    "meaning": "n.褐色,棕色",
+    "example_en": "The cat has brown fur.",
+    "example_cn": "这只猫有棕色的毛。"
+  },
+  {
+    "id": 79,
+    "word": "build",
+    "us_phonetic": "/bild/",
+    "uk_phonetic": "/bild/",
+    "meaning": "vt.建造,建立,创立",
+    "example_en": "They are building a new house.",
+    "example_cn": "他们正在建一座新房子。"
+  },
+  {
+    "id": 80,
+    "word": "building",
+    "us_phonetic": "/bildiŋ/",
+    "uk_phonetic": "/bildiŋ/",
+    "meaning": "n.建筑物,大楼",
+    "example_en": "The building is very tall.",
+    "example_cn": "这座建筑非常高。"
+  },
+  {
+    "id": 81,
+    "word": "business",
+    "us_phonetic": "/biznis/",
+    "uk_phonetic": "/biznis/",
+    "meaning": "n.商业,生意,事务",
+    "example_en": "He is in the business of selling cars.",
+    "example_cn": "他从事汽车销售业务。"
+  },
+  {
+    "id": 82,
+    "word": "but",
+    "us_phonetic": "/bʌt/",
+    "uk_phonetic": "/bʌt/",
+    "meaning": "conj.但是,可是",
+    "example_en": "I like coffee but not tea.",
+    "example_cn": "我喜欢咖啡但不喜欢茶。"
+  },
+  {
+    "id": 83,
+    "word": "buy",
+    "us_phonetic": "/bai/",
+    "uk_phonetic": "/bai/",
+    "meaning": "vt.vi.购买",
+    "example_en": "I want to buy a new phone.",
+    "example_cn": "我想买一部新手机。"
+  },
+  {
+    "id": 84,
+    "word": "by",
+    "us_phonetic": "/bai/",
+    "uk_phonetic": "/bai/",
+    "meaning": "prep.在…旁,被,由",
+    "example_en": "I go to school by bus.",
+    "example_cn": "我乘公共汽车去上学。"
+  },
+  {
+    "id": 85,
+    "word": "call",
+    "us_phonetic": "/kɔ:l/",
+    "uk_phonetic": "/kɔ:l/",
+    "meaning": "vt.把…叫做,喊,打电话",
+    "example_en": "Please call me when you arrive.",
+    "example_cn": "你到达时请打电话给我。"
+  },
+  {
+    "id": 86,
+    "word": "campaign",
+    "us_phonetic": "/kæmpein/",
+    "uk_phonetic": "/kæmpein/",
+    "meaning": "n.战役,运动",
+    "example_en": "They launched a campaign to raise money.",
+    "example_cn": "他们发起了一场筹款活动。"
+  },
+  {
+    "id": 87,
+    "word": "can",
+    "us_phonetic": "/kæn/",
+    "uk_phonetic": "/kæn/",
+    "meaning": "aux.v.能,会,可能",
+    "example_en": "I can speak English.",
+    "example_cn": "我会说英语。"
+  },
+  {
+    "id": 89,
+    "word": "capital",
+    "us_phonetic": "/kæpitl/",
+    "uk_phonetic": "/kæpitl/",
+    "meaning": "n.资本,资金,首都",
+    "example_en": "Beijing is the capital of China.",
+    "example_cn": "北京是中国的首都。"
+  },
+  {
+    "id": 90,
+    "word": "car",
+    "us_phonetic": "/ka:/",
+    "uk_phonetic": "/ka:/",
+    "meaning": "n.轿车",
+    "example_en": "He bought a new car last month.",
+    "example_cn": "他上个月买了一辆新车。"
+  },
+  {
+    "id": 91,
+    "word": "care",
+    "us_phonetic": "/kɛә/",
+    "uk_phonetic": "/kɛә/",
+    "meaning": "vi.关心,介意 n.小心",
+    "example_en": "She takes good care of her children.",
+    "example_cn": "她很好地照顾她的孩子。"
+  },
+  {
+    "id": 92,
+    "word": "carry",
+    "us_phonetic": "/kæri/",
+    "uk_phonetic": "/kæri/",
+    "meaning": "vt.携带,运载,传送",
+    "example_en": "Please carry this box for me.",
+    "example_cn": "请帮我搬这个箱子。"
+  },
+  {
+    "id": 93,
+    "word": "case",
+    "us_phonetic": "/keis/",
+    "uk_phonetic": "/keis/",
+    "meaning": "n.情况,事实,病例",
+    "example_en": "In this case, we need to be careful.",
+    "example_cn": "在这种情况下，我们需要小心。"
+  },
+  {
+    "id": 94,
+    "word": "cause",
+    "us_phonetic": "/kɔ:z/",
+    "uk_phonetic": "/kɔ:z/",
+    "meaning": "n.原因,理由",
+    "example_en": "What is the cause of the problem?",
+    "example_cn": "问题的原因是什么？"
+  },
+  {
+    "id": 95,
+    "word": "central",
+    "us_phonetic": "/sentrәl/",
+    "uk_phonetic": "/sentrәl/",
+    "meaning": "a.中心的,主要的",
+    "example_en": "The central park is very beautiful.",
+    "example_cn": "中央公园非常美丽。"
+  },
+  {
+    "id": 96,
+    "word": "centre",
+    "us_phonetic": "/sentә/",
+    "uk_phonetic": "/sentә/",
+    "meaning": "n.中心,中枢 vt.集中",
+    "example_en": "The city centre is very busy.",
+    "example_cn": "市中心非常繁忙。"
+  },
+  {
+    "id": 97,
+    "word": "century",
+    "us_phonetic": "/sentʃuri/",
+    "uk_phonetic": "/sentʃuri/",
+    "meaning": "n.世纪,百年",
+    "example_en": "The 21st century began in 2001.",
+    "example_cn": "21世纪始于2001年。"
+  },
+  {
+    "id": 98,
+    "word": "chance",
+    "us_phonetic": "/tʃa:ns/",
+    "uk_phonetic": "/tʃa:ns/",
+    "meaning": "n.机会,机遇,可能性",
+    "example_en": "I have a chance to study abroad.",
+    "example_cn": "我有机会出国留学。"
+  },
+  {
+    "id": 99,
+    "word": "change",
+    "us_phonetic": "/tʃeindʒ/",
+    "uk_phonetic": "/tʃeindʒ/",
+    "meaning": "n.变化,零钱 vt.改变",
+    "example_en": "I need to change my clothes.",
+    "example_cn": "我需要换衣服。"
+  },
+  {
+    "id": 100,
+    "word": "charge",
+    "us_phonetic": "/tʃa:dʒ/",
+    "uk_phonetic": "/tʃa:dʒ/",
+    "meaning": "vt.索价,控告 n.费用",
+    "example_en": "How much do you charge for this service?",
+    "example_cn": "这项服务你收费多少？"
+  },
+  {
+    "id": 101,
+    "word": "chief",
+    "us_phonetic": "/tʃi:f/",
+    "uk_phonetic": "/tʃi:f/",
+    "meaning": "a.主要的,首席的",
+    "example_en": "He is the chief executive officer.",
+    "example_cn": "他是首席执行官。"
+  },
+  {
+    "id": 102,
+    "word": "child",
+    "us_phonetic": "/tʃaild/",
+    "uk_phonetic": "/tʃaild/",
+    "meaning": "n.小孩",
+    "example_en": "The child is playing with toys.",
+    "example_cn": "那个孩子在玩玩具。"
+  },
+  {
+    "id": 103,
+    "word": "city",
+    "us_phonetic": "/siti/",
+    "uk_phonetic": "/siti/",
+    "meaning": "n.城市",
+    "example_en": "New York is a big city.",
+    "example_cn": "纽约是一个大城市。"
+  },
+  {
+    "id": 104,
+    "word": "claim",
+    "us_phonetic": "/kleim/",
+    "uk_phonetic": "/kleim/",
+    "meaning": "vt.声称,主张,索取",
+    "example_en": "He claims to be innocent.",
+    "example_cn": "他声称自己是无辜的。"
+  },
+  {
+    "id": 105,
+    "word": "class",
+    "us_phonetic": "/kla:s/",
+    "uk_phonetic": "/kla:s/",
+    "meaning": "n.班级,阶级",
+    "example_en": "I have a math class tomorrow.",
+    "example_cn": "我明天有一节数学课。"
+  },
+  {
+    "id": 106,
+    "word": "clear",
+    "us_phonetic": "/kliә/",
+    "uk_phonetic": "/kliә/",
+    "meaning": "a.清晰的 vt.清除",
+    "example_en": "The sky is clear today.",
+    "example_cn": "今天天空晴朗。"
+  },
+  {
+    "id": 107,
+    "word": "close",
+    "us_phonetic": "/klәuz/",
+    "uk_phonetic": "/klәus/",
+    "meaning": "vt.关闭,结束",
+    "example_en": "Please close the door.",
+    "example_cn": "请关门。"
+  },
+  {
+    "id": 108,
+    "word": "club",
+    "us_phonetic": "/klʌb/",
+    "uk_phonetic": "/klʌb/",
+    "meaning": "n.俱乐部,夜总会",
+    "example_en": "He joined a football club.",
+    "example_cn": "他加入了一个足球俱乐部。"
+  },
+  {
+    "id": 109,
+    "word": "colour",
+    "us_phonetic": "/kʌlә/",
+    "uk_phonetic": "/kʌlә/",
+    "meaning": "n.颜色",
+    "example_en": "What is your favourite colour?",
+    "example_cn": "你最喜欢的颜色是什么？"
+  },
+  {
+    "id": 110,
+    "word": "come",
+    "us_phonetic": "/kʌm/",
+    "uk_phonetic": "/kʌm/",
+    "meaning": "vi.来,来到,出现",
+    "example_en": "Please come to my party.",
+    "example_cn": "请来参加我的聚会。"
+  },
+  {
+    "id": 111,
+    "word": "coming",
+    "us_phonetic": "/kʌmiŋ/",
+    "uk_phonetic": "/kʌmiŋ/",
+    "meaning": "n. 来临",
+    "example_en": "The coming week will be busy.",
+    "example_cn": "即将到来的一周会很忙。"
+  },
+  {
+    "id": 112,
+    "word": "committee",
+    "us_phonetic": "/kәmiti/",
+    "uk_phonetic": "/kәmiti/",
+    "meaning": "n.委员会",
+    "example_en": "The committee will meet tomorrow.",
+    "example_cn": "委员会明天将开会。"
+  },
+  {
+    "id": 113,
+    "word": "common",
+    "us_phonetic": "/kɔmәn/",
+    "uk_phonetic": "/kɔmәn/",
+    "meaning": "a.普通的,共同的",
+    "example_en": "The word 'common' is important.",
+    "example_cn": "单词 'common' 很重要。"
+  },
+  {
+    "id": 114,
+    "word": "community",
+    "us_phonetic": "/kәmju:niti/",
+    "uk_phonetic": "/kәmju:niti/",
+    "meaning": "n.社区",
+    "example_en": "We need to build a strong community.",
+    "example_cn": "我们需要建设一个强大的社区。"
+  },
+  {
+    "id": 115,
+    "word": "company",
+    "us_phonetic": "/kʌmpәni/",
+    "uk_phonetic": "/kʌmpәni/",
+    "meaning": "n.公司 vt.陪伴",
+    "example_en": "I work for a software company.",
+    "example_cn": "我在一家软件公司工作。"
+  },
+  {
+    "id": 116,
+    "word": "complete",
+    "us_phonetic": "/kәmpli:t/",
+    "uk_phonetic": "/kәmpli:t/",
+    "meaning": "a.完整的,完成的",
+    "example_en": "I need to complete this task by Friday.",
+    "example_cn": "我需要在星期五之前完成这项任务。"
+  },
+  {
+    "id": 117,
+    "word": "concern",
+    "us_phonetic": "/kәnsә:n/",
+    "uk_phonetic": "/kәnsә:n/",
+    "meaning": "n.关心,挂念,关系",
+    "example_en": "The issue concerns everyone.",
+    "example_cn": "这个问题关系到每个人。"
+  },
+  {
+    "id": 118,
+    "word": "condition",
+    "us_phonetic": "/kәndiʃәn/",
+    "uk_phonetic": "/kәndiʃәn/",
+    "meaning": "n.状况,条件,环境",
+    "example_en": "The house is in good condition.",
+    "example_cn": "这房子状况良好。"
+  },
+  {
+    "id": 119,
+    "word": "conference",
+    "us_phonetic": "/kɔnfәrәns/",
+    "uk_phonetic": "/kɔnfәrәns/",
+    "meaning": "n.会议,讨论会",
+    "example_en": "I attended a conference last week.",
+    "example_cn": "我上周参加了一个会议。"
+  },
+  {
+    "id": 120,
+    "word": "consider",
+    "us_phonetic": "/kәnsidә/",
+    "uk_phonetic": "/kәnsidә/",
+    "meaning": "vt.认为,考虑,关心",
+    "example_en": "I need to consider my options.",
+    "example_cn": "我需要考虑我的选择。"
+  },
+  {
+    "id": 121,
+    "word": "continue",
+    "us_phonetic": "/kәntinju(:)/",
+    "uk_phonetic": "/kәntinju(:)/",
+    "meaning": "vt.继续",
+    "example_en": "Please continue with your work.",
+    "example_cn": "请继续你的工作。"
+  },
+  {
+    "id": 122,
+    "word": "control",
+    "us_phonetic": "/kәntrәul/",
+    "uk_phonetic": "/kәntrәul/",
+    "meaning": "vt.控制,克制 n.控制",
+    "example_en": "He needs to control his temper.",
+    "example_cn": "他需要控制自己的脾气。"
+  },
+  {
+    "id": 123,
+    "word": "cost",
+    "us_phonetic": "/kɔst/",
+    "uk_phonetic": "/kɔst/",
+    "meaning": "n.价格,代价,成本",
+    "example_en": "How much does this cost?",
+    "example_cn": "这个多少钱？"
+  },
+  {
+    "id": 124,
+    "word": "could",
+    "us_phonetic": "/kud/",
+    "uk_phonetic": "/kәd/",
+    "meaning": "aux.v.能够(can 的过去式)",
+    "example_en": "Could you help me, please?",
+    "example_cn": "你能帮我吗？"
+  },
+  {
+    "id": 126,
+    "word": "council",
+    "us_phonetic": "/kaunsil/",
+    "uk_phonetic": "/kaunsil/",
+    "meaning": "n.理事会,委员会",
+    "example_en": "The city council will vote on the proposal.",
+    "example_cn": "市议会将对该提案进行投票。"
+  },
+  {
+    "id": 127,
+    "word": "Country",
+    "us_phonetic": "/kʌntri/",
+    "uk_phonetic": "/kʌntri/",
+    "meaning": "n.国家",
+    "example_en": "I love my country.",
+    "example_cn": "我爱我的国家。"
+  },
+  {
+    "id": 128,
+    "word": "course",
+    "us_phonetic": "/kɔ:s/",
+    "uk_phonetic": "/kɔ:s/",
+    "meaning": "n.课程,过程,一道菜",
+    "example_en": "I'm taking a course in biology.",
+    "example_cn": "我正在学习生物学课程。"
+  },
+  {
+    "id": 129,
+    "word": "court",
+    "us_phonetic": "/kɔ:t/",
+    "uk_phonetic": "/kɔ:t/",
+    "meaning": "n.法庭",
+    "example_en": "The case will be heard in court.",
+    "example_cn": "这个案件将在法庭审理。"
+  },
+  {
+    "id": 130,
+    "word": "cover",
+    "us_phonetic": "/kʌvә/",
+    "uk_phonetic": "/kʌvә/",
+    "meaning": "vt.盖住,包括 n.盖子",
+    "example_en": "Please cover the table with a cloth.",
+    "example_cn": "请用布盖住桌子。"
+  },
+  {
+    "id": 131,
+    "word": "create",
+    "us_phonetic": "/kri(:)eit/",
+    "uk_phonetic": "/kri(:)eit/",
+    "meaning": "vt.创造,引起,产生",
+    "example_en": "He wants to create a new product.",
+    "example_cn": "他想创造一个新产品。"
+  },
+  {
+    "id": 132,
+    "word": "cup",
+    "us_phonetic": "/kʌp/",
+    "uk_phonetic": "/kʌp/",
+    "meaning": "n.杯子",
+    "example_en": "I need a cup of coffee.",
+    "example_cn": "我需要一杯咖啡。"
+  },
+  {
+    "id": 133,
+    "word": "current",
+    "us_phonetic": "/kʌrәnt/",
+    "uk_phonetic": "/kʌrәnt/",
+    "meaning": "a.当前的,通用的",
+    "example_en": "The current situation is difficult.",
+    "example_cn": "当前形势很困难。"
+  },
+  {
+    "id": 134,
+    "word": "cut",
+    "us_phonetic": "/kʌt/",
+    "uk_phonetic": "/kʌt/",
+    "meaning": "vt.切,割,剪,减少",
+    "example_en": "Please cut the cake into pieces.",
+    "example_cn": "请把蛋糕切成块。"
+  },
+  {
+    "id": 135,
+    "word": "daughter",
+    "us_phonetic": "/dɔ:tә/",
+    "uk_phonetic": "/dɔ:tә/",
+    "meaning": "n.女儿",
+    "example_en": "His daughter is a doctor.",
+    "example_cn": "他的女儿是一名医生。"
+  },
+  {
+    "id": 136,
+    "word": "day",
+    "us_phonetic": "/dei/",
+    "uk_phonetic": "/dei/",
+    "meaning": "n.一天,白昼",
+    "example_en": "Today is a beautiful day.",
+    "example_cn": "今天是美好的一天。"
+  },
+  {
+    "id": 137,
+    "word": "deal",
+    "us_phonetic": "/di:l/",
+    "uk_phonetic": "/di:l/",
+    "meaning": "n.交易 vi.处理",
+    "example_en": "We made a deal to work together.",
+    "example_cn": "我们达成协议一起工作。"
+  },
+  {
+    "id": 138,
+    "word": "decide",
+    "us_phonetic": "/disaid/",
+    "uk_phonetic": "/disaid/",
+    "meaning": "vt.决定",
+    "example_en": "I need to decide what to do.",
+    "example_cn": "我需要决定做什么。"
+  },
+  {
+    "id": 139,
+    "word": "decision",
+    "us_phonetic": "/disiʒәn/",
+    "uk_phonetic": "/disiʒәn/",
+    "meaning": "n.决定,决心",
+    "example_en": "The word 'decision' is important.",
+    "example_cn": "单词 'decision' 很重要。"
+  },
+  {
+    "id": 140,
+    "word": "demand",
+    "us_phonetic": "/dima:nd/",
+    "uk_phonetic": "/dima:nd/",
+    "meaning": "vt.要求,需要",
+    "example_en": "The customers demand better service.",
+    "example_cn": "顾客要求更好的服务。"
+  },
+  {
+    "id": 141,
+    "word": "department",
+    "us_phonetic": "/dipa:tmәnt/",
+    "uk_phonetic": "/dipa:tmәnt/",
+    "meaning": "n.部,司,局,处,系",
+    "example_en": "I work in the sales department.",
+    "example_cn": "我在销售部门工作。"
+  },
+  {
+    "id": 142,
+    "word": "describe",
+    "us_phonetic": "/diskraib/",
+    "uk_phonetic": "/diskraib/",
+    "meaning": "vt.形容,描写,描绘",
+    "example_en": "Can you describe the accident?",
+    "example_cn": "你能描述一下事故吗？"
+  },
+  {
+    "id": 143,
+    "word": "design",
+    "us_phonetic": "/dizain/",
+    "uk_phonetic": "/dizain/",
+    "meaning": "vt.设计 n.设计,图样",
+    "example_en": "She designs clothes for a fashion company.",
+    "example_cn": "她为一家时装公司设计服装。"
+  },
+  {
+    "id": 144,
+    "word": "develop",
+    "us_phonetic": "/divelәp/",
+    "uk_phonetic": "/divelәp/",
+    "meaning": "vt.发展,形成,开发",
+    "example_en": "The company is developing a new product.",
+    "example_cn": "公司正在开发一种新产品。"
+  },
+  {
+    "id": 145,
+    "word": "development",
+    "us_phonetic": "/divelәpmәnt/",
+    "uk_phonetic": "/divelәpmәnt/",
+    "meaning": "n.发展,开发,生长",
+    "example_en": "The development of technology has changed our lives.",
+    "example_cn": "技术的发展改变了我们的生活。"
+  },
+  {
+    "id": 147,
+    "word": "die",
+    "us_phonetic": "/dai/",
+    "uk_phonetic": "/dai/",
+    "meaning": "vi.死亡",
+    "example_en": "The plant died because of lack of water.",
+    "example_cn": "这株植物因为缺水而死亡。"
+  },
+  {
+    "id": 148,
+    "word": "different",
+    "us_phonetic": "/difrәnt/",
+    "uk_phonetic": "/difrәnt/",
+    "meaning": "a.不同的",
+    "example_en": "We have different opinions.",
+    "example_cn": "我们有不同的意见。"
+  },
+  {
+    "id": 149,
+    "word": "difficult",
+    "us_phonetic": "/difikәlt/",
+    "uk_phonetic": "/difikәlt/",
+    "meaning": "a.困难的",
+    "example_en": "This problem is very difficult.",
+    "example_cn": "这个问题非常困难。"
+  },
+  {
+    "id": 150,
+    "word": "direct",
+    "us_phonetic": "/direkt/",
+    "uk_phonetic": "/direkt/",
+    "meaning": "a.直接的,直率的",
+    "example_en": "He gave me direct instructions.",
+    "example_cn": "他给了我直接的指示。"
+  },
+  {
+    "id": 151,
+    "word": "director",
+    "us_phonetic": "/direktә/",
+    "uk_phonetic": "/direktә/",
+    "meaning": "n.董事长,导演",
+    "example_en": "The director of the company resigned.",
+    "example_cn": "公司董事辞职了。"
+  },
+  {
+    "id": 152,
+    "word": "do",
+    "us_phonetic": "/du:/",
+    "uk_phonetic": "/du/",
+    "meaning": "aux.v.vt.做,干,办",
+    "example_en": "What do you do for a living?",
+    "example_cn": "你以什么为生？"
+  },
+  {
+    "id": 154,
+    "word": "dollar",
+    "us_phonetic": "/dɔlә/",
+    "uk_phonetic": "/dɔlә/",
+    "meaning": "n.美元",
+    "example_en": "The book costs ten dollars.",
+    "example_cn": "这本书价值十美元。"
+  },
+  {
+    "id": 156,
+    "word": "door",
+    "us_phonetic": "/dɔ:/",
+    "uk_phonetic": "/dɔ:/",
+    "meaning": "n.门",
+    "example_en": "Please open the door.",
+    "example_cn": "请开门。"
+  },
+  {
+    "id": 157,
+    "word": "down",
+    "us_phonetic": "/daun/",
+    "uk_phonetic": "/daun/",
+    "meaning": "ad.向下,在下面",
+    "example_en": "The temperature is going down.",
+    "example_cn": "温度正在下降。"
+  },
+  {
+    "id": 158,
+    "word": "draw",
+    "us_phonetic": "/drɔ:/",
+    "uk_phonetic": "/drɔ:/",
+    "meaning": "vt.画,拖,拨出",
+    "example_en": "She likes to draw pictures.",
+    "example_cn": "她喜欢画画。"
+  },
+  {
+    "id": 159,
+    "word": "drive",
+    "us_phonetic": "/draiv/",
+    "uk_phonetic": "/draiv/",
+    "meaning": "vt.驾驶,驱使",
+    "example_en": "I drive to work every day.",
+    "example_cn": "我每天开车上班。"
+  },
+  {
+    "id": 160,
+    "word": "drug",
+    "us_phonetic": "/drʌg/",
+    "uk_phonetic": "/drʌg/",
+    "meaning": "n.药物,毒品",
+    "example_en": "The doctor prescribed some drugs.",
+    "example_cn": "医生开了一些药。"
+  },
+  {
+    "id": 161,
+    "word": "during",
+    "us_phonetic": "/djuәriŋ/",
+    "uk_phonetic": "/djuәriŋ/",
+    "meaning": "prep.在…期间",
+    "example_en": "During the summer, I like to go swimming.",
+    "example_cn": "夏天，我喜欢去游泳。"
+  },
+  {
+    "id": 162,
+    "word": "each",
+    "us_phonetic": "/i:tʃ/",
+    "uk_phonetic": "/i:tʃ/",
+    "meaning": "pron.各,各自 a.ad.每个",
+    "example_en": "Each student has a book.",
+    "example_cn": "每个学生都有一本书。"
+  },
+  {
+    "id": 163,
+    "word": "early",
+    "us_phonetic": "/ә:li/",
+    "uk_phonetic": "/ә:li/",
+    "meaning": "ad.早 a.早的,早期的",
+    "example_en": "I wake up early in the morning.",
+    "example_cn": "我早上很早起床。"
+  },
+  {
+    "id": 164,
+    "word": "east",
+    "us_phonetic": "/i:st/",
+    "uk_phonetic": "/i:st/",
+    "meaning": "n.东,东部 ad.在东方",
+    "example_en": "The sun rises in the east.",
+    "example_cn": "太阳从东方升起。"
+  },
+  {
+    "id": 165,
+    "word": "easy",
+    "us_phonetic": "/i:zi/",
+    "uk_phonetic": "/i:zi/",
+    "meaning": "a.容易的,安逸的",
+    "example_en": "This task is easy.",
+    "example_cn": "这项任务很简单。"
+  },
+  {
+    "id": 166,
+    "word": "economic",
+    "us_phonetic": "/i:kәnɔmik/",
+    "uk_phonetic": "/i:kәnɔmik/",
+    "meaning": "a.经济的,经济学的",
+    "example_en": "The country has economic problems.",
+    "example_cn": "这个国家有经济问题。"
+  },
+  {
+    "id": 167,
+    "word": "economy",
+    "us_phonetic": "/i(:)kɔnәmi/",
+    "uk_phonetic": "/i(:)kɔnәmi/",
+    "meaning": "n.经济,节约,节省",
+    "example_en": "The economy is growing.",
+    "example_cn": "经济正在增长。"
+  },
+  {
+    "id": 168,
+    "word": "education",
+    "us_phonetic": "/edju:keiʃәn/",
+    "uk_phonetic": "/edju:keiʃәn/",
+    "meaning": "n.教育,训导,教育学",
+    "example_en": "Education is very important.",
+    "example_cn": "教育非常重要。"
+  },
+  {
+    "id": 169,
+    "word": "effect",
+    "us_phonetic": "/ifekt/",
+    "uk_phonetic": "/ifekt/",
+    "meaning": "n.效果,效力",
+    "example_en": "The medicine has a good effect.",
+    "example_cn": "这种药效果很好。"
+  },
+  {
+    "id": 170,
+    "word": "effort",
+    "us_phonetic": "/efәt/",
+    "uk_phonetic": "/efәt/",
+    "meaning": "n.努力",
+    "example_en": "He made a great effort to succeed.",
+    "example_cn": "他为成功付出了巨大的努力。"
+  },
+  {
+    "id": 171,
+    "word": "eight",
+    "us_phonetic": "/eit/",
+    "uk_phonetic": "/eit/",
+    "meaning": "num.八,八个,第八",
+    "example_en": "I have eight apples.",
+    "example_cn": "我有八个苹果。"
+  },
+  {
+    "id": 172,
+    "word": "eighteen",
+    "us_phonetic": "/eiti:n/",
+    "uk_phonetic": "/eiti:n/",
+    "meaning": "num.十八,十八个",
+    "example_en": "He is eighteen years old.",
+    "example_cn": "他十八岁。"
+  },
+  {
+    "id": 173,
+    "word": "eighty",
+    "us_phonetic": "/eiti/",
+    "uk_phonetic": "/eiti/",
+    "meaning": "num.八十,八十个",
+    "example_en": "My grandfather is eighty years old.",
+    "example_cn": "我的祖父八十岁了。"
+  },
+  {
+    "id": 174,
+    "word": "either",
+    "us_phonetic": "/aiðә/",
+    "uk_phonetic": "/i:ðә/",
+    "meaning": "pron.(两者)任何一个",
+    "example_en": "You can take either of the two books.",
+    "example_cn": "你可以拿两本书中的任何一本。"
+  },
+  {
+    "id": 175,
+    "word": "election",
+    "us_phonetic": "/ilekʃәn/",
+    "uk_phonetic": "/ilekʃәn/",
+    "meaning": "n.选举,选举权,当选",
+    "example_en": "The election will be held next month.",
+    "example_cn": "选举将在下个月举行。"
+  },
+  {
+    "id": 176,
+    "word": "eleven",
+    "us_phonetic": "/ilevn/",
+    "uk_phonetic": "/ilevn/",
+    "meaning": "num.十一,十一个",
+    "example_en": "I have eleven pencils.",
+    "example_cn": "我有十一支铅笔。"
+  },
+  {
+    "id": 177,
+    "word": "else",
+    "us_phonetic": "/els/",
+    "uk_phonetic": "/els/",
+    "meaning": "ad.其它,另外 a.别的",
+    "example_en": "Is there anything else you need?",
+    "example_cn": "你还需要别的什么吗？"
+  },
+  {
+    "id": 178,
+    "word": "end",
+    "us_phonetic": "/end/",
+    "uk_phonetic": "/end/",
+    "meaning": "n.末端,目标 vt.结束",
+    "example_en": "The story has a happy end.",
+    "example_cn": "这个故事有一个幸福的结局。"
+  },
+  {
+    "id": 179,
+    "word": "enough",
+    "us_phonetic": "/inʌf/",
+    "uk_phonetic": "/inʌf/",
+    "meaning": "a.足够的 ad.足够地",
+    "example_en": "I have enough money.",
+    "example_cn": "我有足够的钱。"
+  },
+  {
+    "id": 180,
+    "word": "even",
+    "us_phonetic": "/i:vәn/",
+    "uk_phonetic": "/i:vәn/",
+    "meaning": "a.均匀的,平的",
+    "example_en": "Even a child can do this.",
+    "example_cn": "即使是孩子也能做这个。"
+  },
+  {
+    "id": 181,
+    "word": "event",
+    "us_phonetic": "/ivent/",
+    "uk_phonetic": "/ivent/",
+    "meaning": "n.事件,事变",
+    "example_en": "The event was a great success.",
+    "example_cn": "这次活动非常成功。"
+  },
+  {
+    "id": 182,
+    "word": "ever",
+    "us_phonetic": "/evә/",
+    "uk_phonetic": "/evә/",
+    "meaning": "ad.在任何时候,曾经",
+    "example_en": "Have you ever been to Paris?",
+    "example_cn": "你去过巴黎吗？"
+  },
+  {
+    "id": 183,
+    "word": "every",
+    "us_phonetic": "/evri/",
+    "uk_phonetic": "/evri/",
+    "meaning": "a.每个,每一,每隔…的",
+    "example_en": "I go to the gym every day.",
+    "example_cn": "我每天去健身房。"
+  },
+  {
+    "id": 184,
+    "word": "everything",
+    "us_phonetic": "/evriθiŋ/",
+    "uk_phonetic": "/evriθiŋ/",
+    "meaning": "pron.每件事,事事",
+    "example_en": "Everything is ready.",
+    "example_cn": "一切都准备好了。"
+  },
+  {
+    "id": 185,
+    "word": "example",
+    "us_phonetic": "/igza:mpl/",
+    "uk_phonetic": "/igza:mpl/",
+    "meaning": "n.例子,实例,模范",
+    "example_en": "Can you give me an example?",
+    "example_cn": "你能给我一个例子吗？"
+  },
+  {
+    "id": 186,
+    "word": "expect",
+    "us_phonetic": "/ikspekt/",
+    "uk_phonetic": "/ikspekt/",
+    "meaning": "vt.预料,预期,等待",
+    "example_en": "I expect to pass the exam.",
+    "example_cn": "我期望通过考试。"
+  },
+  {
+    "id": 187,
+    "word": "experience",
+    "us_phonetic": "/ikspiәriәns/",
+    "uk_phonetic": "/ikspiәriәns/",
+    "meaning": "n.经验,感受,经历",
+    "example_en": "I have experience in teaching.",
+    "example_cn": "我有教学经验。"
+  },
+  {
+    "id": 188,
+    "word": "eye",
+    "us_phonetic": "/ai/",
+    "uk_phonetic": "/ai/",
+    "meaning": "n.眼睛",
+    "example_en": "She has blue eyes.",
+    "example_cn": "她有蓝色的眼睛。"
+  },
+  {
+    "id": 189,
+    "word": "face",
+    "us_phonetic": "/feis/",
+    "uk_phonetic": "/feis/",
+    "meaning": "n.脸,表面,外表",
+    "example_en": "She has a beautiful face.",
+    "example_cn": "她有一张美丽的脸。"
+  },
+  {
+    "id": 190,
+    "word": "fact",
+    "us_phonetic": "/fækt/",
+    "uk_phonetic": "/fækt/",
+    "meaning": "n.事实,实际,实情",
+    "example_en": "It's a fact that the earth is round.",
+    "example_cn": "地球是圆的，这是事实。"
+  },
+  {
+    "id": 191,
+    "word": "fail",
+    "us_phonetic": "/feil/",
+    "uk_phonetic": "/feil/",
+    "meaning": "vi.失败,失灵,不能",
+    "example_en": "I don't want to fail the exam.",
+    "example_cn": "我不想考试不及格。"
+  },
+  {
+    "id": 192,
+    "word": "fall",
+    "us_phonetic": "/fɔ:l/",
+    "uk_phonetic": "/fɔ:l/",
+    "meaning": "vi.落下,跌倒,陷落",
+    "example_en": "Leaves fall in autumn.",
+    "example_cn": "树叶在秋天落下。"
+  },
+  {
+    "id": 193,
+    "word": "family",
+    "us_phonetic": "/fæmili/",
+    "uk_phonetic": "/fæmili/",
+    "meaning": "n.家庭,家族",
+    "example_en": "I have a big family.",
+    "example_cn": "我有一个大家庭。"
+  },
+  {
+    "id": 194,
+    "word": "far",
+    "us_phonetic": "/fa:/",
+    "uk_phonetic": "/fa:/",
+    "meaning": "a.远的 ad.远,遥远",
+    "example_en": "The school is not far from my home.",
+    "example_cn": "学校离我家不远。"
+  },
+  {
+    "id": 195,
+    "word": "father",
+    "us_phonetic": "/fa:ðә/",
+    "uk_phonetic": "/fa:ðә/",
+    "meaning": "n.父亲,神父,创始人",
+    "example_en": "My father is a doctor.",
+    "example_cn": "我父亲是一名医生。"
+  },
+  {
+    "id": 196,
+    "word": "fear",
+    "us_phonetic": "/fiә/",
+    "uk_phonetic": "/fiә/",
+    "meaning": "n.害怕,担心 vt.害怕",
+    "example_en": "She has a fear of heights.",
+    "example_cn": "她有恐高症。"
+  },
+  {
+    "id": 197,
+    "word": "feel",
+    "us_phonetic": "/fi:l/",
+    "uk_phonetic": "/fi:l/",
+    "meaning": "vt.n.感觉,觉得,触摸",
+    "example_en": "I feel happy today.",
+    "example_cn": "我今天感到高兴。"
+  },
+  {
+    "id": 198,
+    "word": "few",
+    "us_phonetic": "/fju:/",
+    "uk_phonetic": "/fju:/",
+    "meaning": "a.很少的,少数的",
+    "example_en": "I have a few friends.",
+    "example_cn": "我有几个朋友。"
+  },
+  {
+    "id": 199,
+    "word": "fifteen",
+    "us_phonetic": "/fifti:n/",
+    "uk_phonetic": "/fifti:n/",
+    "meaning": "num.十五,十五个",
+    "example_en": "He is fifteen years old.",
+    "example_cn": "他十五岁。"
+  },
+  {
+    "id": 200,
+    "word": "fifty",
+    "us_phonetic": "/fifti/",
+    "uk_phonetic": "/fifti/",
+    "meaning": "num.五十,五十个",
+    "example_en": "My mother is fifty years old.",
+    "example_cn": "我母亲五十岁了。"
+  },
+  {
+    "id": 201,
+    "word": "fight",
+    "us_phonetic": "/fait/",
+    "uk_phonetic": "/fait/",
+    "meaning": "vi.打(仗),斗争",
+    "example_en": "They had a fight yesterday.",
+    "example_cn": "他们昨天吵架了。"
+  },
+  {
+    "id": 202,
+    "word": "figure",
+    "us_phonetic": "/figә/",
+    "uk_phonetic": "/figә/",
+    "meaning": "n.数字,外形,人物",
+    "example_en": "I need to figure out the answer.",
+    "example_cn": "我需要找出答案。"
+  },
+  {
+    "id": 203,
+    "word": "film",
+    "us_phonetic": "/film/",
+    "uk_phonetic": "/film/",
+    "meaning": "n.影片,胶卷,薄层",
+    "example_en": "I watched a good film last night.",
+    "example_cn": "我昨晚看了一部好电影。"
+  },
+  {
+    "id": 204,
+    "word": "final",
+    "us_phonetic": "/fainl/",
+    "uk_phonetic": "/fainl/",
+    "meaning": "a.最后的,决定性的",
+    "example_en": "This is the final exam.",
+    "example_cn": "这是期末考试。"
+  },
+  {
+    "id": 205,
+    "word": "financial",
+    "us_phonetic": "/fainænʃәl/",
+    "uk_phonetic": "/fi-/",
+    "meaning": "a.财政的,金融的",
+    "example_en": "We have financial problems.",
+    "example_cn": "我们有财务问题。"
+  },
+  {
+    "id": 206,
+    "word": "find",
+    "us_phonetic": "/faind/",
+    "uk_phonetic": "/faind/",
+    "meaning": "vt.找到,发觉,找出",
+    "example_en": "I can't find my keys.",
+    "example_cn": "我找不到我的钥匙。"
+  },
+  {
+    "id": 207,
+    "word": "firm",
+    "us_phonetic": "/fә:m/",
+    "uk_phonetic": "/fә:m/",
+    "meaning": "a.坚定的 n.公司,商号",
+    "example_en": "The company is a firm believer in quality.",
+    "example_cn": "这家公司坚信质量。"
+  },
+  {
+    "id": 208,
+    "word": "first",
+    "us_phonetic": "/fә:st/",
+    "uk_phonetic": "/fә:st/",
+    "meaning": "num.第一 ad.最初",
+    "example_en": "He was the first to arrive.",
+    "example_cn": "他是第一个到达的。"
+  },
+  {
+    "id": 209,
+    "word": "five",
+    "us_phonetic": "/faiv/",
+    "uk_phonetic": "/faiv/",
+    "meaning": "num.五,五个,第五",
+    "example_en": "I have five fingers on each hand.",
+    "example_cn": "我每只手有五个手指。"
+  },
+  {
+    "id": 210,
+    "word": "fly",
+    "us_phonetic": "/flai/",
+    "uk_phonetic": "/flai/",
+    "meaning": "n.苍蝇 vi.飞行",
+    "example_en": "The word 'fly' is important.",
+    "example_cn": "单词 'fly' 很重要。"
+  },
+  {
+    "id": 211,
+    "word": "follow",
+    "us_phonetic": "/fɔlәu/",
+    "uk_phonetic": "/fɔlәu/",
+    "meaning": "vt.跟随,结果是",
+    "example_en": "The word 'follow' is important.",
+    "example_cn": "单词 'follow' 很重要。"
+  },
+  {
+    "id": 212,
+    "word": "food",
+    "us_phonetic": "/fu:d/",
+    "uk_phonetic": "/fu:d/",
+    "meaning": "n.食物",
+    "example_en": "The word 'food' is important.",
+    "example_cn": "单词 'food' 很重要。"
+  },
+  {
+    "id": 213,
+    "word": "foot",
+    "us_phonetic": "/fut/",
+    "uk_phonetic": "/fut/",
+    "meaning": "n.脚,英尺",
+    "example_en": "The word 'foot' is important.",
+    "example_cn": "单词 'foot' 很重要。"
+  },
+  {
+    "id": 214,
+    "word": "for",
+    "us_phonetic": "/fɔ:/",
+    "uk_phonetic": "/fә/",
+    "meaning": "prep.为,给,因为",
+    "example_en": "The word 'for' is important.",
+    "example_cn": "单词 'for' 很重要。"
+  },
+  {
+    "id": 215,
+    "word": "force",
+    "us_phonetic": "/fɔ:s/",
+    "uk_phonetic": "/fɔ:s/",
+    "meaning": "vt.强迫 n.力,力量",
+    "example_en": "The word 'force' is important.",
+    "example_cn": "单词 'force' 很重要。"
+  },
+  {
+    "id": 216,
+    "word": "foreign",
+    "us_phonetic": "/fɔrin/",
+    "uk_phonetic": "/fɔrin/",
+    "meaning": "a.外国的,外来的",
+    "example_en": "The word 'foreign' is important.",
+    "example_cn": "单词 'foreign' 很重要。"
+  },
+  {
+    "id": 217,
+    "word": "form",
+    "us_phonetic": "/fɔ:m/",
+    "uk_phonetic": "/fɔ:m/",
+    "meaning": "n.形式,形状 vt.形成",
+    "example_en": "The word 'form' is important.",
+    "example_cn": "单词 'form' 很重要。"
+  },
+  {
+    "id": 218,
+    "word": "former",
+    "us_phonetic": "/fɔ:mә/",
+    "uk_phonetic": "/fɔ:mә/",
+    "meaning": "a.在前的 n.前者",
+    "example_en": "The word 'former' is important.",
+    "example_cn": "单词 'former' 很重要。"
+  },
+  {
+    "id": 219,
+    "word": "forty",
+    "us_phonetic": "/fɔ:ti/",
+    "uk_phonetic": "/fɔ:ti/",
+    "meaning": "num.四十,第四十",
+    "example_en": "The word 'forty' is important.",
+    "example_cn": "单词 'forty' 很重要。"
+  },
+  {
+    "id": 220,
+    "word": "four",
+    "us_phonetic": "/fɔ:/",
+    "uk_phonetic": "/fɔ:/",
+    "meaning": "num.四,四个,第四",
+    "example_en": "The word 'four' is important.",
+    "example_cn": "单词 'four' 很重要。"
+  },
+  {
+    "id": 221,
+    "word": "fourteen",
+    "us_phonetic": "/fɔ:ti:n/",
+    "uk_phonetic": "/fɔ:ti:n/",
+    "meaning": "num.十四,第十四",
+    "example_en": "The word 'fourteen' is important.",
+    "example_cn": "单词 'fourteen' 很重要。"
+  },
+  {
+    "id": 222,
+    "word": "free",
+    "us_phonetic": "/fri:/",
+    "uk_phonetic": "/fri:/",
+    "meaning": "a.自由的,空闲的",
+    "example_en": "The word 'free' is important.",
+    "example_cn": "单词 'free' 很重要。"
+  },
+  {
+    "id": 223,
+    "word": "friend",
+    "us_phonetic": "/frend/",
+    "uk_phonetic": "/frend/",
+    "meaning": "n.朋友",
+    "example_en": "The word 'friend' is important.",
+    "example_cn": "单词 'friend' 很重要。"
+  },
+  {
+    "id": 224,
+    "word": "from",
+    "us_phonetic": "/frɔm/",
+    "uk_phonetic": "/frәm, frm/",
+    "meaning": "prep.从…来,根据",
+    "example_en": "The word 'from' is important.",
+    "example_cn": "单词 'from' 很重要。"
+  },
+  {
+    "id": 225,
+    "word": "front",
+    "us_phonetic": "/frʌnt/",
+    "uk_phonetic": "/frʌnt/",
+    "meaning": "a.前面的 n.前部",
+    "example_en": "The word 'front' is important.",
+    "example_cn": "单词 'front' 很重要。"
+  },
+  {
+    "id": 226,
+    "word": "full",
+    "us_phonetic": "/ful/",
+    "uk_phonetic": "/ful/",
+    "meaning": "a.满的,完全的",
+    "example_en": "The word 'full' is important.",
+    "example_cn": "单词 'full' 很重要。"
+  },
+  {
+    "id": 227,
+    "word": "fund",
+    "us_phonetic": "/fʌnd/",
+    "uk_phonetic": "/fʌnd/",
+    "meaning": "n.资金,基金,存款",
+    "example_en": "The word 'fund' is important.",
+    "example_cn": "单词 'fund' 很重要。"
+  },
+  {
+    "id": 228,
+    "word": "further",
+    "us_phonetic": "/fә:ðә/",
+    "uk_phonetic": "/fә:ðә/",
+    "meaning": "ad.更进一步",
+    "example_en": "The word 'further' is important.",
+    "example_cn": "单词 'further' 很重要。"
+  },
+  {
+    "id": 229,
+    "word": "future",
+    "us_phonetic": "/fju:tʃә/",
+    "uk_phonetic": "/fju:tʃә/",
+    "meaning": "n.未来",
+    "example_en": "The word 'future' is important.",
+    "example_cn": "单词 'future' 很重要。"
+  },
+  {
+    "id": 230,
+    "word": "game",
+    "us_phonetic": "/geim/",
+    "uk_phonetic": "/geim/",
+    "meaning": "n.游戏,比赛",
+    "example_en": "The word 'game' is important.",
+    "example_cn": "单词 'game' 很重要。"
+  },
+  {
+    "id": 231,
+    "word": "general",
+    "us_phonetic": "/dʒenәrәl/",
+    "uk_phonetic": "/dʒenәrәl/",
+    "meaning": "a.总的,一般的 n.将军",
+    "example_en": "The word 'general' is important.",
+    "example_cn": "单词 'general' 很重要。"
+  },
+  {
+    "id": 232,
+    "word": "get",
+    "us_phonetic": "/get/",
+    "uk_phonetic": "/get/",
+    "meaning": "vi.变得,成为,到达",
+    "example_en": "The word 'get' is important.",
+    "example_cn": "单词 'get' 很重要。"
+  },
+  {
+    "id": 233,
+    "word": "girl",
+    "us_phonetic": "/gә:l/",
+    "uk_phonetic": "/gә:l/",
+    "meaning": "n.女孩子",
+    "example_en": "The word 'girl' is important.",
+    "example_cn": "单词 'girl' 很重要。"
+  },
+  {
+    "id": 234,
+    "word": "give",
+    "us_phonetic": "/giv/",
+    "uk_phonetic": "/giv/",
+    "meaning": "vt.做,作,送给",
+    "example_en": "The word 'give' is important.",
+    "example_cn": "单词 'give' 很重要。"
+  },
+  {
+    "id": 235,
+    "word": "go",
+    "us_phonetic": "/gәu/",
+    "uk_phonetic": "/gәu/",
+    "meaning": "vi.去,走,变为",
+    "example_en": "The word 'go' is important.",
+    "example_cn": "单词 'go' 很重要。"
+  },
+  {
+    "id": 236,
+    "word": "going",
+    "us_phonetic": "/^әuiŋ/",
+    "uk_phonetic": "/^әuiŋ/",
+    "meaning": "n.去,离去,工作情况,行为",
+    "example_en": "The word 'going' is important.",
+    "example_cn": "单词 'going' 很重要。"
+  },
+  {
+    "id": 237,
+    "word": "good",
+    "us_phonetic": "/gud/",
+    "uk_phonetic": "/gud/",
+    "meaning": "a.好的",
+    "example_en": "The word 'good' is important.",
+    "example_cn": "单词 'good' 很重要。"
+  },
+  {
+    "id": 238,
+    "word": "got",
+    "us_phonetic": "/gCt/",
+    "uk_phonetic": "/gCt/",
+    "meaning": "vbl. get 的过去式",
+    "example_en": "The word 'got' is important.",
+    "example_cn": "单词 'got' 很重要。"
+  },
+  {
+    "id": 239,
+    "word": "government",
+    "us_phonetic": "/gʌvәnmәnt/",
+    "uk_phonetic": "/gʌvәnmәnt/",
+    "meaning": "n.政府",
+    "example_en": "The word 'government' is important.",
+    "example_cn": "单词 'government' 很重要。"
+  },
+  {
+    "id": 240,
+    "word": "great",
+    "us_phonetic": "/greit/",
+    "uk_phonetic": "/greit/",
+    "meaning": "a.大的,伟大的",
+    "example_en": "The word 'great' is important.",
+    "example_cn": "单词 'great' 很重要。"
+  },
+  {
+    "id": 241,
+    "word": "green",
+    "us_phonetic": "/gri:n/",
+    "uk_phonetic": "/gri:n/",
+    "meaning": "a.绿色的 n.绿色",
+    "example_en": "The word 'green' is important.",
+    "example_cn": "单词 'green' 很重要。"
+  },
+  {
+    "id": 242,
+    "word": "grey",
+    "us_phonetic": "/grei/",
+    "uk_phonetic": "/grei/",
+    "meaning": "n./a.灰色(的)",
+    "example_en": "The word 'grey' is important.",
+    "example_cn": "单词 'grey' 很重要。"
+  },
+  {
+    "id": 243,
+    "word": "ground",
+    "us_phonetic": "/graund/",
+    "uk_phonetic": "/graund/",
+    "meaning": "n.地,场地",
+    "example_en": "The word 'ground' is important.",
+    "example_cn": "单词 'ground' 很重要。"
+  },
+  {
+    "id": 244,
+    "word": "group",
+    "us_phonetic": "/gru:p/",
+    "uk_phonetic": "/gru:p/",
+    "meaning": "n.小组,群 vi.聚集",
+    "example_en": "The word 'group' is important.",
+    "example_cn": "单词 'group' 很重要。"
+  },
+  {
+    "id": 245,
+    "word": "grow",
+    "us_phonetic": "/grәu/",
+    "uk_phonetic": "/grәu/",
+    "meaning": "vi.生长,增长",
+    "example_en": "The word 'grow' is important.",
+    "example_cn": "单词 'grow' 很重要。"
+  },
+  {
+    "id": 246,
+    "word": "half",
+    "us_phonetic": "/ha:f/",
+    "uk_phonetic": "/ha:f/",
+    "meaning": "n.半,一半 a.一半的",
+    "example_en": "The word 'half' is important.",
+    "example_cn": "单词 'half' 很重要。"
+  },
+  {
+    "id": 247,
+    "word": "hand",
+    "us_phonetic": "/hænd/",
+    "uk_phonetic": "/hænd/",
+    "meaning": "n.手,人手",
+    "example_en": "The word 'hand' is important.",
+    "example_cn": "单词 'hand' 很重要。"
+  },
+  {
+    "id": 248,
+    "word": "happen",
+    "us_phonetic": "/hæpәn/",
+    "uk_phonetic": "/hæpәn/",
+    "meaning": "vi.发生,碰巧,恰好",
+    "example_en": "The word 'happen' is important.",
+    "example_cn": "单词 'happen' 很重要。"
+  },
+  {
+    "id": 249,
+    "word": "hard",
+    "us_phonetic": "/ha:d/",
+    "uk_phonetic": "/ha:d/",
+    "meaning": "a.硬的,困难的",
+    "example_en": "The word 'hard' is important.",
+    "example_cn": "单词 'hard' 很重要。"
+  },
+  {
+    "id": 250,
+    "word": "have",
+    "us_phonetic": "/hæv/",
+    "uk_phonetic": "/hәv/",
+    "meaning": "v.aux.已经 vt.有,吃",
+    "example_en": "The word 'have' is important.",
+    "example_cn": "单词 'have' 很重要。"
+  },
+  {
+    "id": 251,
+    "word": "he",
+    "us_phonetic": "/hi:/",
+    "uk_phonetic": "/hi:/",
+    "meaning": "pron.(主格)他",
+    "example_en": "The word 'he' is important.",
+    "example_cn": "单词 'he' 很重要。"
+  },
+  {
+    "id": 252,
+    "word": "head",
+    "us_phonetic": "/hed/",
+    "uk_phonetic": "/hed/",
+    "meaning": "n.头,前端,领导 vi.出发",
+    "example_en": "The word 'head' is important.",
+    "example_cn": "单词 'head' 很重要。"
+  },
+  {
+    "id": 253,
+    "word": "health",
+    "us_phonetic": "/helθ/",
+    "uk_phonetic": "/helθ/",
+    "meaning": "n.健康,健康状况",
+    "example_en": "The word 'health' is important.",
+    "example_cn": "单词 'health' 很重要。"
+  },
+  {
+    "id": 254,
+    "word": "hear",
+    "us_phonetic": "/hiә/",
+    "uk_phonetic": "/hiә/",
+    "meaning": "vt.听见,听说",
+    "example_en": "The word 'hear' is important.",
+    "example_cn": "单词 'hear' 很重要。"
+  },
+  {
+    "id": 255,
+    "word": "help",
+    "us_phonetic": "/help/",
+    "uk_phonetic": "/help/",
+    "meaning": "vt.帮助 n.帮手",
+    "example_en": "The word 'help' is important.",
+    "example_cn": "单词 'help' 很重要。"
+  },
+  {
+    "id": 256,
+    "word": "her",
+    "us_phonetic": "/hә:/",
+    "uk_phonetic": "/hә/",
+    "meaning": "pron.(宾格)她,她的",
+    "example_en": "The word 'her' is important.",
+    "example_cn": "单词 'her' 很重要。"
+  },
+  {
+    "id": 257,
+    "word": "here",
+    "us_phonetic": "/hiә/",
+    "uk_phonetic": "/hiә/",
+    "meaning": "ad.这里,向这里",
+    "example_en": "The word 'here' is important.",
+    "example_cn": "单词 'here' 很重要。"
+  },
+  {
+    "id": 258,
+    "word": "herself",
+    "us_phonetic": "/hә:self/",
+    "uk_phonetic": "/hә:self/",
+    "meaning": "pron.她自己,她亲自",
+    "example_en": "The word 'herself' is important.",
+    "example_cn": "单词 'herself' 很重要。"
+  },
+  {
+    "id": 260,
+    "word": "high",
+    "us_phonetic": "/hai/",
+    "uk_phonetic": "/hai/",
+    "meaning": "a.高的,高级的 ad.高",
+    "example_en": "The word 'high' is important.",
+    "example_cn": "单词 'high' 很重要。"
+  },
+  {
+    "id": 261,
+    "word": "him",
+    "us_phonetic": "/him/",
+    "uk_phonetic": "/him/",
+    "meaning": "pron.(宾格)他",
+    "example_en": "The word 'him' is important.",
+    "example_cn": "单词 'him' 很重要。"
+  },
+  {
+    "id": 262,
+    "word": "himself",
+    "us_phonetic": "/himself/",
+    "uk_phonetic": "/himself/",
+    "meaning": "pron.他自己,他亲自",
+    "example_en": "The word 'himself' is important.",
+    "example_cn": "单词 'himself' 很重要。"
+  },
+  {
+    "id": 263,
+    "word": "his",
+    "us_phonetic": "/his/",
+    "uk_phonetic": "/his/",
+    "meaning": "pron.他的,他的东西",
+    "example_en": "The word 'his' is important.",
+    "example_cn": "单词 'his' 很重要。"
+  },
+  {
+    "id": 264,
+    "word": "history",
+    "us_phonetic": "/histәri/",
+    "uk_phonetic": "/histәri/",
+    "meaning": "n.历史,个人经历",
+    "example_en": "The word 'history' is important.",
+    "example_cn": "单词 'history' 很重要。"
+  },
+  {
+    "id": 265,
+    "word": "hit",
+    "us_phonetic": "/hit/",
+    "uk_phonetic": "/hit/",
+    "meaning": "vt.打,碰撞 n.击",
+    "example_en": "The word 'hit' is important.",
+    "example_cn": "单词 'hit' 很重要。"
+  },
+  {
+    "id": 266,
+    "word": "hold",
+    "us_phonetic": "/hәuld/",
+    "uk_phonetic": "/hәuld/",
+    "meaning": "vt.拿住,掌握,拥有",
+    "example_en": "The word 'hold' is important.",
+    "example_cn": "单词 'hold' 很重要。"
+  },
+  {
+    "id": 267,
+    "word": "home",
+    "us_phonetic": "/hәum/",
+    "uk_phonetic": "/hәum/",
+    "meaning": "n.家,家乡 a.家庭的",
+    "example_en": "The word 'home' is important.",
+    "example_cn": "单词 'home' 很重要。"
+  },
+  {
+    "id": 268,
+    "word": "hope",
+    "us_phonetic": "/hәup/",
+    "uk_phonetic": "/hәup/",
+    "meaning": "n.vt.vi.希望",
+    "example_en": "The word 'hope' is important.",
+    "example_cn": "单词 'hope' 很重要。"
+  },
+  {
+    "id": 269,
+    "word": "hospital",
+    "us_phonetic": "/hɔspitl/",
+    "uk_phonetic": "/hɔspitl/",
+    "meaning": "n.医院",
+    "example_en": "The word 'hospital' is important.",
+    "example_cn": "单词 'hospital' 很重要。"
+  },
+  {
+    "id": 270,
+    "word": "host",
+    "us_phonetic": "/hәust/",
+    "uk_phonetic": "/hәust/",
+    "meaning": "n.主人,东道主",
+    "example_en": "The word 'host' is important.",
+    "example_cn": "单词 'host' 很重要。"
+  },
+  {
+    "id": 271,
+    "word": "hour",
+    "us_phonetic": "/auә/",
+    "uk_phonetic": "/auә/",
+    "meaning": "n.小时",
+    "example_en": "The word 'hour' is important.",
+    "example_cn": "单词 'hour' 很重要。"
+  },
+  {
+    "id": 272,
+    "word": "house",
+    "us_phonetic": "/haus/",
+    "uk_phonetic": "/haus/",
+    "meaning": "n.房屋,住宅",
+    "example_en": "The word 'house' is important.",
+    "example_cn": "单词 'house' 很重要。"
+  },
+  {
+    "id": 273,
+    "word": "how",
+    "us_phonetic": "/hau/",
+    "uk_phonetic": "/hau/",
+    "meaning": "ad.怎么,怎样,多少",
+    "example_en": "The word 'how' is important.",
+    "example_cn": "单词 'how' 很重要。"
+  },
+  {
+    "id": 274,
+    "word": "however",
+    "us_phonetic": "/hauevә/",
+    "uk_phonetic": "/hauevә/",
+    "meaning": "ad.然而,不管怎样",
+    "example_en": "The word 'however' is important.",
+    "example_cn": "单词 'however' 很重要。"
+  },
+  {
+    "id": 275,
+    "word": "human",
+    "us_phonetic": "/hju:mәn/",
+    "uk_phonetic": "/hju:mәn/",
+    "meaning": "a.人的,人类的 n.人",
+    "example_en": "The word 'human' is important.",
+    "example_cn": "单词 'human' 很重要。"
+  },
+  {
+    "id": 276,
+    "word": "hundred",
+    "us_phonetic": "/hʌndrid/",
+    "uk_phonetic": "/hʌndrid/",
+    "meaning": "num.百,百个",
+    "example_en": "The word 'hundred' is important.",
+    "example_cn": "单词 'hundred' 很重要。"
+  },
+  {
+    "id": 277,
+    "word": "I",
+    "us_phonetic": "/ai/",
+    "uk_phonetic": "/ai/",
+    "meaning": "pron.(主格)我",
+    "example_en": "The word 'I' is important.",
+    "example_cn": "单词 'I' 很重要。"
+  },
+  {
+    "id": 279,
+    "word": "idea",
+    "us_phonetic": "/aidiә/",
+    "uk_phonetic": "/aidiә/",
+    "meaning": "n.想法,思想,意见",
+    "example_en": "The word 'idea' is important.",
+    "example_cn": "单词 'idea' 很重要。"
+  },
+  {
+    "id": 280,
+    "word": "if",
+    "us_phonetic": "/if/",
+    "uk_phonetic": "/if/",
+    "meaning": "conj.假如,如果",
+    "example_en": "The word 'if' is important.",
+    "example_cn": "单词 'if' 很重要。"
+  },
+  {
+    "id": 283,
+    "word": "important",
+    "us_phonetic": "/impɔ:tәnt/",
+    "uk_phonetic": "/impɔ:tәnt/",
+    "meaning": "a.重要的",
+    "example_en": "The word 'important' is important.",
+    "example_cn": "单词 'important' 很重要。"
+  },
+  {
+    "id": 284,
+    "word": "in",
+    "us_phonetic": "/in/",
+    "uk_phonetic": "/in/",
+    "meaning": "prep.在…里 ad.进,入",
+    "example_en": "The word 'in' is important.",
+    "example_cn": "单词 'in' 很重要。"
+  },
+  {
+    "id": 285,
+    "word": "include",
+    "us_phonetic": "/inklu:d/",
+    "uk_phonetic": "/inklu:d/",
+    "meaning": "vt.包括,包含",
+    "example_en": "The word 'include' is important.",
+    "example_cn": "单词 'include' 很重要。"
+  },
+  {
+    "id": 286,
+    "word": "including",
+    "us_phonetic": "/inklu:diŋ/",
+    "uk_phonetic": "/inklu:diŋ/",
+    "meaning": "vbl. 包括",
+    "example_en": "The word 'including' is important.",
+    "example_cn": "单词 'including' 很重要。"
+  },
+  {
+    "id": 287,
+    "word": "increase",
+    "us_phonetic": "/inkri:s/",
+    "uk_phonetic": "/inkri:s/",
+    "meaning": "vt.vi.n.增加",
+    "example_en": "The word 'increase' is important.",
+    "example_cn": "单词 'increase' 很重要。"
+  },
+  {
+    "id": 288,
+    "word": "independent",
+    "us_phonetic": "/indipendәnt/",
+    "uk_phonetic": "/indipendәnt/",
+    "meaning": "a.独立的,自主的",
+    "example_en": "The word 'independent' is important.",
+    "example_cn": "单词 'independent' 很重要。"
+  },
+  {
+    "id": 289,
+    "word": "industry",
+    "us_phonetic": "/indәstri/",
+    "uk_phonetic": "/indәstri/",
+    "meaning": "n.工业,产业,勤劳",
+    "example_en": "The word 'industry' is important.",
+    "example_cn": "单词 'industry' 很重要。"
+  },
+  {
+    "id": 290,
+    "word": "information",
+    "us_phonetic": "/infәmeiʃәn/",
+    "uk_phonetic": "/infәmeiʃәn/",
+    "meaning": "n.消息,信息,通知",
+    "example_en": "The word 'information' is important.",
+    "example_cn": "单词 'information' 很重要。"
+  },
+  {
+    "id": 291,
+    "word": "interest",
+    "us_phonetic": "/intrist/",
+    "uk_phonetic": "/intrist/",
+    "meaning": "n.兴趣,利益,利息",
+    "example_en": "The word 'interest' is important.",
+    "example_cn": "单词 'interest' 很重要。"
+  },
+  {
+    "id": 292,
+    "word": "international",
+    "us_phonetic": "/intә(:)næʃәnl/",
+    "uk_phonetic": "/intә(:)næʃәnl/",
+    "meaning": "a.国际的",
+    "example_en": "The word 'international' is important.",
+    "example_cn": "单词 'international' 很重要。"
+  },
+  {
+    "id": 293,
+    "word": "into",
+    "us_phonetic": "/intu/",
+    "uk_phonetic": "/intә/",
+    "meaning": "prep.进,入,进入到",
+    "example_en": "The word 'into' is important.",
+    "example_cn": "单词 'into' 很重要。"
+  },
+  {
+    "id": 295,
+    "word": "issue",
+    "us_phonetic": "/iʃu:/",
+    "uk_phonetic": "/iʃu:/",
+    "meaning": "n.问题,发行 vt.发行",
+    "example_en": "The word 'issue' is important.",
+    "example_cn": "单词 'issue' 很重要。"
+  },
+  {
+    "id": 296,
+    "word": "it",
+    "us_phonetic": "/it/",
+    "uk_phonetic": "/it/",
+    "meaning": "pron.这,那,它",
+    "example_en": "The word 'it' is important.",
+    "example_cn": "单词 'it' 很重要。"
+  },
+  {
+    "id": 297,
+    "word": "its",
+    "us_phonetic": "/its/",
+    "uk_phonetic": "/its/",
+    "meaning": "pron.它的",
+    "example_en": "The word 'its' is important.",
+    "example_cn": "单词 'its' 很重要。"
+  },
+  {
+    "id": 299,
+    "word": "itself",
+    "us_phonetic": "/itself/",
+    "uk_phonetic": "/itself/",
+    "meaning": "pron.它自己,自身",
+    "example_en": "The word 'itself' is important.",
+    "example_cn": "单词 'itself' 很重要。"
+  },
+  {
+    "id": 301,
+    "word": "job",
+    "us_phonetic": "/dʒɔb/",
+    "uk_phonetic": "/dʒɔb/",
+    "meaning": "n.职业,工作",
+    "example_en": "The word 'job' is important.",
+    "example_cn": "单词 'job' 很重要。"
+  },
+  {
+    "id": 302,
+    "word": "join",
+    "us_phonetic": "/dʒɔin/",
+    "uk_phonetic": "/dʒɔin/",
+    "meaning": "vt.参加,连接",
+    "example_en": "The word 'join' is important.",
+    "example_cn": "单词 'join' 很重要。"
+  },
+  {
+    "id": 303,
+    "word": "just",
+    "us_phonetic": "/dʒʌst/",
+    "uk_phonetic": "/dʒʌst/",
+    "meaning": "ad.刚才,只是,正好",
+    "example_en": "The word 'just' is important.",
+    "example_cn": "单词 'just' 很重要。"
+  },
+  {
+    "id": 304,
+    "word": "keep",
+    "us_phonetic": "/ki:p/",
+    "uk_phonetic": "/ki:p/",
+    "meaning": "vi.保持,坚持",
+    "example_en": "The word 'keep' is important.",
+    "example_cn": "单词 'keep' 很重要。"
+  },
+  {
+    "id": 305,
+    "word": "kill",
+    "us_phonetic": "/kil/",
+    "uk_phonetic": "/kil/",
+    "meaning": "vi.杀死,扼杀,消磨",
+    "example_en": "The word 'kill' is important.",
+    "example_cn": "单词 'kill' 很重要。"
+  },
+  {
+    "id": 306,
+    "word": "kind",
+    "us_phonetic": "/kaind/",
+    "uk_phonetic": "/kaind/",
+    "meaning": "a.仁慈的，友好的 n.种类",
+    "example_en": "The word 'kind' is important.",
+    "example_cn": "单词 'kind' 很重要。"
+  },
+  {
+    "id": 307,
+    "word": "know",
+    "us_phonetic": "/nәu/",
+    "uk_phonetic": "/nәu/",
+    "meaning": "n.知道，了解；会，懂；认识，熟悉",
+    "example_en": "The word 'know' is important.",
+    "example_cn": "单词 'know' 很重要。"
+  },
+  {
+    "id": 308,
+    "word": "labour",
+    "us_phonetic": "/leibә/",
+    "uk_phonetic": "/leibә/",
+    "meaning": "v. 困难地做，太冗长地解释",
+    "example_en": "The word 'labour' is important.",
+    "example_cn": "单词 'labour' 很重要。"
+  },
+  {
+    "id": 309,
+    "word": "land",
+    "us_phonetic": "/lænd/",
+    "uk_phonetic": "/lænd/",
+    "meaning": "n.陆地,土地 vi.着陆",
+    "example_en": "The word 'land' is important.",
+    "example_cn": "单词 'land' 很重要。"
+  },
+  {
+    "id": 310,
+    "word": "large",
+    "us_phonetic": "/la:dʒ/",
+    "uk_phonetic": "/la:dʒ/",
+    "meaning": "a.巨大的",
+    "example_en": "The word 'large' is important.",
+    "example_cn": "单词 'large' 很重要。"
+  },
+  {
+    "id": 311,
+    "word": "last",
+    "us_phonetic": "/la:st/",
+    "uk_phonetic": "/la:st/",
+    "meaning": "vi.持续 a.最后的 ad.最后 n.最后,末尾",
+    "example_en": "The word 'last' is important.",
+    "example_cn": "单词 'last' 很重要。"
+  },
+  {
+    "id": 312,
+    "word": "late",
+    "us_phonetic": "/leit/",
+    "uk_phonetic": "/leit/",
+    "meaning": "a.迟的;晚(期)的;已故的 ad.迟,晚",
+    "example_en": "The word 'late' is important.",
+    "example_cn": "单词 'late' 很重要。"
+  },
+  {
+    "id": 313,
+    "word": "later",
+    "us_phonetic": "/leitә/",
+    "uk_phonetic": "/leitә/",
+    "meaning": "ad.后来",
+    "example_en": "The word 'later' is important.",
+    "example_cn": "单词 'later' 很重要。"
+  },
+  {
+    "id": 314,
+    "word": "laugh",
+    "us_phonetic": "/la:f/",
+    "uk_phonetic": "/la:f/",
+    "meaning": "vi.笑 n.笑",
+    "example_en": "The word 'laugh' is important.",
+    "example_cn": "单词 'laugh' 很重要。"
+  },
+  {
+    "id": 315,
+    "word": "law",
+    "us_phonetic": "/lɔ:/",
+    "uk_phonetic": "/lɔ:/",
+    "meaning": "n.法律,法令",
+    "example_en": "The word 'law' is important.",
+    "example_cn": "单词 'law' 很重要。"
+  },
+  {
+    "id": 316,
+    "word": "lead",
+    "us_phonetic": "/li:d/",
+    "uk_phonetic": "/li:d/",
+    "meaning": "vt.为…带路；领导 vi.带路；导致 n.领先；领",
+    "example_en": "The word 'lead' is important.",
+    "example_cn": "单词 'lead' 很重要。"
+  },
+  {
+    "id": 317,
+    "word": "leader",
+    "us_phonetic": "/li:dә/",
+    "uk_phonetic": "/li:dә/",
+    "meaning": "n.领袖,首领",
+    "example_en": "The word 'leader' is important.",
+    "example_cn": "单词 'leader' 很重要。"
+  },
+  {
+    "id": 318,
+    "word": "learn",
+    "us_phonetic": "/lә:n/",
+    "uk_phonetic": "/lә:n/",
+    "meaning": "vt.学习;听到 vi.学会;获悉,知道",
+    "example_en": "The word 'learn' is important.",
+    "example_cn": "单词 'learn' 很重要。"
+  },
+  {
+    "id": 319,
+    "word": "least",
+    "us_phonetic": "/li:st/",
+    "uk_phonetic": "/li:st/",
+    "meaning": "a.最少的 ad.最少",
+    "example_en": "The word 'least' is important.",
+    "example_cn": "单词 'least' 很重要。"
+  },
+  {
+    "id": 320,
+    "word": "leave",
+    "us_phonetic": "/li:v/",
+    "uk_phonetic": "/li:v/",
+    "meaning": "vi.离去 vt.离开;留下，遗忘 n.请假",
+    "example_en": "The word 'leave' is important.",
+    "example_cn": "单词 'leave' 很重要。"
+  },
+  {
+    "id": 321,
+    "word": "left",
+    "us_phonetic": "/left/",
+    "uk_phonetic": "/left/",
+    "meaning": "a.左边的 ad.在左边 n.左边，左侧",
+    "example_en": "The word 'left' is important.",
+    "example_cn": "单词 'left' 很重要。"
+  },
+  {
+    "id": 322,
+    "word": "less",
+    "us_phonetic": "/les/",
+    "uk_phonetic": "/les/",
+    "meaning": "a.更少的 ad.更少地",
+    "example_en": "The word 'less' is important.",
+    "example_cn": "单词 'less' 很重要。"
+  },
+  {
+    "id": 323,
+    "word": "let",
+    "us_phonetic": "/let/",
+    "uk_phonetic": "/let/",
+    "meaning": "vt.允许,让; 出租",
+    "example_en": "The word 'let' is important.",
+    "example_cn": "单词 'let' 很重要。"
+  },
+  {
+    "id": 324,
+    "word": "letter",
+    "us_phonetic": "/letә/",
+    "uk_phonetic": "/letә/",
+    "meaning": "n.信;字母",
+    "example_en": "The word 'letter' is important.",
+    "example_cn": "单词 'letter' 很重要。"
+  },
+  {
+    "id": 325,
+    "word": "level",
+    "us_phonetic": "/levl/",
+    "uk_phonetic": "/levl/",
+    "meaning": "n.水平,水准 a.水平的",
+    "example_en": "The word 'level' is important.",
+    "example_cn": "单词 'level' 很重要。"
+  },
+  {
+    "id": 326,
+    "word": "life",
+    "us_phonetic": "/laif/",
+    "uk_phonetic": "/laif/",
+    "meaning": "n.生命,一生；寿命",
+    "example_en": "The word 'life' is important.",
+    "example_cn": "单词 'life' 很重要。"
+  },
+  {
+    "id": 327,
+    "word": "like",
+    "us_phonetic": "/laik/",
+    "uk_phonetic": "/laik/",
+    "meaning": "n.爱好 a.相似的, 同样的 vt.喜欢 vi.喜欢 prep.",
+    "example_en": "The word 'like' is important.",
+    "example_cn": "单词 'like' 很重要。"
+  },
+  {
+    "id": 328,
+    "word": "likely",
+    "us_phonetic": "/laikli/",
+    "uk_phonetic": "/laikli/",
+    "meaning": "a.可能的 ad.很可能",
+    "example_en": "The word 'likely' is important.",
+    "example_cn": "单词 'likely' 很重要。"
+  },
+  {
+    "id": 329,
+    "word": "line",
+    "us_phonetic": "/lain/",
+    "uk_phonetic": "/lain/",
+    "meaning": "n.线，线条；排；路线",
+    "example_en": "The word 'line' is important.",
+    "example_cn": "单词 'line' 很重要。"
+  },
+  {
+    "id": 330,
+    "word": "list",
+    "us_phonetic": "/list/",
+    "uk_phonetic": "/list/",
+    "meaning": "n.名单；列表；目录 vt.列出",
+    "example_en": "The word 'list' is important.",
+    "example_cn": "单词 'list' 很重要。"
+  },
+  {
+    "id": 331,
+    "word": "little",
+    "us_phonetic": "/litl/",
+    "uk_phonetic": "/litl/",
+    "meaning": "a.小的,幼小的 ad.一点, 稍许;几乎不 n.一会儿",
+    "example_en": "The word 'little' is important.",
+    "example_cn": "单词 'little' 很重要。"
+  },
+  {
+    "id": 332,
+    "word": "live",
+    "us_phonetic": "/liv laiv/",
+    "uk_phonetic": "/liv laiv/",
+    "meaning": "vi.居住;活 vt.过着 a.活的; 实况转播的",
+    "example_en": "The word 'live' is important.",
+    "example_cn": "单词 'live' 很重要。"
+  },
+  {
+    "id": 333,
+    "word": "local",
+    "us_phonetic": "/lәukәl/",
+    "uk_phonetic": "/lәukәl/",
+    "meaning": "a.地方的 n.局部",
+    "example_en": "The word 'local' is important.",
+    "example_cn": "单词 'local' 很重要。"
+  },
+  {
+    "id": 334,
+    "word": "long",
+    "us_phonetic": "/lɔŋ/",
+    "uk_phonetic": "/lɔŋ/",
+    "meaning": "a.长的,远的；长期的 ad.长久 vi.渴望",
+    "example_en": "The word 'long' is important.",
+    "example_cn": "单词 'long' 很重要。"
+  },
+  {
+    "id": 335,
+    "word": "look",
+    "us_phonetic": "/luk/",
+    "uk_phonetic": "/luk/",
+    "meaning": "n.看;面容, 外表 vi.看;显得 vt.打量,注视",
+    "example_en": "The word 'look' is important.",
+    "example_cn": "单词 'look' 很重要。"
+  },
+  {
+    "id": 336,
+    "word": "lose",
+    "us_phonetic": "/lu:z/",
+    "uk_phonetic": "/lu:z/",
+    "meaning": "vt.失去, 错过;迷路",
+    "example_en": "The word 'lose' is important.",
+    "example_cn": "单词 'lose' 很重要。"
+  },
+  {
+    "id": 337,
+    "word": "lot",
+    "us_phonetic": "/lɔt/",
+    "uk_phonetic": "/lɔt/",
+    "meaning": "n.许多,大量；抽签",
+    "example_en": "The word 'lot' is important.",
+    "example_cn": "单词 'lot' 很重要。"
+  },
+  {
+    "id": 338,
+    "word": "love",
+    "us_phonetic": "/lʌv/",
+    "uk_phonetic": "/lʌv/",
+    "meaning": "vt.爱；喜欢 n.爱情；喜爱",
+    "example_en": "The word 'love' is important.",
+    "example_cn": "单词 'love' 很重要。"
+  },
+  {
+    "id": 339,
+    "word": "low",
+    "us_phonetic": "/lәu/",
+    "uk_phonetic": "/lәu/",
+    "meaning": "a.低的,矮的;低下的, 卑贱的",
+    "example_en": "The word 'low' is important.",
+    "example_cn": "单词 'low' 很重要。"
+  },
+  {
+    "id": 340,
+    "word": "main",
+    "us_phonetic": "/mein/",
+    "uk_phonetic": "/mein/",
+    "meaning": "a.主要的 n.主体，要点",
+    "example_en": "The word 'main' is important.",
+    "example_cn": "单词 'main' 很重要。"
+  },
+  {
+    "id": 341,
+    "word": "major",
+    "us_phonetic": "/meidʒә/",
+    "uk_phonetic": "/meidʒә/",
+    "meaning": "vi.主修，专攻 a.主要的,多数的 n.专业",
+    "example_en": "The word 'major' is important.",
+    "example_cn": "单词 'major' 很重要。"
+  },
+  {
+    "id": 342,
+    "word": "make",
+    "us_phonetic": "/meik/",
+    "uk_phonetic": "/meik/",
+    "meaning": "vt.使得；做,制造 n.制造",
+    "example_en": "The word 'make' is important.",
+    "example_cn": "单词 'make' 很重要。"
+  },
+  {
+    "id": 343,
+    "word": "man",
+    "us_phonetic": "/mæn/",
+    "uk_phonetic": "/mæn/",
+    "meaning": "n.人,人类",
+    "example_en": "The word 'man' is important.",
+    "example_cn": "单词 'man' 很重要。"
+  },
+  {
+    "id": 344,
+    "word": "many",
+    "us_phonetic": "/meni/",
+    "uk_phonetic": "/meni/",
+    "meaning": "a.许多的 pron.许多人",
+    "example_en": "The word 'many' is important.",
+    "example_cn": "单词 'many' 很重要。"
+  },
+  {
+    "id": 345,
+    "word": "market",
+    "us_phonetic": "/ma:kit/",
+    "uk_phonetic": "/ma:kit/",
+    "meaning": "n.市场,集市",
+    "example_en": "The word 'market' is important.",
+    "example_cn": "单词 'market' 很重要。"
+  },
+  {
+    "id": 346,
+    "word": "match",
+    "us_phonetic": "/mætʃ/",
+    "uk_phonetic": "/mætʃ/",
+    "meaning": "vi.相称,匹配 n.比赛;匹配;火柴",
+    "example_en": "The word 'match' is important.",
+    "example_cn": "单词 'match' 很重要。"
+  },
+  {
+    "id": 347,
+    "word": "matter",
+    "us_phonetic": "/mætә/",
+    "uk_phonetic": "/mætә/",
+    "meaning": "n.事情；物质 vi.要紧，有关系",
+    "example_en": "The word 'matter' is important.",
+    "example_cn": "单词 'matter' 很重要。"
+  },
+  {
+    "id": 348,
+    "word": "may",
+    "us_phonetic": "/mei/",
+    "uk_phonetic": "/mei/",
+    "meaning": "aux.也许;可以;祝愿 n.五月",
+    "example_en": "The word 'may' is important.",
+    "example_cn": "单词 'may' 很重要。"
+  },
+  {
+    "id": 349,
+    "word": "me",
+    "us_phonetic": "/mi:/",
+    "uk_phonetic": "/mi/",
+    "meaning": "pron.我",
+    "example_en": "The word 'me' is important.",
+    "example_cn": "单词 'me' 很重要。"
+  },
+  {
+    "id": 350,
+    "word": "mean",
+    "us_phonetic": "/mi:n/",
+    "uk_phonetic": "/mi:n/",
+    "meaning": "vt.意思是 a.自私的,吝啬的",
+    "example_en": "The word 'mean' is important.",
+    "example_cn": "单词 'mean' 很重要。"
+  },
+  {
+    "id": 351,
+    "word": "meet",
+    "us_phonetic": "/mi:t/",
+    "uk_phonetic": "/mi:t/",
+    "meaning": "vt.遇见；满足 vi.相遇；集合",
+    "example_en": "The word 'meet' is important.",
+    "example_cn": "单词 'meet' 很重要。"
+  },
+  {
+    "id": 352,
+    "word": "meeting",
+    "us_phonetic": "/mi:tiŋ/",
+    "uk_phonetic": "/mi:tiŋ/",
+    "meaning": "n.会合；会议",
+    "example_en": "The word 'meeting' is important.",
+    "example_cn": "单词 'meeting' 很重要。"
+  },
+  {
+    "id": 353,
+    "word": "member",
+    "us_phonetic": "/membә/",
+    "uk_phonetic": "/membә/",
+    "meaning": "n.成员,会员",
+    "example_en": "The word 'member' is important.",
+    "example_cn": "单词 'member' 很重要。"
+  },
+  {
+    "id": 354,
+    "word": "middle",
+    "us_phonetic": "/midl/",
+    "uk_phonetic": "/midl/",
+    "meaning": "n.中部 a.中部的",
+    "example_en": "The word 'middle' is important.",
+    "example_cn": "单词 'middle' 很重要。"
+  },
+  {
+    "id": 355,
+    "word": "might",
+    "us_phonetic": "/mait/",
+    "uk_phonetic": "/mait/",
+    "meaning": "aux.可以 n.力量,权力",
+    "example_en": "The word 'might' is important.",
+    "example_cn": "单词 'might' 很重要。"
+  },
+  {
+    "id": 356,
+    "word": "military",
+    "us_phonetic": "/militәri/",
+    "uk_phonetic": "/militәri/",
+    "meaning": "a.军事的",
+    "example_en": "The word 'military' is important.",
+    "example_cn": "单词 'military' 很重要。"
+  },
+  {
+    "id": 357,
+    "word": "million",
+    "us_phonetic": "/miljәn/",
+    "uk_phonetic": "/miljәn/",
+    "meaning": "num.百万",
+    "example_en": "The word 'million' is important.",
+    "example_cn": "单词 'million' 很重要。"
+  },
+  {
+    "id": 358,
+    "word": "mind",
+    "us_phonetic": "/maind/",
+    "uk_phonetic": "/maind/",
+    "meaning": "n.头脑, 理智 vt.注意,留心;介意, 反对",
+    "example_en": "The word 'mind' is important.",
+    "example_cn": "单词 'mind' 很重要。"
+  },
+  {
+    "id": 359,
+    "word": "mine",
+    "us_phonetic": "/main/",
+    "uk_phonetic": "/main/",
+    "meaning": "pron.我的 n.矿，矿山；地雷，水雷 vt.开采",
+    "example_en": "The word 'mine' is important.",
+    "example_cn": "单词 'mine' 很重要。"
+  },
+  {
+    "id": 360,
+    "word": "minister",
+    "us_phonetic": "/ministә/",
+    "uk_phonetic": "/ministә/",
+    "meaning": "n.部长,大臣",
+    "example_en": "The word 'minister' is important.",
+    "example_cn": "单词 'minister' 很重要。"
+  },
+  {
+    "id": 361,
+    "word": "minute",
+    "us_phonetic": "/minit/",
+    "uk_phonetic": "/mainju:t/",
+    "meaning": "n.分钟；片刻",
+    "example_en": "The word 'minute' is important.",
+    "example_cn": "单词 'minute' 很重要。"
+  },
+  {
+    "id": 362,
+    "word": "moment",
+    "us_phonetic": "/mәumәnt/",
+    "uk_phonetic": "/mәumәnt/",
+    "meaning": "n.片刻；时刻",
+    "example_en": "The word 'moment' is important.",
+    "example_cn": "单词 'moment' 很重要。"
+  },
+  {
+    "id": 363,
+    "word": "money",
+    "us_phonetic": "/mʌni/",
+    "uk_phonetic": "/mʌni/",
+    "meaning": "n.金钱,财富",
+    "example_en": "The word 'money' is important.",
+    "example_cn": "单词 'money' 很重要。"
+  },
+  {
+    "id": 364,
+    "word": "month",
+    "us_phonetic": "/mʌnθ/",
+    "uk_phonetic": "/mʌnθ/",
+    "meaning": "n.月,月份",
+    "example_en": "The word 'month' is important.",
+    "example_cn": "单词 'month' 很重要。"
+  },
+  {
+    "id": 365,
+    "word": "more",
+    "us_phonetic": "/mɔ:/",
+    "uk_phonetic": "/mɔ:/",
+    "meaning": "a.更多的 ad.更 n.更多的东西",
+    "example_en": "The word 'more' is important.",
+    "example_cn": "单词 'more' 很重要。"
+  },
+  {
+    "id": 366,
+    "word": "morning",
+    "us_phonetic": "/mɔ:niŋ/",
+    "uk_phonetic": "/mɔ:niŋ/",
+    "meaning": "n.上午",
+    "example_en": "The word 'morning' is important.",
+    "example_cn": "单词 'morning' 很重要。"
+  },
+  {
+    "id": 367,
+    "word": "most",
+    "us_phonetic": "/mәust/",
+    "uk_phonetic": "/mәust/",
+    "meaning": "a.最多的；大多数的 ad.最,很 n.大多数",
+    "example_en": "The word 'most' is important.",
+    "example_cn": "单词 'most' 很重要。"
+  },
+  {
+    "id": 368,
+    "word": "mother",
+    "us_phonetic": "/mʌðә/",
+    "uk_phonetic": "/mʌðә/",
+    "meaning": "n.母亲",
+    "example_en": "The word 'mother' is important.",
+    "example_cn": "单词 'mother' 很重要。"
+  },
+  {
+    "id": 369,
+    "word": "move",
+    "us_phonetic": "/mu:v/",
+    "uk_phonetic": "/mu:v/",
+    "meaning": "vt.移动;感动 vi.移动；搬家 n.动作；行动",
+    "example_en": "The word 'move' is important.",
+    "example_cn": "单词 'move' 很重要。"
+  },
+  {
+    "id": 370,
+    "word": "Mr",
+    "us_phonetic": "//",
+    "uk_phonetic": "//",
+    "meaning": "维护与修理",
+    "example_en": "The word 'Mr' is important.",
+    "example_cn": "单词 'Mr' 很重要。"
+  },
+  {
+    "id": 371,
+    "word": "Mrs",
+    "us_phonetic": "/misiz/",
+    "uk_phonetic": "/misiz/",
+    "meaning": "夫人",
+    "example_en": "The word 'Mrs' is important.",
+    "example_cn": "单词 'Mrs' 很重要。"
+  },
+  {
+    "id": 372,
+    "word": "Ms",
+    "us_phonetic": "//",
+    "uk_phonetic": "//",
+    "meaning": "n. 美国微软公司",
+    "example_en": "The word 'Ms' is important.",
+    "example_cn": "单词 'Ms' 很重要。"
+  },
+  {
+    "id": 373,
+    "word": "much",
+    "us_phonetic": "/mʌtʃ/",
+    "uk_phonetic": "/mʌtʃ/",
+    "meaning": "ad.非常,很 a.许多的 n.多，大量",
+    "example_en": "The word 'much' is important.",
+    "example_cn": "单词 'much' 很重要。"
+  },
+  {
+    "id": 374,
+    "word": "music",
+    "us_phonetic": "/mju:zik/",
+    "uk_phonetic": "/mju:zik/",
+    "meaning": "n.音乐",
+    "example_en": "The word 'music' is important.",
+    "example_cn": "单词 'music' 很重要。"
+  },
+  {
+    "id": 375,
+    "word": "must",
+    "us_phonetic": "/mʌst/",
+    "uk_phonetic": "/mʌst/",
+    "meaning": "aux.必须; 一定",
+    "example_en": "The word 'must' is important.",
+    "example_cn": "单词 'must' 很重要。"
+  },
+  {
+    "id": 376,
+    "word": "my",
+    "us_phonetic": "/mai/",
+    "uk_phonetic": "/mai/",
+    "meaning": "pron.我的",
+    "example_en": "The word 'my' is important.",
+    "example_cn": "单词 'my' 很重要。"
+  },
+  {
+    "id": 377,
+    "word": "name",
+    "us_phonetic": "/neim/",
+    "uk_phonetic": "/neim/",
+    "meaning": "n.名字;名誉 vt.说出；取名",
+    "example_en": "The word 'name' is important.",
+    "example_cn": "单词 'name' 很重要。"
+  },
+  {
+    "id": 378,
+    "word": "nation",
+    "us_phonetic": "/neiʃәn/",
+    "uk_phonetic": "/neiʃәn/",
+    "meaning": "n.民族,国家",
+    "example_en": "The word 'nation' is important.",
+    "example_cn": "单词 'nation' 很重要。"
+  },
+  {
+    "id": 379,
+    "word": "national",
+    "us_phonetic": "/næʃәnl/",
+    "uk_phonetic": "/næʃәnl/",
+    "meaning": "a.民族的,国家的",
+    "example_en": "The word 'national' is important.",
+    "example_cn": "单词 'national' 很重要。"
+  },
+  {
+    "id": 380,
+    "word": "near",
+    "us_phonetic": "/niә/",
+    "uk_phonetic": "/niә/",
+    "meaning": "prep.靠近 ad.接近 a.近的",
+    "example_en": "The word 'near' is important.",
+    "example_cn": "单词 'near' 很重要。"
+  },
+  {
+    "id": 381,
+    "word": "need",
+    "us_phonetic": "/ni:d/",
+    "uk_phonetic": "/ni:d/",
+    "meaning": "vt.需要 aux.需要 n.需要；必需品",
+    "example_en": "The word 'need' is important.",
+    "example_cn": "单词 'need' 很重要。"
+  },
+  {
+    "id": 382,
+    "word": "never",
+    "us_phonetic": "/nevә/",
+    "uk_phonetic": "/nevә/",
+    "meaning": "ad.决不，从不；千万不要",
+    "example_en": "The word 'never' is important.",
+    "example_cn": "单词 'never' 很重要。"
+  },
+  {
+    "id": 383,
+    "word": "new",
+    "us_phonetic": "/nju:/",
+    "uk_phonetic": "/nju:/",
+    "meaning": "a.新的",
+    "example_en": "The word 'new' is important.",
+    "example_cn": "单词 'new' 很重要。"
+  },
+  {
+    "id": 384,
+    "word": "news",
+    "us_phonetic": "/nju:z/",
+    "uk_phonetic": "/nju:z/",
+    "meaning": "n.新闻,消息",
+    "example_en": "The word 'news' is important.",
+    "example_cn": "单词 'news' 很重要。"
+  },
+  {
+    "id": 385,
+    "word": "next",
+    "us_phonetic": "/nekst/",
+    "uk_phonetic": "/nekst/",
+    "meaning": "n.下一个 a.下次的;其次的；邻近的 ad.下一",
+    "example_en": "The word 'next' is important.",
+    "example_cn": "单词 'next' 很重要。"
+  },
+  {
+    "id": 386,
+    "word": "night",
+    "us_phonetic": "/nait/",
+    "uk_phonetic": "/nait/",
+    "meaning": "n.夜晚",
+    "example_en": "The word 'night' is important.",
+    "example_cn": "单词 'night' 很重要。"
+  },
+  {
+    "id": 387,
+    "word": "nine",
+    "us_phonetic": "/nain/",
+    "uk_phonetic": "/nain/",
+    "meaning": "num.九",
+    "example_en": "The word 'nine' is important.",
+    "example_cn": "单词 'nine' 很重要。"
+  },
+  {
+    "id": 388,
+    "word": "nineteen",
+    "us_phonetic": "/nainti:n/",
+    "uk_phonetic": "/nainti:n/",
+    "meaning": "num.十九",
+    "example_en": "The word 'nineteen' is important.",
+    "example_cn": "单词 'nineteen' 很重要。"
+  },
+  {
+    "id": 389,
+    "word": "ninety",
+    "us_phonetic": "/nainti/",
+    "uk_phonetic": "/nainti/",
+    "meaning": "num.九十",
+    "example_en": "The word 'ninety' is important.",
+    "example_cn": "单词 'ninety' 很重要。"
+  },
+  {
+    "id": 390,
+    "word": "no",
+    "us_phonetic": "/nәu/",
+    "uk_phonetic": "/nәu/",
+    "meaning": "ad.不,并不 a.没有的",
+    "example_en": "The word 'no' is important.",
+    "example_cn": "单词 'no' 很重要。"
+  },
+  {
+    "id": 391,
+    "word": "north",
+    "us_phonetic": "/nɔ:θ/",
+    "uk_phonetic": "/nɔ:θ/",
+    "meaning": "n.北,北方 a.北方的",
+    "example_en": "The word 'north' is important.",
+    "example_cn": "单词 'north' 很重要。"
+  },
+  {
+    "id": 392,
+    "word": "not",
+    "us_phonetic": "/nɔt/",
+    "uk_phonetic": "/nɔt/",
+    "meaning": "ad.不,没有",
+    "example_en": "The word 'not' is important.",
+    "example_cn": "单词 'not' 很重要。"
+  },
+  {
+    "id": 393,
+    "word": "nothing",
+    "us_phonetic": "/nʌθiŋ/",
+    "uk_phonetic": "/nʌθiŋ/",
+    "meaning": "pron.没有东西 ad.毫不 n.无关紧要的人",
+    "example_en": "The word 'nothing' is important.",
+    "example_cn": "单词 'nothing' 很重要。"
+  },
+  {
+    "id": 394,
+    "word": "now",
+    "us_phonetic": "/nau/",
+    "uk_phonetic": "/nau/",
+    "meaning": "n.现在 conj.既然 ad.现在,立刻",
+    "example_en": "The word 'now' is important.",
+    "example_cn": "单词 'now' 很重要。"
+  },
+  {
+    "id": 395,
+    "word": "number",
+    "us_phonetic": "/nʌmbә/",
+    "uk_phonetic": "/nʌmbә/",
+    "meaning": "n.数字,号码",
+    "example_en": "The word 'number' is important.",
+    "example_cn": "单词 'number' 很重要。"
+  },
+  {
+    "id": 396,
+    "word": "of",
+    "us_phonetic": "/ɔv/",
+    "uk_phonetic": "/әv/",
+    "meaning": "prep.属于…的",
+    "example_en": "The word 'of' is important.",
+    "example_cn": "单词 'of' 很重要。"
+  },
+  {
+    "id": 398,
+    "word": "off",
+    "us_phonetic": "/ɔ:f/",
+    "uk_phonetic": "/ɔ:f/",
+    "meaning": "ad.(离)开;(停)止 prep.从...离开;脱离",
+    "example_en": "The word 'off' is important.",
+    "example_cn": "单词 'off' 很重要。"
+  },
+  {
+    "id": 399,
+    "word": "offer",
+    "us_phonetic": "/ɔfә/",
+    "uk_phonetic": "/ɔfә/",
+    "meaning": "vt.提供 n.出价; 提议",
+    "example_en": "The word 'offer' is important.",
+    "example_cn": "单词 'offer' 很重要。"
+  },
+  {
+    "id": 400,
+    "word": "office",
+    "us_phonetic": "/ɔfis/",
+    "uk_phonetic": "/ɔfis/",
+    "meaning": "n.办公室",
+    "example_en": "The word 'office' is important.",
+    "example_cn": "单词 'office' 很重要。"
+  },
+  {
+    "id": 401,
+    "word": "officer",
+    "us_phonetic": "/ɔfisә/",
+    "uk_phonetic": "/ɔfisә/",
+    "meaning": "n.官员,军官",
+    "example_en": "The word 'officer' is important.",
+    "example_cn": "单词 'officer' 很重要。"
+  },
+  {
+    "id": 402,
+    "word": "official",
+    "us_phonetic": "/әfiʃәl/",
+    "uk_phonetic": "/әfiʃәl/",
+    "meaning": "a.官方的 n.官员，行政人员",
+    "example_en": "The word 'official' is important.",
+    "example_cn": "单词 'official' 很重要。"
+  },
+  {
+    "id": 403,
+    "word": "often",
+    "us_phonetic": "/ɔ:fn/",
+    "uk_phonetic": "/ɔ:fn/",
+    "meaning": "ad.经常,通常",
+    "example_en": "The word 'often' is important.",
+    "example_cn": "单词 'often' 很重要。"
+  },
+  {
+    "id": 404,
+    "word": "oh",
+    "us_phonetic": "/әu/",
+    "uk_phonetic": "/әu/",
+    "meaning": "int.哦",
+    "example_en": "The word 'oh' is important.",
+    "example_cn": "单词 'oh' 很重要。"
+  },
+  {
+    "id": 405,
+    "word": "oil",
+    "us_phonetic": "/ɔil/",
+    "uk_phonetic": "/ɔil/",
+    "meaning": "n.油,石油 vt.加油于",
+    "example_en": "The word 'oil' is important.",
+    "example_cn": "单词 'oil' 很重要。"
+  },
+  {
+    "id": 406,
+    "word": "old",
+    "us_phonetic": "/әuld/",
+    "uk_phonetic": "/әuld/",
+    "meaning": "a.老的;…岁的",
+    "example_en": "The word 'old' is important.",
+    "example_cn": "单词 'old' 很重要。"
+  },
+  {
+    "id": 407,
+    "word": "on",
+    "us_phonetic": "/ɔn/",
+    "uk_phonetic": "/ɔn/",
+    "meaning": "prep.在…上;关于 ad.继续",
+    "example_en": "The word 'on' is important.",
+    "example_cn": "单词 'on' 很重要。"
+  },
+  {
+    "id": 408,
+    "word": "once",
+    "us_phonetic": "/wʌns/",
+    "uk_phonetic": "/wʌns/",
+    "meaning": "ad.一次；曾经 conj.一旦 n.一次",
+    "example_en": "The word 'once' is important.",
+    "example_cn": "单词 'once' 很重要。"
+  },
+  {
+    "id": 409,
+    "word": "one",
+    "us_phonetic": "/wʌn/",
+    "uk_phonetic": "/wʌn/",
+    "meaning": "a.一个的，某一个的 num.一 pron.一个(人)",
+    "example_en": "The word 'one' is important.",
+    "example_cn": "单词 'one' 很重要。"
+  },
+  {
+    "id": 410,
+    "word": "only",
+    "us_phonetic": "/әunli/",
+    "uk_phonetic": "/әunli/",
+    "meaning": "ad.仅仅 a.唯一的 conj.可是，不过",
+    "example_en": "The word 'only' is important.",
+    "example_cn": "单词 'only' 很重要。"
+  },
+  {
+    "id": 411,
+    "word": "open",
+    "us_phonetic": "/әupәn/",
+    "uk_phonetic": "/әupәn/",
+    "meaning": "a.(敞)开的;开放的,公开的 vt.打开",
+    "example_en": "The word 'open' is important.",
+    "example_cn": "单词 'open' 很重要。"
+  },
+  {
+    "id": 412,
+    "word": "operate",
+    "us_phonetic": "/ɔpәreit/",
+    "uk_phonetic": "/ɔpәreit/",
+    "meaning": "vi.操作;施行手术",
+    "example_en": "The word 'operate' is important.",
+    "example_cn": "单词 'operate' 很重要。"
+  },
+  {
+    "id": 413,
+    "word": "operation",
+    "us_phonetic": "/ɔpәreiʃәn/",
+    "uk_phonetic": "/ɔpәreiʃәn/",
+    "meaning": "n.操作;经营;手术",
+    "example_en": "The word 'operation' is important.",
+    "example_cn": "单词 'operation' 很重要。"
+  },
+  {
+    "id": 414,
+    "word": "or",
+    "us_phonetic": "/ɔ:/",
+    "uk_phonetic": "/ә/",
+    "meaning": "conj.或,或者",
+    "example_en": "The word 'or' is important.",
+    "example_cn": "单词 'or' 很重要。"
+  },
+  {
+    "id": 415,
+    "word": "order",
+    "us_phonetic": "/ɔ:dә/",
+    "uk_phonetic": "/ɔ:dә/",
+    "meaning": "n.命令;次序；治安，秩序 vt.命令;定购",
+    "example_en": "The word 'order' is important.",
+    "example_cn": "单词 'order' 很重要。"
+  },
+  {
+    "id": 416,
+    "word": "other",
+    "us_phonetic": "/ʌðә/",
+    "uk_phonetic": "/ʌðә/",
+    "meaning": "pron.其他的, 他人 a.另外的,其余的",
+    "example_en": "The word 'other' is important.",
+    "example_cn": "单词 'other' 很重要。"
+  },
+  {
+    "id": 417,
+    "word": "our",
+    "us_phonetic": "/auә/",
+    "uk_phonetic": "/auә/",
+    "meaning": "pron.我们的",
+    "example_en": "The word 'our' is important.",
+    "example_cn": "单词 'our' 很重要。"
+  },
+  {
+    "id": 418,
+    "word": "out",
+    "us_phonetic": "/aut/",
+    "uk_phonetic": "/aut/",
+    "meaning": "a.外面的 ad.在外；向外；出于 n.外面, 外出",
+    "example_en": "The word 'out' is important.",
+    "example_cn": "单词 'out' 很重要。"
+  },
+  {
+    "id": 419,
+    "word": "outside",
+    "us_phonetic": "/autsaid/",
+    "uk_phonetic": "/autsaid/",
+    "meaning": "n.外部,外表 ad.在外面，向外面 a.外部",
+    "example_en": "The word 'outside' is important.",
+    "example_cn": "单词 'outside' 很重要。"
+  },
+  {
+    "id": 420,
+    "word": "over",
+    "us_phonetic": "/әuvә/",
+    "uk_phonetic": "/әuvә/",
+    "meaning": "a.结束的 prep.高于，超过;在对面 ad.全部地",
+    "example_en": "The word 'over' is important.",
+    "example_cn": "单词 'over' 很重要。"
+  },
+  {
+    "id": 421,
+    "word": "own",
+    "us_phonetic": "/әun/",
+    "uk_phonetic": "/әun/",
+    "meaning": "a.自己的 vt.有,拥有",
+    "example_en": "The word 'own' is important.",
+    "example_cn": "单词 'own' 很重要。"
+  },
+  {
+    "id": 422,
+    "word": "page",
+    "us_phonetic": "/peidʒ/",
+    "uk_phonetic": "/peidʒ/",
+    "meaning": "n.页",
+    "example_en": "The word 'page' is important.",
+    "example_cn": "单词 'page' 很重要。"
+  },
+  {
+    "id": 423,
+    "word": "paper",
+    "us_phonetic": "/peipә/",
+    "uk_phonetic": "/peipә/",
+    "meaning": "n.纸,报纸;文件,论文; 考卷",
+    "example_en": "The word 'paper' is important.",
+    "example_cn": "单词 'paper' 很重要。"
+  },
+  {
+    "id": 424,
+    "word": "parent",
+    "us_phonetic": "/pɛәrәnt/",
+    "uk_phonetic": "/pɛәrәnt/",
+    "meaning": "n.父母亲",
+    "example_en": "The word 'parent' is important.",
+    "example_cn": "单词 'parent' 很重要。"
+  },
+  {
+    "id": 425,
+    "word": "part",
+    "us_phonetic": "/pa:t/",
+    "uk_phonetic": "/pa:t/",
+    "meaning": "vt.分开，拆散 n.一部分;零件；角色",
+    "example_en": "The word 'part' is important.",
+    "example_cn": "单词 'part' 很重要。"
+  },
+  {
+    "id": 426,
+    "word": "party",
+    "us_phonetic": "/pa:ti/",
+    "uk_phonetic": "/pa:ti/",
+    "meaning": "n.党派;聚会；一方，当事人",
+    "example_en": "The word 'party' is important.",
+    "example_cn": "单词 'party' 很重要。"
+  },
+  {
+    "id": 427,
+    "word": "pass",
+    "us_phonetic": "/pa:s/",
+    "uk_phonetic": "/pa:s/",
+    "meaning": "vt.经过；度过；传递 vi.流逝 n.通行证；通道",
+    "example_en": "The word 'pass' is important.",
+    "example_cn": "单词 'pass' 很重要。"
+  },
+  {
+    "id": 428,
+    "word": "past",
+    "us_phonetic": "/past/",
+    "uk_phonetic": "/past/",
+    "meaning": "a.过去的 n.过去 prep.经过;超过",
+    "example_en": "The word 'past' is important.",
+    "example_cn": "单词 'past' 很重要。"
+  },
+  {
+    "id": 429,
+    "word": "pay",
+    "us_phonetic": "/pei/",
+    "uk_phonetic": "/pei/",
+    "meaning": "vt.支付,付给 vi.付款；付出代价 n.工资，薪金",
+    "example_en": "The word 'pay' is important.",
+    "example_cn": "单词 'pay' 很重要。"
+  },
+  {
+    "id": 430,
+    "word": "peace",
+    "us_phonetic": "/pi:s/",
+    "uk_phonetic": "/pi:s/",
+    "meaning": "n.和平,和睦；平静",
+    "example_en": "The word 'peace' is important.",
+    "example_cn": "单词 'peace' 很重要。"
+  },
+  {
+    "id": 431,
+    "word": "people",
+    "us_phonetic": "/pi:pl/",
+    "uk_phonetic": "/pi:pl/",
+    "meaning": "n.人民；人；民族",
+    "example_en": "The word 'people' is important.",
+    "example_cn": "单词 'people' 很重要。"
+  },
+  {
+    "id": 432,
+    "word": "percent",
+    "us_phonetic": "/pәsent/",
+    "uk_phonetic": "/pәsent/",
+    "meaning": "n.百分比,百分数",
+    "example_en": "The word 'percent' is important.",
+    "example_cn": "单词 'percent' 很重要。"
+  },
+  {
+    "id": 433,
+    "word": "perhaps",
+    "us_phonetic": "/pәhæps/",
+    "uk_phonetic": "/pәhæps/",
+    "meaning": "ad.也许,可能",
+    "example_en": "The word 'perhaps' is important.",
+    "example_cn": "单词 'perhaps' 很重要。"
+  },
+  {
+    "id": 434,
+    "word": "person",
+    "us_phonetic": "/pә:sn/",
+    "uk_phonetic": "/pә:sn/",
+    "meaning": "n.人",
+    "example_en": "The word 'person' is important.",
+    "example_cn": "单词 'person' 很重要。"
+  },
+  {
+    "id": 435,
+    "word": "photo",
+    "us_phonetic": "/fәutәu/",
+    "uk_phonetic": "/fәutәu/",
+    "meaning": "n.照片",
+    "example_en": "The word 'photo' is important.",
+    "example_cn": "单词 'photo' 很重要。"
+  },
+  {
+    "id": 436,
+    "word": "place",
+    "us_phonetic": "/pleis/",
+    "uk_phonetic": "/pleis/",
+    "meaning": "n.地点；住所 vt.放置",
+    "example_en": "The word 'place' is important.",
+    "example_cn": "单词 'place' 很重要。"
+  },
+  {
+    "id": 437,
+    "word": "plan",
+    "us_phonetic": "/plæn/",
+    "uk_phonetic": "/plæn/",
+    "meaning": "n.计划 vt.计划,打算 vi.订计划",
+    "example_en": "The word 'plan' is important.",
+    "example_cn": "单词 'plan' 很重要。"
+  },
+  {
+    "id": 438,
+    "word": "plant",
+    "us_phonetic": "/pla:nt/",
+    "uk_phonetic": "/pla:nt/",
+    "meaning": "n.植物;工厂 vt.栽种",
+    "example_en": "The word 'plant' is important.",
+    "example_cn": "单词 'plant' 很重要。"
+  },
+  {
+    "id": 439,
+    "word": "play",
+    "us_phonetic": "/plei/",
+    "uk_phonetic": "/plei/",
+    "meaning": "vt.玩;演奏;扮演(角色)vi.玩;演奏;播放 n.游戏;",
+    "example_en": "The word 'play' is important.",
+    "example_cn": "单词 'play' 很重要。"
+  },
+  {
+    "id": 440,
+    "word": "player",
+    "us_phonetic": "/pleiә/",
+    "uk_phonetic": "/pleiә/",
+    "meaning": "n.表演者,比赛者",
+    "example_en": "The word 'player' is important.",
+    "example_cn": "单词 'player' 很重要。"
+  },
+  {
+    "id": 441,
+    "word": "point",
+    "us_phonetic": "/pɔint/",
+    "uk_phonetic": "/pɔint/",
+    "meaning": "vi.指向 n.小数点；要点;分数；尖端，尖",
+    "example_en": "The word 'point' is important.",
+    "example_cn": "单词 'point' 很重要。"
+  },
+  {
+    "id": 442,
+    "word": "police",
+    "us_phonetic": "/pәli:s/",
+    "uk_phonetic": "/pәli:s/",
+    "meaning": "n.警察,警方",
+    "example_en": "The word 'police' is important.",
+    "example_cn": "单词 'police' 很重要。"
+  },
+  {
+    "id": 443,
+    "word": "policy",
+    "us_phonetic": "/pɔlisi/",
+    "uk_phonetic": "/pɔlisi/",
+    "meaning": "n.政策,方针",
+    "example_en": "The word 'policy' is important.",
+    "example_cn": "单词 'policy' 很重要。"
+  },
+  {
+    "id": 444,
+    "word": "political",
+    "us_phonetic": "/pәlitikәl/",
+    "uk_phonetic": "/pәlitikәl/",
+    "meaning": "a.政治上的",
+    "example_en": "The word 'political' is important.",
+    "example_cn": "单词 'political' 很重要。"
+  },
+  {
+    "id": 445,
+    "word": "position",
+    "us_phonetic": "/pәziʃәn/",
+    "uk_phonetic": "/pәziʃәn/",
+    "meaning": "n.位置;职位",
+    "example_en": "The word 'position' is important.",
+    "example_cn": "单词 'position' 很重要。"
+  },
+  {
+    "id": 446,
+    "word": "possible",
+    "us_phonetic": "/pɔsәbl/",
+    "uk_phonetic": "/pɔsәbl/",
+    "meaning": "a.可能的",
+    "example_en": "The word 'possible' is important.",
+    "example_cn": "单词 'possible' 很重要。"
+  },
+  {
+    "id": 447,
+    "word": "pound",
+    "us_phonetic": "/paund/",
+    "uk_phonetic": "/paund/",
+    "meaning": "n.磅,英磅 vt.连续敲打 vi.连续重击",
+    "example_en": "The word 'pound' is important.",
+    "example_cn": "单词 'pound' 很重要。"
+  },
+  {
+    "id": 448,
+    "word": "power",
+    "us_phonetic": "/pauә/",
+    "uk_phonetic": "/pauә/",
+    "meaning": "n.能力;电力;权力",
+    "example_en": "The word 'power' is important.",
+    "example_cn": "单词 'power' 很重要。"
+  },
+  {
+    "id": 449,
+    "word": "president",
+    "us_phonetic": "/prezidәnt/",
+    "uk_phonetic": "/prezidәnt/",
+    "meaning": "n.总统,校长",
+    "example_en": "The word 'president' is important.",
+    "example_cn": "单词 'president' 很重要。"
+  },
+  {
+    "id": 450,
+    "word": "press",
+    "us_phonetic": "/pres/",
+    "uk_phonetic": "/pres/",
+    "meaning": "vi.压,按 vt.压；压榨 n.印刷;新闻，报刊；出",
+    "example_en": "The word 'press' is important.",
+    "example_cn": "单词 'press' 很重要。"
+  },
+  {
+    "id": 451,
+    "word": "pressure",
+    "us_phonetic": "/preʃә/",
+    "uk_phonetic": "/preʃә/",
+    "meaning": "n.压力",
+    "example_en": "The word 'pressure' is important.",
+    "example_cn": "单词 'pressure' 很重要。"
+  },
+  {
+    "id": 452,
+    "word": "price",
+    "us_phonetic": "/prais/",
+    "uk_phonetic": "/prais/",
+    "meaning": "vt.定价，标价 n.价格；代价",
+    "example_en": "The word 'price' is important.",
+    "example_cn": "单词 'price' 很重要。"
+  },
+  {
+    "id": 453,
+    "word": "probably",
+    "us_phonetic": "/prɔbәbli/",
+    "uk_phonetic": "/prɔbәbli/",
+    "meaning": "ad.或许,大概",
+    "example_en": "The word 'probably' is important.",
+    "example_cn": "单词 'probably' 很重要。"
+  },
+  {
+    "id": 454,
+    "word": "problem",
+    "us_phonetic": "/prɔblәm/",
+    "uk_phonetic": "/prɔblәm/",
+    "meaning": "n.问题，疑难",
+    "example_en": "The word 'problem' is important.",
+    "example_cn": "单词 'problem' 很重要。"
+  },
+  {
+    "id": 455,
+    "word": "process",
+    "us_phonetic": "/prәuses/",
+    "uk_phonetic": "/prәuses/",
+    "meaning": "n.过程 vt.处理",
+    "example_en": "The word 'process' is important.",
+    "example_cn": "单词 'process' 很重要。"
+  },
+  {
+    "id": 456,
+    "word": "produce",
+    "us_phonetic": "/prәdju:s/",
+    "uk_phonetic": "/prɔdju:s/",
+    "meaning": "vt.生产；产生",
+    "example_en": "The word 'produce' is important.",
+    "example_cn": "单词 'produce' 很重要。"
+  },
+  {
+    "id": 457,
+    "word": "product",
+    "us_phonetic": "/prɔdәkt/",
+    "uk_phonetic": "/prɔdәkt/",
+    "meaning": "n.产品；成果；作品",
+    "example_en": "The word 'product' is important.",
+    "example_cn": "单词 'product' 很重要。"
+  },
+  {
+    "id": 458,
+    "word": "programme",
+    "us_phonetic": "/prәugræm/",
+    "uk_phonetic": "/prәugræm/",
+    "meaning": "v.编程序 n.程序",
+    "example_en": "The word 'programme' is important.",
+    "example_cn": "单词 'programme' 很重要。"
+  },
+  {
+    "id": 459,
+    "word": "provide",
+    "us_phonetic": "/prәvaid/",
+    "uk_phonetic": "/prәvaid/",
+    "meaning": "vt.提供；装备；规定",
+    "example_en": "The word 'provide' is important.",
+    "example_cn": "单词 'provide' 很重要。"
+  },
+  {
+    "id": 460,
+    "word": "public",
+    "us_phonetic": "/pʌblik/",
+    "uk_phonetic": "/pʌblik/",
+    "meaning": "a.公众的；公开的 n.公众",
+    "example_en": "The word 'public' is important.",
+    "example_cn": "单词 'public' 很重要。"
+  },
+  {
+    "id": 461,
+    "word": "put",
+    "us_phonetic": "/put/",
+    "uk_phonetic": "/put/",
+    "meaning": "vt.放,摆；写下",
+    "example_en": "The word 'put' is important.",
+    "example_cn": "单词 'put' 很重要。"
+  },
+  {
+    "id": 462,
+    "word": "question",
+    "us_phonetic": "/kwestʃәn/",
+    "uk_phonetic": "/kwestʃәn/",
+    "meaning": "vt.询问；怀疑 n.问题,疑问",
+    "example_en": "The word 'question' is important.",
+    "example_cn": "单词 'question' 很重要。"
+  },
+  {
+    "id": 463,
+    "word": "quick",
+    "us_phonetic": "/kwik/",
+    "uk_phonetic": "/kwik/",
+    "meaning": "a.快的",
+    "example_en": "The word 'quick' is important.",
+    "example_cn": "单词 'quick' 很重要。"
+  },
+  {
+    "id": 464,
+    "word": "quite",
+    "us_phonetic": "/kwait/",
+    "uk_phonetic": "/kwait/",
+    "meaning": "ad.完全,相当",
+    "example_en": "The word 'quite' is important.",
+    "example_cn": "单词 'quite' 很重要。"
+  },
+  {
+    "id": 465,
+    "word": "race",
+    "us_phonetic": "/reis/",
+    "uk_phonetic": "/reis/",
+    "meaning": "vi.竞赛 n.种族,人种",
+    "example_en": "The word 'race' is important.",
+    "example_cn": "单词 'race' 很重要。"
+  },
+  {
+    "id": 466,
+    "word": "radio",
+    "us_phonetic": "/reidiәu/",
+    "uk_phonetic": "/reidiәu/",
+    "meaning": "n.收音机",
+    "example_en": "The word 'radio' is important.",
+    "example_cn": "单词 'radio' 很重要。"
+  },
+  {
+    "id": 467,
+    "word": "raise",
+    "us_phonetic": "/reiz/",
+    "uk_phonetic": "/reiz/",
+    "meaning": "vt.举起；养育，饲养；提出",
+    "example_en": "The word 'raise' is important.",
+    "example_cn": "单词 'raise' 很重要。"
+  },
+  {
+    "id": 468,
+    "word": "rate",
+    "us_phonetic": "/reit/",
+    "uk_phonetic": "/reit/",
+    "meaning": "n.比率;速度;价格 vt.评价，估价",
+    "example_en": "The word 'rate' is important.",
+    "example_cn": "单词 'rate' 很重要。"
+  },
+  {
+    "id": 469,
+    "word": "rather",
+    "us_phonetic": "/ra:ðә/",
+    "uk_phonetic": "/ra:ðә/",
+    "meaning": "ad.宁可,宁愿;相当",
+    "example_en": "The word 'rather' is important.",
+    "example_cn": "单词 'rather' 很重要。"
+  },
+  {
+    "id": 470,
+    "word": "reach",
+    "us_phonetic": "/ri:tʃ/",
+    "uk_phonetic": "/ri:tʃ/",
+    "meaning": "vt.抵达；够到 vi.达到；伸出手 n.能达到的",
+    "example_en": "The word 'reach' is important.",
+    "example_cn": "单词 'reach' 很重要。"
+  },
+  {
+    "id": 471,
+    "word": "read",
+    "us_phonetic": "/ri:d/",
+    "uk_phonetic": "/ri:d/",
+    "meaning": "vt.读;写着 vi.阅读, 朗读",
+    "example_en": "The word 'read' is important.",
+    "example_cn": "单词 'read' 很重要。"
+  },
+  {
+    "id": 472,
+    "word": "real",
+    "us_phonetic": "/riәl/",
+    "uk_phonetic": "/riәl/",
+    "meaning": "a.真的；现实的",
+    "example_en": "The word 'real' is important.",
+    "example_cn": "单词 'real' 很重要。"
+  },
+  {
+    "id": 473,
+    "word": "really",
+    "us_phonetic": "/riәli/",
+    "uk_phonetic": "/riәli/",
+    "meaning": "ad.真正地",
+    "example_en": "The word 'really' is important.",
+    "example_cn": "单词 'really' 很重要。"
+  },
+  {
+    "id": 474,
+    "word": "reason",
+    "us_phonetic": "/ri:zn/",
+    "uk_phonetic": "/ri:zn/",
+    "meaning": "n.理由；理性 vt.推理 vi.劝说",
+    "example_en": "The word 'reason' is important.",
+    "example_cn": "单词 'reason' 很重要。"
+  },
+  {
+    "id": 475,
+    "word": "receive",
+    "us_phonetic": "/risi:v/",
+    "uk_phonetic": "/risi:v/",
+    "meaning": "vt.收到,得到；收听，收看",
+    "example_en": "The word 'receive' is important.",
+    "example_cn": "单词 'receive' 很重要。"
+  },
+  {
+    "id": 476,
+    "word": "recent",
+    "us_phonetic": "/ri:snt/",
+    "uk_phonetic": "/ri:snt/",
+    "meaning": "a.最近的",
+    "example_en": "The word 'recent' is important.",
+    "example_cn": "单词 'recent' 很重要。"
+  },
+  {
+    "id": 477,
+    "word": "record",
+    "us_phonetic": "/rekɔ:d/",
+    "uk_phonetic": "/rikɔ:d/",
+    "meaning": "n.记录，档案；履历；唱片 vt.记",
+    "example_en": "The word 'record' is important.",
+    "example_cn": "单词 'record' 很重要。"
+  },
+  {
+    "id": 478,
+    "word": "red",
+    "us_phonetic": "/red/",
+    "uk_phonetic": "/red/",
+    "meaning": "a.红色的 n.红色",
+    "example_en": "The word 'red' is important.",
+    "example_cn": "单词 'red' 很重要。"
+  },
+  {
+    "id": 479,
+    "word": "release",
+    "us_phonetic": "/rili:s/",
+    "uk_phonetic": "/rili:s/",
+    "meaning": "vt.释放;发布",
+    "example_en": "The word 'release' is important.",
+    "example_cn": "单词 'release' 很重要。"
+  },
+  {
+    "id": 480,
+    "word": "remain",
+    "us_phonetic": "/rimein/",
+    "uk_phonetic": "/rimein/",
+    "meaning": "vi.剩下;保持 n.残余；遗迹",
+    "example_en": "The word 'remain' is important.",
+    "example_cn": "单词 'remain' 很重要。"
+  },
+  {
+    "id": 481,
+    "word": "remember",
+    "us_phonetic": "/rimembә/",
+    "uk_phonetic": "/rimembә/",
+    "meaning": "vt.记得，记住",
+    "example_en": "The word 'remember' is important.",
+    "example_cn": "单词 'remember' 很重要。"
+  },
+  {
+    "id": 482,
+    "word": "report",
+    "us_phonetic": "/ripɔ:t/",
+    "uk_phonetic": "/ripɔ:t/",
+    "meaning": "vt.报告,汇报；报导 vi.报告,汇报 n.报告；",
+    "example_en": "The word 'report' is important.",
+    "example_cn": "单词 'report' 很重要。"
+  },
+  {
+    "id": 483,
+    "word": "research",
+    "us_phonetic": "/risә:tʃ/",
+    "uk_phonetic": "/risә:tʃ/",
+    "meaning": "n.调查,探究",
+    "example_en": "The word 'research' is important.",
+    "example_cn": "单词 'research' 很重要。"
+  },
+  {
+    "id": 484,
+    "word": "result",
+    "us_phonetic": "/rizʌlt/",
+    "uk_phonetic": "/rizʌlt/",
+    "meaning": "n.成果;结果 vi.结果, 导致",
+    "example_en": "The word 'result' is important.",
+    "example_cn": "单词 'result' 很重要。"
+  },
+  {
+    "id": 485,
+    "word": "return",
+    "us_phonetic": "/ritә:n/",
+    "uk_phonetic": "/ritә:n/",
+    "meaning": "vi.回来,返回 vt.归还；回报 n.返回；偿还，",
+    "example_en": "The word 'return' is important.",
+    "example_cn": "单词 'return' 很重要。"
+  },
+  {
+    "id": 486,
+    "word": "right",
+    "us_phonetic": "/rait/",
+    "uk_phonetic": "/rait/",
+    "meaning": "a.正确的;右边的 ad.对；正好；径直 n.正确；",
+    "example_en": "The word 'right' is important.",
+    "example_cn": "单词 'right' 很重要。"
+  },
+  {
+    "id": 487,
+    "word": "rise",
+    "us_phonetic": "/raiz/",
+    "uk_phonetic": "/raiz/",
+    "meaning": "vi.起立;升起;上涨；起义 n.上涨；起源，发生",
+    "example_en": "The word 'rise' is important.",
+    "example_cn": "单词 'rise' 很重要。"
+  },
+  {
+    "id": 488,
+    "word": "road",
+    "us_phonetic": "/rәud/",
+    "uk_phonetic": "/rәud/",
+    "meaning": "n.路,道路",
+    "example_en": "The word 'road' is important.",
+    "example_cn": "单词 'road' 很重要。"
+  },
+  {
+    "id": 489,
+    "word": "role",
+    "us_phonetic": "/rәul/",
+    "uk_phonetic": "/rәul/",
+    "meaning": "n.角色",
+    "example_en": "The word 'role' is important.",
+    "example_cn": "单词 'role' 很重要。"
+  },
+  {
+    "id": 490,
+    "word": "room",
+    "us_phonetic": "/ru:m/",
+    "uk_phonetic": "/rum/",
+    "meaning": "n.房间；余地",
+    "example_en": "The word 'room' is important.",
+    "example_cn": "单词 'room' 很重要。"
+  },
+  {
+    "id": 491,
+    "word": "rule",
+    "us_phonetic": "/ru:l/",
+    "uk_phonetic": "/ru:l/",
+    "meaning": "vt.统治，支配 n.统治;规定",
+    "example_en": "The word 'rule' is important.",
+    "example_cn": "单词 'rule' 很重要。"
+  },
+  {
+    "id": 492,
+    "word": "run",
+    "us_phonetic": "/rʌn/",
+    "uk_phonetic": "/rʌn/",
+    "meaning": "vi.跑;运行 vt.经营；操纵 n.运行，运转",
+    "example_en": "The word 'run' is important.",
+    "example_cn": "单词 'run' 很重要。"
+  },
+  {
+    "id": 493,
+    "word": "sale",
+    "us_phonetic": "/seil/",
+    "uk_phonetic": "/seil/",
+    "meaning": "n.卖,拍卖;销售额",
+    "example_en": "The word 'sale' is important.",
+    "example_cn": "单词 'sale' 很重要。"
+  },
+  {
+    "id": 494,
+    "word": "same",
+    "us_phonetic": "/seim/",
+    "uk_phonetic": "/seim/",
+    "meaning": "a.相同的 pron.同样的人（事物）",
+    "example_en": "The word 'same' is important.",
+    "example_cn": "单词 'same' 很重要。"
+  },
+  {
+    "id": 495,
+    "word": "save",
+    "us_phonetic": "/seiv/",
+    "uk_phonetic": "/seiv/",
+    "meaning": "vt.救；积攒，储蓄",
+    "example_en": "The word 'save' is important.",
+    "example_cn": "单词 'save' 很重要。"
+  },
+  {
+    "id": 496,
+    "word": "say",
+    "us_phonetic": "/sei/",
+    "uk_phonetic": "/sei/",
+    "meaning": "vt.说;比如说 n.话语;发言权",
+    "example_en": "The word 'say' is important.",
+    "example_cn": "单词 'say' 很重要。"
+  },
+  {
+    "id": 497,
+    "word": "school",
+    "us_phonetic": "/sku:l/",
+    "uk_phonetic": "/sku:l/",
+    "meaning": "n.学校,学院;学派",
+    "example_en": "The word 'school' is important.",
+    "example_cn": "单词 'school' 很重要。"
+  },
+  {
+    "id": 498,
+    "word": "season",
+    "us_phonetic": "/si:zn/",
+    "uk_phonetic": "/si:zn/",
+    "meaning": "n.季节;时节",
+    "example_en": "The word 'season' is important.",
+    "example_cn": "单词 'season' 很重要。"
+  },
+  {
+    "id": 499,
+    "word": "second",
+    "us_phonetic": "/sekәnd/",
+    "uk_phonetic": "/sekәnd/",
+    "meaning": "n.秒 num.第二 a.另一个",
+    "example_en": "The word 'second' is important.",
+    "example_cn": "单词 'second' 很重要。"
+  },
+  {
+    "id": 500,
+    "word": "secretary",
+    "us_phonetic": "/sekrәtri/",
+    "uk_phonetic": "/sekrәtri/",
+    "meaning": "n.秘书,书记",
+    "example_en": "The word 'secretary' is important.",
+    "example_cn": "单词 'secretary' 很重要。"
+  },
+  {
+    "id": 501,
+    "word": "security",
+    "us_phonetic": "/sikjuәriti/",
+    "uk_phonetic": "/sikjuәriti/",
+    "meaning": "n.安全",
+    "example_en": "The word 'security' is important.",
+    "example_cn": "单词 'security' 很重要。"
+  },
+  {
+    "id": 502,
+    "word": "see",
+    "us_phonetic": "/si:/",
+    "uk_phonetic": "/si:/",
+    "meaning": "vt.看见, 注意;看出,领会 vi.看见；理解",
+    "example_en": "The word 'see' is important.",
+    "example_cn": "单词 'see' 很重要。"
+  },
+  {
+    "id": 503,
+    "word": "seek",
+    "us_phonetic": "/si:k/",
+    "uk_phonetic": "/si:k/",
+    "meaning": "vt.寻找,探索",
+    "example_en": "The word 'seek' is important.",
+    "example_cn": "单词 'seek' 很重要。"
+  },
+  {
+    "id": 504,
+    "word": "seem",
+    "us_phonetic": "/si:m/",
+    "uk_phonetic": "/si:m/",
+    "meaning": "vi.好像,似乎",
+    "example_en": "The word 'seem' is important.",
+    "example_cn": "单词 'seem' 很重要。"
+  },
+  {
+    "id": 505,
+    "word": "sell",
+    "us_phonetic": "/sel/",
+    "uk_phonetic": "/sel/",
+    "meaning": "vt.卖,销售",
+    "example_en": "The word 'sell' is important.",
+    "example_cn": "单词 'sell' 很重要。"
+  },
+  {
+    "id": 506,
+    "word": "send",
+    "us_phonetic": "/send/",
+    "uk_phonetic": "/send/",
+    "meaning": "vt.送,寄；派遣",
+    "example_en": "The word 'send' is important.",
+    "example_cn": "单词 'send' 很重要。"
+  },
+  {
+    "id": 507,
+    "word": "sense",
+    "us_phonetic": "/sens/",
+    "uk_phonetic": "/sens/",
+    "meaning": "vt.意识到 n.感官；意思，意义",
+    "example_en": "The word 'sense' is important.",
+    "example_cn": "单词 'sense' 很重要。"
+  },
+  {
+    "id": 508,
+    "word": "serious",
+    "us_phonetic": "/siәriәs/",
+    "uk_phonetic": "/siәriәs/",
+    "meaning": "a.严肃的；严重的",
+    "example_en": "The word 'serious' is important.",
+    "example_cn": "单词 'serious' 很重要。"
+  },
+  {
+    "id": 509,
+    "word": "service",
+    "us_phonetic": "/sә:vis/",
+    "uk_phonetic": "/sә:vis/",
+    "meaning": "n.服务;行政部门",
+    "example_en": "The word 'service' is important.",
+    "example_cn": "单词 'service' 很重要。"
+  },
+  {
+    "id": 510,
+    "word": "set",
+    "us_phonetic": "/set/",
+    "uk_phonetic": "/set/",
+    "meaning": "vt.放,安置;点燃,放(火)n.一套 a.固定的",
+    "example_en": "The word 'set' is important.",
+    "example_cn": "单词 'set' 很重要。"
+  },
+  {
+    "id": 511,
+    "word": "seven",
+    "us_phonetic": "/seven/",
+    "uk_phonetic": "/seven/",
+    "meaning": "num.七",
+    "example_en": "The word 'seven' is important.",
+    "example_cn": "单词 'seven' 很重要。"
+  },
+  {
+    "id": 512,
+    "word": "seventeen",
+    "us_phonetic": "/sevәnti:n/",
+    "uk_phonetic": "/sevәnti:n/",
+    "meaning": "num.十七",
+    "example_en": "The word 'seventeen' is important.",
+    "example_cn": "单词 'seventeen' 很重要。"
+  },
+  {
+    "id": 513,
+    "word": "seventy",
+    "us_phonetic": "/sevnti/",
+    "uk_phonetic": "/sevnti/",
+    "meaning": "num.七十",
+    "example_en": "The word 'seventy' is important.",
+    "example_cn": "单词 'seventy' 很重要。"
+  },
+  {
+    "id": 514,
+    "word": "several",
+    "us_phonetic": "/sevrәl/",
+    "uk_phonetic": "/sevrәl/",
+    "meaning": "a.几个，若干",
+    "example_en": "The word 'several' is important.",
+    "example_cn": "单词 'several' 很重要。"
+  },
+  {
+    "id": 515,
+    "word": "share",
+    "us_phonetic": "/ʃɛә/",
+    "uk_phonetic": "/ʃɛә/",
+    "meaning": "vt.分享,共享 n.份额,股份",
+    "example_en": "The word 'share' is important.",
+    "example_cn": "单词 'share' 很重要。"
+  },
+  {
+    "id": 516,
+    "word": "she",
+    "us_phonetic": "/ʃi:/",
+    "uk_phonetic": "/ʃi/",
+    "meaning": "pron.她",
+    "example_en": "The word 'she' is important.",
+    "example_cn": "单词 'she' 很重要。"
+  },
+  {
+    "id": 517,
+    "word": "short",
+    "us_phonetic": "/ʃɔ:t/",
+    "uk_phonetic": "/ʃɔ:t/",
+    "meaning": "a.短的;短期的；缺乏的，不足的 n.短裤",
+    "example_en": "The word 'short' is important.",
+    "example_cn": "单词 'short' 很重要。"
+  },
+  {
+    "id": 518,
+    "word": "should",
+    "us_phonetic": "/ʃud/",
+    "uk_phonetic": "/ʃәd/",
+    "meaning": "aux.应该;将要",
+    "example_en": "The word 'should' is important.",
+    "example_cn": "单词 'should' 很重要。"
+  },
+  {
+    "id": 519,
+    "word": "show",
+    "us_phonetic": "/ʃәu/",
+    "uk_phonetic": "/ʃәu/",
+    "meaning": "vt.给…看;表明 vi.显现，露面 n.表示; 展览;",
+    "example_en": "The word 'show' is important.",
+    "example_cn": "单词 'show' 很重要。"
+  },
+  {
+    "id": 520,
+    "word": "side",
+    "us_phonetic": "/said/",
+    "uk_phonetic": "/said/",
+    "meaning": "vi.支持 n.边,旁边;一方",
+    "example_en": "The word 'side' is important.",
+    "example_cn": "单词 'side' 很重要。"
+  },
+  {
+    "id": 521,
+    "word": "sign",
+    "us_phonetic": "/sain/",
+    "uk_phonetic": "/sain/",
+    "meaning": "n.符号；征兆 vt.签名",
+    "example_en": "The word 'sign' is important.",
+    "example_cn": "单词 'sign' 很重要。"
+  },
+  {
+    "id": 522,
+    "word": "since",
+    "us_phonetic": "/sins/",
+    "uk_phonetic": "/sins/",
+    "meaning": "conj.从…以来;因为;既然 ad.以后, 后来",
+    "example_en": "The word 'since' is important.",
+    "example_cn": "单词 'since' 很重要。"
+  },
+  {
+    "id": 523,
+    "word": "single",
+    "us_phonetic": "/siŋgl/",
+    "uk_phonetic": "/siŋgl/",
+    "meaning": "a.单一的;独身的",
+    "example_en": "The word 'single' is important.",
+    "example_cn": "单词 'single' 很重要。"
+  },
+  {
+    "id": 524,
+    "word": "sir",
+    "us_phonetic": "/sә:/",
+    "uk_phonetic": "/sә:/",
+    "meaning": "n.先生",
+    "example_en": "The word 'sir' is important.",
+    "example_cn": "单词 'sir' 很重要。"
+  },
+  {
+    "id": 525,
+    "word": "sister",
+    "us_phonetic": "/sistә/",
+    "uk_phonetic": "/sistә/",
+    "meaning": "n.姐妹",
+    "example_en": "The word 'sister' is important.",
+    "example_cn": "单词 'sister' 很重要。"
+  },
+  {
+    "id": 526,
+    "word": "sit",
+    "us_phonetic": "/sit/",
+    "uk_phonetic": "/sit/",
+    "meaning": "vi.坐，就坐",
+    "example_en": "The word 'sit' is important.",
+    "example_cn": "单词 'sit' 很重要。"
+  },
+  {
+    "id": 527,
+    "word": "situation",
+    "us_phonetic": "/sitjueiʃәn/",
+    "uk_phonetic": "/sitjueiʃәn/",
+    "meaning": "n.处境,形势",
+    "example_en": "The word 'situation' is important.",
+    "example_cn": "单词 'situation' 很重要。"
+  },
+  {
+    "id": 528,
+    "word": "six",
+    "us_phonetic": "/siks/",
+    "uk_phonetic": "/siks/",
+    "meaning": "num.六",
+    "example_en": "The word 'six' is important.",
+    "example_cn": "单词 'six' 很重要。"
+  },
+  {
+    "id": 529,
+    "word": "sixteen",
+    "us_phonetic": "/siksti:n/",
+    "uk_phonetic": "/siksti:n/",
+    "meaning": "num.十六",
+    "example_en": "The word 'sixteen' is important.",
+    "example_cn": "单词 'sixteen' 很重要。"
+  },
+  {
+    "id": 530,
+    "word": "sixty",
+    "us_phonetic": "/siksti/",
+    "uk_phonetic": "/siksti/",
+    "meaning": "num.六十",
+    "example_en": "The word 'sixty' is important.",
+    "example_cn": "单词 'sixty' 很重要。"
+  },
+  {
+    "id": 531,
+    "word": "small",
+    "us_phonetic": "/smɔ:l/",
+    "uk_phonetic": "/smɔ:l/",
+    "meaning": "a.小的,少的",
+    "example_en": "The word 'small' is important.",
+    "example_cn": "单词 'small' 很重要。"
+  },
+  {
+    "id": 532,
+    "word": "So",
+    "us_phonetic": "/sәu/",
+    "uk_phonetic": "/sәu/",
+    "meaning": "conj.因而, 所以 ad.如此, 那么;非常, 十分",
+    "example_en": "The word 'So' is important.",
+    "example_cn": "单词 'So' 很重要。"
+  },
+  {
+    "id": 533,
+    "word": "social",
+    "us_phonetic": "/sәuʃәl/",
+    "uk_phonetic": "/sәuʃәl/",
+    "meaning": "a.社会的;社交的",
+    "example_en": "The word 'social' is important.",
+    "example_cn": "单词 'social' 很重要。"
+  },
+  {
+    "id": 534,
+    "word": "society",
+    "us_phonetic": "/sәsaiәti/",
+    "uk_phonetic": "/sәsaiәti/",
+    "meaning": "n.社会",
+    "example_en": "The word 'society' is important.",
+    "example_cn": "单词 'society' 很重要。"
+  },
+  {
+    "id": 535,
+    "word": "some",
+    "us_phonetic": "/sʌm/",
+    "uk_phonetic": "/sʌm/",
+    "meaning": "a.一些；某一个 pron.一些,若干 ad.大约；稍",
+    "example_en": "The word 'some' is important.",
+    "example_cn": "单词 'some' 很重要。"
+  },
+  {
+    "id": 536,
+    "word": "something",
+    "us_phonetic": "/sʌmθiŋ/",
+    "uk_phonetic": "/sʌmθiŋ/",
+    "meaning": "pron.某事,某物",
+    "example_en": "The word 'something' is important.",
+    "example_cn": "单词 'something' 很重要。"
+  },
+  {
+    "id": 537,
+    "word": "son",
+    "us_phonetic": "/sʌn/",
+    "uk_phonetic": "/sʌn/",
+    "meaning": "n.儿子",
+    "example_en": "The word 'son' is important.",
+    "example_cn": "单词 'son' 很重要。"
+  },
+  {
+    "id": 538,
+    "word": "soon",
+    "us_phonetic": "/su:n/",
+    "uk_phonetic": "/su:n/",
+    "meaning": "ad.不久,快",
+    "example_en": "The word 'soon' is important.",
+    "example_cn": "单词 'soon' 很重要。"
+  },
+  {
+    "id": 539,
+    "word": "sort",
+    "us_phonetic": "/sɔ:t/",
+    "uk_phonetic": "/sɔ:t/",
+    "meaning": "n.种类,类别 vt.排序",
+    "example_en": "The word 'sort' is important.",
+    "example_cn": "单词 'sort' 很重要。"
+  },
+  {
+    "id": 540,
+    "word": "sound",
+    "us_phonetic": "/saund/",
+    "uk_phonetic": "/saund/",
+    "meaning": "n.响声 vi.听起来 a.健康的；正当的",
+    "example_en": "The word 'sound' is important.",
+    "example_cn": "单词 'sound' 很重要。"
+  },
+  {
+    "id": 541,
+    "word": "south",
+    "us_phonetic": "/sauθ/",
+    "uk_phonetic": "/sauθ/",
+    "meaning": "n.南,南方 a.南方的",
+    "example_en": "The word 'south' is important.",
+    "example_cn": "单词 'south' 很重要。"
+  },
+  {
+    "id": 542,
+    "word": "speak",
+    "us_phonetic": "/spi:k/",
+    "uk_phonetic": "/spi:k/",
+    "meaning": "vi.说话；发言，演说 vt.说",
+    "example_en": "The word 'speak' is important.",
+    "example_cn": "单词 'speak' 很重要。"
+  },
+  {
+    "id": 543,
+    "word": "special",
+    "us_phonetic": "/speʃәl/",
+    "uk_phonetic": "/speʃәl/",
+    "meaning": "a.特殊的,专门的",
+    "example_en": "The word 'special' is important.",
+    "example_cn": "单词 'special' 很重要。"
+  },
+  {
+    "id": 544,
+    "word": "spend",
+    "us_phonetic": "/spend/",
+    "uk_phonetic": "/spend/",
+    "meaning": "vt.用钱,花费;度过",
+    "example_en": "The word 'spend' is important.",
+    "example_cn": "单词 'spend' 很重要。"
+  },
+  {
+    "id": 545,
+    "word": "staff",
+    "us_phonetic": "/sta:f/",
+    "uk_phonetic": "/sta:f/",
+    "meaning": "n.全体工作人员",
+    "example_en": "The word 'staff' is important.",
+    "example_cn": "单词 'staff' 很重要。"
+  },
+  {
+    "id": 546,
+    "word": "stage",
+    "us_phonetic": "/steidʒ/",
+    "uk_phonetic": "/steidʒ/",
+    "meaning": "n.舞台;阶段，时期",
+    "example_en": "The word 'stage' is important.",
+    "example_cn": "单词 'stage' 很重要。"
+  },
+  {
+    "id": 547,
+    "word": "stand",
+    "us_phonetic": "/stænd/",
+    "uk_phonetic": "/stænd/",
+    "meaning": "vi.站立;坐落 vt.容忍 n.架,台",
+    "example_en": "The word 'stand' is important.",
+    "example_cn": "单词 'stand' 很重要。"
+  },
+  {
+    "id": 548,
+    "word": "star",
+    "us_phonetic": "/sta:/",
+    "uk_phonetic": "/sta:/",
+    "meaning": "n.星星;明星",
+    "example_en": "The word 'star' is important.",
+    "example_cn": "单词 'star' 很重要。"
+  },
+  {
+    "id": 549,
+    "word": "start",
+    "us_phonetic": "/sta:t/",
+    "uk_phonetic": "/sta:t/",
+    "meaning": "vi.出发,开始;吃惊 vt.开始；发动，创办 n.开",
+    "example_en": "The word 'start' is important.",
+    "example_cn": "单词 'start' 很重要。"
+  },
+  {
+    "id": 550,
+    "word": "State",
+    "us_phonetic": "/steit/",
+    "uk_phonetic": "/steit/",
+    "meaning": "vt.陈述,阐明 n.状态;国家；州",
+    "example_en": "The word 'State' is important.",
+    "example_cn": "单词 'State' 很重要。"
+  },
+  {
+    "id": 551,
+    "word": "stay",
+    "us_phonetic": "/stei/",
+    "uk_phonetic": "/stei/",
+    "meaning": "vi.停留;住；保持 n.逗留",
+    "example_en": "The word 'stay' is important.",
+    "example_cn": "单词 'stay' 很重要。"
+  },
+  {
+    "id": 552,
+    "word": "step",
+    "us_phonetic": "/step/",
+    "uk_phonetic": "/step/",
+    "meaning": "n.脚步;步骤；台阶 vi.走；踩到",
+    "example_en": "The word 'step' is important.",
+    "example_cn": "单词 'step' 很重要。"
+  },
+  {
+    "id": 553,
+    "word": "still",
+    "us_phonetic": "/stil/",
+    "uk_phonetic": "/stil/",
+    "meaning": "ad.仍旧，还要 a.静止的 n.寂静",
+    "example_en": "The word 'still' is important.",
+    "example_cn": "单词 'still' 很重要。"
+  },
+  {
+    "id": 554,
+    "word": "stock",
+    "us_phonetic": "/stɔk/",
+    "uk_phonetic": "/stɔk/",
+    "meaning": "vt.储备 n.原料;库存品;股票",
+    "example_en": "The word 'stock' is important.",
+    "example_cn": "单词 'stock' 很重要。"
+  },
+  {
+    "id": 555,
+    "word": "stop",
+    "us_phonetic": "/stɔp/",
+    "uk_phonetic": "/stɔp/",
+    "meaning": "vt.阻止；中断 vi.停止；逗留 n.停车站；停止",
+    "example_en": "The word 'stop' is important.",
+    "example_cn": "单词 'stop' 很重要。"
+  },
+  {
+    "id": 556,
+    "word": "Story",
+    "us_phonetic": "/stɔ:ri/",
+    "uk_phonetic": "/stɔ:ri/",
+    "meaning": "n.故事,小说",
+    "example_en": "The word 'Story' is important.",
+    "example_cn": "单词 'Story' 很重要。"
+  },
+  {
+    "id": 557,
+    "word": "street",
+    "us_phonetic": "/stri:t/",
+    "uk_phonetic": "/stri:t/",
+    "meaning": "n.街道 a.街上的",
+    "example_en": "The word 'street' is important.",
+    "example_cn": "单词 'street' 很重要。"
+  },
+  {
+    "id": 558,
+    "word": "strong",
+    "us_phonetic": "/strɔŋ/",
+    "uk_phonetic": "/strɔŋ/",
+    "meaning": "a.强壮的；浓的",
+    "example_en": "The word 'strong' is important.",
+    "example_cn": "单词 'strong' 很重要。"
+  },
+  {
+    "id": 559,
+    "word": "student",
+    "us_phonetic": "/stju:dәnt/",
+    "uk_phonetic": "/stju:dәnt/",
+    "meaning": "n.学生",
+    "example_en": "The word 'student' is important.",
+    "example_cn": "单词 'student' 很重要。"
+  },
+  {
+    "id": 560,
+    "word": "study",
+    "us_phonetic": "/stʌdi/",
+    "uk_phonetic": "/stʌdi/",
+    "meaning": "n.学习,研究;书房 vt.学习,研究",
+    "example_en": "The word 'study' is important.",
+    "example_cn": "单词 'study' 很重要。"
+  },
+  {
+    "id": 561,
+    "word": "such",
+    "us_phonetic": "/sʌtʃ/",
+    "uk_phonetic": "/sʌtʃ/",
+    "meaning": "ad.那么 pron.这样的人（事物）a.这样的,如",
+    "example_en": "The word 'such' is important.",
+    "example_cn": "单词 'such' 很重要。"
+  },
+  {
+    "id": 562,
+    "word": "suggest",
+    "us_phonetic": "/sәdʒest/",
+    "uk_phonetic": "/sәdʒest/",
+    "meaning": "vt.建议;暗示,启发",
+    "example_en": "The word 'suggest' is important.",
+    "example_cn": "单词 'suggest' 很重要。"
+  },
+  {
+    "id": 563,
+    "word": "support",
+    "us_phonetic": "/sәpɔ:t/",
+    "uk_phonetic": "/sәpɔ:t/",
+    "meaning": "vt.支持;供养；承受",
+    "example_en": "The word 'support' is important.",
+    "example_cn": "单词 'support' 很重要。"
+  },
+  {
+    "id": 564,
+    "word": "sure",
+    "us_phonetic": "/ʃuә/",
+    "uk_phonetic": "/ʃuә/",
+    "meaning": "a.确信的,确实的",
+    "example_en": "The word 'sure' is important.",
+    "example_cn": "单词 'sure' 很重要。"
+  },
+  {
+    "id": 565,
+    "word": "surprise",
+    "us_phonetic": "/sәpraiz/",
+    "uk_phonetic": "/sәpraiz/",
+    "meaning": "vt.使惊奇 n.使人惊奇的事",
+    "example_en": "The word 'surprise' is important.",
+    "example_cn": "单词 'surprise' 很重要。"
+  },
+  {
+    "id": 566,
+    "word": "system",
+    "us_phonetic": "/sistim/",
+    "uk_phonetic": "/sistim/",
+    "meaning": "n.系统；制度",
+    "example_en": "The word 'system' is important.",
+    "example_cn": "单词 'system' 很重要。"
+  },
+  {
+    "id": 567,
+    "word": "take",
+    "us_phonetic": "/teik/",
+    "uk_phonetic": "/teik/",
+    "meaning": "vt.拿;接受；需要, 花费；采取(某一动作)",
+    "example_en": "The word 'take' is important.",
+    "example_cn": "单词 'take' 很重要。"
+  },
+  {
+    "id": 568,
+    "word": "talk",
+    "us_phonetic": "/tɔ:k/",
+    "uk_phonetic": "/tɔ:k/",
+    "meaning": "vi.讲话 vt.谈论 n.谈论；讲话",
+    "example_en": "The word 'talk' is important.",
+    "example_cn": "单词 'talk' 很重要。"
+  },
+  {
+    "id": 569,
+    "word": "tax",
+    "us_phonetic": "/tæks/",
+    "uk_phonetic": "/tæks/",
+    "meaning": "n.税（款）vt.征税",
+    "example_en": "The word 'tax' is important.",
+    "example_cn": "单词 'tax' 很重要。"
+  },
+  {
+    "id": 570,
+    "word": "team",
+    "us_phonetic": "/ti:m/",
+    "uk_phonetic": "/ti:m/",
+    "meaning": "n.队,组",
+    "example_en": "The word 'team' is important.",
+    "example_cn": "单词 'team' 很重要。"
+  },
+  {
+    "id": 571,
+    "word": "tell",
+    "us_phonetic": "/tel/",
+    "uk_phonetic": "/tel/",
+    "meaning": "vt.讲述；吩咐；辨别",
+    "example_en": "The word 'tell' is important.",
+    "example_cn": "单词 'tell' 很重要。"
+  },
+  {
+    "id": 572,
+    "word": "ten",
+    "us_phonetic": "/ten/",
+    "uk_phonetic": "/ten/",
+    "meaning": "num.十",
+    "example_en": "The word 'ten' is important.",
+    "example_cn": "单词 'ten' 很重要。"
+  },
+  {
+    "id": 573,
+    "word": "term",
+    "us_phonetic": "/tә:m/",
+    "uk_phonetic": "/tә:m/",
+    "meaning": "n.学期;条件;术语",
+    "example_en": "The word 'term' is important.",
+    "example_cn": "单词 'term' 很重要。"
+  },
+  {
+    "id": 574,
+    "word": "test",
+    "us_phonetic": "/test/",
+    "uk_phonetic": "/test/",
+    "meaning": "n.试验；考验 vt.试验,检验；考验",
+    "example_en": "The word 'test' is important.",
+    "example_cn": "单词 'test' 很重要。"
+  },
+  {
+    "id": 575,
+    "word": "than",
+    "us_phonetic": "/ðæn/",
+    "uk_phonetic": "/ðәn/",
+    "meaning": "conj.(比较级)比",
+    "example_en": "The word 'than' is important.",
+    "example_cn": "单词 'than' 很重要。"
+  },
+  {
+    "id": 576,
+    "word": "thank",
+    "us_phonetic": "/θæŋk/",
+    "uk_phonetic": "/θæŋk/",
+    "meaning": "vt.谢谢,感谢 n.感谢",
+    "example_en": "The word 'thank' is important.",
+    "example_cn": "单词 'thank' 很重要。"
+  },
+  {
+    "id": 577,
+    "word": "that",
+    "us_phonetic": "/ðæt/",
+    "uk_phonetic": "/ðæt/",
+    "meaning": "a.那 pron.那 ad.那样",
+    "example_en": "The word 'that' is important.",
+    "example_cn": "单词 'that' 很重要。"
+  },
+  {
+    "id": 579,
+    "word": "the",
+    "us_phonetic": "/ðә/",
+    "uk_phonetic": "/ði/",
+    "meaning": "art.这,那",
+    "example_en": "The word 'the' is important.",
+    "example_cn": "单词 'the' 很重要。"
+  },
+  {
+    "id": 580,
+    "word": "their",
+    "us_phonetic": "/ðɛә/",
+    "uk_phonetic": "/ðәr/",
+    "meaning": "pron.他(她，它)们的",
+    "example_en": "The word 'their' is important.",
+    "example_cn": "单词 'their' 很重要。"
+  },
+  {
+    "id": 581,
+    "word": "them",
+    "us_phonetic": "/ðem/",
+    "uk_phonetic": "/ðәm/",
+    "meaning": "pron.(宾格)他（她，它）们",
+    "example_en": "The word 'them' is important.",
+    "example_cn": "单词 'them' 很重要。"
+  },
+  {
+    "id": 582,
+    "word": "themselves",
+    "us_phonetic": "/ðәmselvz/",
+    "uk_phonetic": "/ðәmselvz/",
+    "meaning": "pron.他们自己",
+    "example_en": "The word 'themselves' is important.",
+    "example_cn": "单词 'themselves' 很重要。"
+  },
+  {
+    "id": 583,
+    "word": "then",
+    "us_phonetic": "/ðen/",
+    "uk_phonetic": "/ðen/",
+    "meaning": "ad.当时;然后；再者",
+    "example_en": "The word 'then' is important.",
+    "example_cn": "单词 'then' 很重要。"
+  },
+  {
+    "id": 584,
+    "word": "there",
+    "us_phonetic": "/ðɛә/",
+    "uk_phonetic": "/ðә/",
+    "meaning": "ad.在那里;在那点上",
+    "example_en": "The word 'there' is important.",
+    "example_cn": "单词 'there' 很重要。"
+  },
+  {
+    "id": 585,
+    "word": "these",
+    "us_phonetic": "/ði:z/",
+    "uk_phonetic": "/ði:z/",
+    "meaning": "a.这些 pron.这些",
+    "example_en": "The word 'these' is important.",
+    "example_cn": "单词 'these' 很重要。"
+  },
+  {
+    "id": 586,
+    "word": "they",
+    "us_phonetic": "/ðei/",
+    "uk_phonetic": "/ðei/",
+    "meaning": "pron.(主格)他(她)们",
+    "example_en": "The word 'they' is important.",
+    "example_cn": "单词 'they' 很重要。"
+  },
+  {
+    "id": 588,
+    "word": "thing",
+    "us_phonetic": "/θiŋ/",
+    "uk_phonetic": "/θiŋ/",
+    "meaning": "n.东西,事情",
+    "example_en": "The word 'thing' is important.",
+    "example_cn": "单词 'thing' 很重要。"
+  },
+  {
+    "id": 589,
+    "word": "think",
+    "us_phonetic": "/θiŋk/",
+    "uk_phonetic": "/θiŋk/",
+    "meaning": "vt.想；认为；打算",
+    "example_en": "The word 'think' is important.",
+    "example_cn": "单词 'think' 很重要。"
+  },
+  {
+    "id": 590,
+    "word": "thirteen",
+    "us_phonetic": "/θә:ti:n/",
+    "uk_phonetic": "/θә:ti:n/",
+    "meaning": "num.十三",
+    "example_en": "The word 'thirteen' is important.",
+    "example_cn": "单词 'thirteen' 很重要。"
+  },
+  {
+    "id": 591,
+    "word": "thirty",
+    "us_phonetic": "/θә:ti/",
+    "uk_phonetic": "/θә:ti/",
+    "meaning": "num.三十",
+    "example_en": "The word 'thirty' is important.",
+    "example_cn": "单词 'thirty' 很重要。"
+  },
+  {
+    "id": 592,
+    "word": "this",
+    "us_phonetic": "/ðis/",
+    "uk_phonetic": "/ðis/",
+    "meaning": "a.这;今 pron.这",
+    "example_en": "The word 'this' is important.",
+    "example_cn": "单词 'this' 很重要。"
+  },
+  {
+    "id": 593,
+    "word": "those",
+    "us_phonetic": "/ðәuz/",
+    "uk_phonetic": "/ðәuz/",
+    "meaning": "pron.那些",
+    "example_en": "The word 'those' is important.",
+    "example_cn": "单词 'those' 很重要。"
+  },
+  {
+    "id": 594,
+    "word": "though",
+    "us_phonetic": "/ðәu/",
+    "uk_phonetic": "/ðәu/",
+    "meaning": "conj.虽然 ad.可是；即使",
+    "example_en": "The word 'though' is important.",
+    "example_cn": "单词 'though' 很重要。"
+  },
+  {
+    "id": 595,
+    "word": "thought",
+    "us_phonetic": "/θɔ:t/",
+    "uk_phonetic": "/θɔ:t/",
+    "meaning": "n.思想,思维;想法",
+    "example_en": "The word 'thought' is important.",
+    "example_cn": "单词 'thought' 很重要。"
+  },
+  {
+    "id": 596,
+    "word": "thousand",
+    "us_phonetic": "/θauzәnd/",
+    "uk_phonetic": "/θauzәnd/",
+    "meaning": "num.千,千个 n.无数，成千上万",
+    "example_en": "The word 'thousand' is important.",
+    "example_cn": "单词 'thousand' 很重要。"
+  },
+  {
+    "id": 597,
+    "word": "three",
+    "us_phonetic": "/θri:/",
+    "uk_phonetic": "/θri:/",
+    "meaning": "num.三个",
+    "example_en": "The word 'three' is important.",
+    "example_cn": "单词 'three' 很重要。"
+  },
+  {
+    "id": 598,
+    "word": "through",
+    "us_phonetic": "/θru:/",
+    "uk_phonetic": "/θru:/",
+    "meaning": "prep.穿过 ad.从头到尾",
+    "example_en": "The word 'through' is important.",
+    "example_cn": "单词 'through' 很重要。"
+  },
+  {
+    "id": 599,
+    "word": "time",
+    "us_phonetic": "/taim/",
+    "uk_phonetic": "/taim/",
+    "meaning": "n.时间;时机;次,回；倍；时代 vt.安排时间；",
+    "example_en": "The word 'time' is important.",
+    "example_cn": "单词 'time' 很重要。"
+  },
+  {
+    "id": 600,
+    "word": "to",
+    "us_phonetic": "/tu:/",
+    "uk_phonetic": "/tu, tә/",
+    "meaning": "prep.到,向;达到；对于",
+    "example_en": "The word 'to' is important.",
+    "example_cn": "单词 'to' 很重要。"
+  },
+  {
+    "id": 601,
+    "word": "today",
+    "us_phonetic": "/tәdei/",
+    "uk_phonetic": "/tәdei/",
+    "meaning": "n.今天；当代",
+    "example_en": "The word 'today' is important.",
+    "example_cn": "单词 'today' 很重要。"
+  },
+  {
+    "id": 602,
+    "word": "together",
+    "us_phonetic": "/tәgeðә/",
+    "uk_phonetic": "/tәgeðә/",
+    "meaning": "ad.共同,一起；合计，共计",
+    "example_en": "The word 'together' is important.",
+    "example_cn": "单词 'together' 很重要。"
+  },
+  {
+    "id": 603,
+    "word": "too",
+    "us_phonetic": "/tu:/",
+    "uk_phonetic": "/tu:/",
+    "meaning": "ad.也,还;太",
+    "example_en": "The word 'too' is important.",
+    "example_cn": "单词 'too' 很重要。"
+  },
+  {
+    "id": 604,
+    "word": "top",
+    "us_phonetic": "/tɔp/",
+    "uk_phonetic": "/tɔp/",
+    "meaning": "n.顶，上端；首位 a.最高的",
+    "example_en": "The word 'top' is important.",
+    "example_cn": "单词 'top' 很重要。"
+  },
+  {
+    "id": 605,
+    "word": "total",
+    "us_phonetic": "/tәutl/",
+    "uk_phonetic": "/tәutl/",
+    "meaning": "a.总的 vi.合计,总共",
+    "example_en": "The word 'total' is important.",
+    "example_cn": "单词 'total' 很重要。"
+  },
+  {
+    "id": 606,
+    "word": "towards",
+    "us_phonetic": "/tәwɔ:dz/",
+    "uk_phonetic": "/tәwɔ:dz/",
+    "meaning": "prep.向着",
+    "example_en": "The word 'towards' is important.",
+    "example_cn": "单词 'towards' 很重要。"
+  },
+  {
+    "id": 607,
+    "word": "town",
+    "us_phonetic": "/taun/",
+    "uk_phonetic": "/taun/",
+    "meaning": "n.市镇,城镇",
+    "example_en": "The word 'town' is important.",
+    "example_cn": "单词 'town' 很重要。"
+  },
+  {
+    "id": 608,
+    "word": "trade",
+    "us_phonetic": "/treid/",
+    "uk_phonetic": "/treid/",
+    "meaning": "n.贸易 vi.交易",
+    "example_en": "The word 'trade' is important.",
+    "example_cn": "单词 'trade' 很重要。"
+  },
+  {
+    "id": 609,
+    "word": "try",
+    "us_phonetic": "/trai/",
+    "uk_phonetic": "/trai/",
+    "meaning": "vi.尝试；努力；审讯 vt.努力；尝试",
+    "example_en": "The word 'try' is important.",
+    "example_cn": "单词 'try' 很重要。"
+  },
+  {
+    "id": 610,
+    "word": "turn",
+    "us_phonetic": "/tә:n/",
+    "uk_phonetic": "/tә:n/",
+    "meaning": "vt.转,翻 vi.转动 n.转动；轮流，轮班",
+    "example_en": "The word 'turn' is important.",
+    "example_cn": "单词 'turn' 很重要。"
+  },
+  {
+    "id": 611,
+    "word": "twelve",
+    "us_phonetic": "/twelv/",
+    "uk_phonetic": "/twelv/",
+    "meaning": "num.十二",
+    "example_en": "The word 'twelve' is important.",
+    "example_cn": "单词 'twelve' 很重要。"
+  },
+  {
+    "id": 612,
+    "word": "twenty",
+    "us_phonetic": "/twenti/",
+    "uk_phonetic": "/twenti/",
+    "meaning": "num.二十",
+    "example_en": "The word 'twenty' is important.",
+    "example_cn": "单词 'twenty' 很重要。"
+  },
+  {
+    "id": 613,
+    "word": "twice",
+    "us_phonetic": "/twais/",
+    "uk_phonetic": "/twais/",
+    "meaning": "ad.两次,两倍",
+    "example_en": "The word 'twice' is important.",
+    "example_cn": "单词 'twice' 很重要。"
+  },
+  {
+    "id": 614,
+    "word": "two",
+    "us_phonetic": "/tu:/",
+    "uk_phonetic": "/tu:/",
+    "meaning": "num.二",
+    "example_en": "The word 'two' is important.",
+    "example_cn": "单词 'two' 很重要。"
+  },
+  {
+    "id": 615,
+    "word": "under",
+    "us_phonetic": "/ʌndә/",
+    "uk_phonetic": "/ʌndә/",
+    "meaning": "prep.在…下面；在...的情况下",
+    "example_en": "The word 'under' is important.",
+    "example_cn": "单词 'under' 很重要。"
+  },
+  {
+    "id": 616,
+    "word": "understand",
+    "us_phonetic": "/ʌndәstænd/",
+    "uk_phonetic": "/ʌndәstænd/",
+    "meaning": "vt.理解,明白",
+    "example_en": "The word 'understand' is important.",
+    "example_cn": "单词 'understand' 很重要。"
+  },
+  {
+    "id": 617,
+    "word": "union",
+    "us_phonetic": "/ju:njәn/",
+    "uk_phonetic": "/ju:njәn/",
+    "meaning": "n.联合,团结;协会",
+    "example_en": "The word 'union' is important.",
+    "example_cn": "单词 'union' 很重要。"
+  },
+  {
+    "id": 618,
+    "word": "university",
+    "us_phonetic": "/ju:nivә:siti/",
+    "uk_phonetic": "/ju:nivә:siti/",
+    "meaning": "n.大学",
+    "example_en": "The word 'university' is important.",
+    "example_cn": "单词 'university' 很重要。"
+  },
+  {
+    "id": 619,
+    "word": "until",
+    "us_phonetic": "/әntil/",
+    "uk_phonetic": "/әntil/",
+    "meaning": "prep.到…为止 conj.直到…为止",
+    "example_en": "The word 'until' is important.",
+    "example_cn": "单词 'until' 很重要。"
+  },
+  {
+    "id": 620,
+    "word": "up",
+    "us_phonetic": "/ʌp/",
+    "uk_phonetic": "/ʌp/",
+    "meaning": "ad.向上;用完,用尽;提高,增强 prep 在高处 a.起",
+    "example_en": "The word 'up' is important.",
+    "example_cn": "单词 'up' 很重要。"
+  },
+  {
+    "id": 621,
+    "word": "us",
+    "us_phonetic": "/ʌs/",
+    "uk_phonetic": "/әs/",
+    "meaning": "pron.我们",
+    "example_en": "The word 'us' is important.",
+    "example_cn": "单词 'us' 很重要。"
+  },
+  {
+    "id": 622,
+    "word": "use",
+    "us_phonetic": "/ju:z/",
+    "uk_phonetic": "/ju:s/",
+    "meaning": "vt.用, 使用 n.使用, 利用;用途",
+    "example_en": "The word 'use' is important.",
+    "example_cn": "单词 'use' 很重要。"
+  },
+  {
+    "id": 623,
+    "word": "value",
+    "us_phonetic": "/vælju:/",
+    "uk_phonetic": "/vælju:/",
+    "meaning": "n.价值,价格 vt.评价",
+    "example_en": "The word 'value' is important.",
+    "example_cn": "单词 'value' 很重要。"
+  },
+  {
+    "id": 624,
+    "word": "very",
+    "us_phonetic": "/veri/",
+    "uk_phonetic": "/veri/",
+    "meaning": "ad.很,非常 a.正是那个",
+    "example_en": "The word 'very' is important.",
+    "example_cn": "单词 'very' 很重要。"
+  },
+  {
+    "id": 625,
+    "word": "view",
+    "us_phonetic": "/vju:/",
+    "uk_phonetic": "/vju:/",
+    "meaning": "vt.看待；看 n.见解;风景",
+    "example_en": "The word 'view' is important.",
+    "example_cn": "单词 'view' 很重要。"
+  },
+  {
+    "id": 626,
+    "word": "visit",
+    "us_phonetic": "/vizit/",
+    "uk_phonetic": "/vizit/",
+    "meaning": "vt.访问,参观 n.访问,参观",
+    "example_en": "The word 'visit' is important.",
+    "example_cn": "单词 'visit' 很重要。"
+  },
+  {
+    "id": 627,
+    "word": "vote",
+    "us_phonetic": "/vәut/",
+    "uk_phonetic": "/vәut/",
+    "meaning": "n.选举,投票",
+    "example_en": "The word 'vote' is important.",
+    "example_cn": "单词 'vote' 很重要。"
+  },
+  {
+    "id": 628,
+    "word": "wait",
+    "us_phonetic": "/weit/",
+    "uk_phonetic": "/weit/",
+    "meaning": "vi.等待 n.等待",
+    "example_en": "The word 'wait' is important.",
+    "example_cn": "单词 'wait' 很重要。"
+  },
+  {
+    "id": 629,
+    "word": "walk",
+    "us_phonetic": "/wɔ:k/",
+    "uk_phonetic": "/wɔ:k/",
+    "meaning": "vi.走 n.走,步行",
+    "example_en": "The word 'walk' is important.",
+    "example_cn": "单词 'walk' 很重要。"
+  },
+  {
+    "id": 630,
+    "word": "wall",
+    "us_phonetic": "/wɔ:l/",
+    "uk_phonetic": "/wɔ:l/",
+    "meaning": "n.墙壁,围墙",
+    "example_en": "The word 'wall' is important.",
+    "example_cn": "单词 'wall' 很重要。"
+  },
+  {
+    "id": 631,
+    "word": "want",
+    "us_phonetic": "/wɔnt/",
+    "uk_phonetic": "/wɔnt/",
+    "meaning": "vt.想要 n.需要；缺乏",
+    "example_en": "The word 'want' is important.",
+    "example_cn": "单词 'want' 很重要。"
+  },
+  {
+    "id": 632,
+    "word": "war",
+    "us_phonetic": "/wɔ:/",
+    "uk_phonetic": "/wɔ:/",
+    "meaning": "n.战争",
+    "example_en": "The word 'war' is important.",
+    "example_cn": "单词 'war' 很重要。"
+  },
+  {
+    "id": 634,
+    "word": "watch",
+    "us_phonetic": "/wɔtʃ/",
+    "uk_phonetic": "/wɔtʃ/",
+    "meaning": "vt.观看；监视 vi.观看 n.手表",
+    "example_en": "The word 'watch' is important.",
+    "example_cn": "单词 'watch' 很重要。"
+  },
+  {
+    "id": 635,
+    "word": "water",
+    "us_phonetic": "/wɔ:tә/",
+    "uk_phonetic": "/wɔ:tә/",
+    "meaning": "n.水 vt.灌溉",
+    "example_en": "The word 'water' is important.",
+    "example_cn": "单词 'water' 很重要。"
+  },
+  {
+    "id": 636,
+    "word": "way",
+    "us_phonetic": "/wei/",
+    "uk_phonetic": "/wei/",
+    "meaning": "n.路;路线;办法",
+    "example_en": "The word 'way' is important.",
+    "example_cn": "单词 'way' 很重要。"
+  },
+  {
+    "id": 637,
+    "word": "we",
+    "us_phonetic": "/wi:/",
+    "uk_phonetic": "/wi:/",
+    "meaning": "pron.我们",
+    "example_en": "The word 'we' is important.",
+    "example_cn": "单词 'we' 很重要。"
+  },
+  {
+    "id": 638,
+    "word": "week",
+    "us_phonetic": "/wi:k/",
+    "uk_phonetic": "/wi:k/",
+    "meaning": "n.星期",
+    "example_en": "The word 'week' is important.",
+    "example_cn": "单词 'week' 很重要。"
+  },
+  {
+    "id": 639,
+    "word": "well",
+    "us_phonetic": "/wel/",
+    "uk_phonetic": "/wel/",
+    "meaning": "ad.好;完全地 a.健康的 int.喔,嗯 n.井",
+    "example_en": "The word 'well' is important.",
+    "example_cn": "单词 'well' 很重要。"
+  },
+  {
+    "id": 641,
+    "word": "west",
+    "us_phonetic": "/west/",
+    "uk_phonetic": "/west/",
+    "meaning": "n.西边 a.西方的",
+    "example_en": "The word 'west' is important.",
+    "example_cn": "单词 'west' 很重要。"
+  },
+  {
+    "id": 643,
+    "word": "what",
+    "us_phonetic": "/wCt/",
+    "uk_phonetic": "/wCt/",
+    "meaning": "pron.什么",
+    "example_en": "The word 'what' is important.",
+    "example_cn": "单词 'what' 很重要。"
+  },
+  {
+    "id": 644,
+    "word": "when",
+    "us_phonetic": "/wen/",
+    "uk_phonetic": "/wen/",
+    "meaning": "ad.什么时候 pron.当…的时候",
+    "example_en": "The word 'when' is important.",
+    "example_cn": "单词 'when' 很重要。"
+  },
+  {
+    "id": 645,
+    "word": "where",
+    "us_phonetic": "/wɛә/",
+    "uk_phonetic": "/wɛә/",
+    "meaning": "ad.在哪里 pron.哪里",
+    "example_en": "The word 'where' is important.",
+    "example_cn": "单词 'where' 很重要。"
+  },
+  {
+    "id": 646,
+    "word": "whether",
+    "us_phonetic": "/weðә/",
+    "uk_phonetic": "/weðә/",
+    "meaning": "conj.是否",
+    "example_en": "The word 'whether' is important.",
+    "example_cn": "单词 'whether' 很重要。"
+  },
+  {
+    "id": 647,
+    "word": "which",
+    "us_phonetic": "/witʃ/",
+    "uk_phonetic": "/witʃ/",
+    "meaning": "pron.哪一个 a.哪一个",
+    "example_en": "The word 'which' is important.",
+    "example_cn": "单词 'which' 很重要。"
+  },
+  {
+    "id": 648,
+    "word": "while",
+    "us_phonetic": "/wail/",
+    "uk_phonetic": "/wail/",
+    "meaning": "conj.当…的时候;而",
+    "example_en": "The word 'while' is important.",
+    "example_cn": "单词 'while' 很重要。"
+  },
+  {
+    "id": 649,
+    "word": "white",
+    "us_phonetic": "/wait/",
+    "uk_phonetic": "/wait/",
+    "meaning": "a.白的 n.白色",
+    "example_en": "The word 'white' is important.",
+    "example_cn": "单词 'white' 很重要。"
+  },
+  {
+    "id": 650,
+    "word": "who",
+    "us_phonetic": "/hu:/",
+    "uk_phonetic": "/hu:/",
+    "meaning": "pron.谁",
+    "example_en": "The word 'who' is important.",
+    "example_cn": "单词 'who' 很重要。"
+  },
+  {
+    "id": 651,
+    "word": "whole",
+    "us_phonetic": "/hәul/",
+    "uk_phonetic": "/hәul/",
+    "meaning": "a.完整的；全体的 n.全部",
+    "example_en": "The word 'whole' is important.",
+    "example_cn": "单词 'whole' 很重要。"
+  },
+  {
+    "id": 652,
+    "word": "whose",
+    "us_phonetic": "/hu:z/",
+    "uk_phonetic": "/hu:z/",
+    "meaning": "pron.谁的",
+    "example_en": "The word 'whose' is important.",
+    "example_cn": "单词 'whose' 很重要。"
+  },
+  {
+    "id": 653,
+    "word": "why",
+    "us_phonetic": "/wai/",
+    "uk_phonetic": "/wai/",
+    "meaning": "ad.为什么",
+    "example_en": "The word 'why' is important.",
+    "example_cn": "单词 'why' 很重要。"
+  },
+  {
+    "id": 654,
+    "word": "wide",
+    "us_phonetic": "/waid/",
+    "uk_phonetic": "/waid/",
+    "meaning": "a.宽阔的 ad.全部地",
+    "example_en": "The word 'wide' is important.",
+    "example_cn": "单词 'wide' 很重要。"
+  },
+  {
+    "id": 655,
+    "word": "wife",
+    "us_phonetic": "/waif/",
+    "uk_phonetic": "/waif/",
+    "meaning": "n.妻子",
+    "example_en": "The word 'wife' is important.",
+    "example_cn": "单词 'wife' 很重要。"
+  },
+  {
+    "id": 656,
+    "word": "will",
+    "us_phonetic": "/wil/",
+    "uk_phonetic": "/wil/",
+    "meaning": "aux.将要,会;愿意 n.意志；遗嘱",
+    "example_en": "The word 'will' is important.",
+    "example_cn": "单词 'will' 很重要。"
+  },
+  {
+    "id": 657,
+    "word": "win",
+    "us_phonetic": "/win/",
+    "uk_phonetic": "/win/",
+    "meaning": "vi.获胜,赢 vt.赢得",
+    "example_en": "The word 'win' is important.",
+    "example_cn": "单词 'win' 很重要。"
+  },
+  {
+    "id": 658,
+    "word": "with",
+    "us_phonetic": "/wið/",
+    "uk_phonetic": "/wið/",
+    "meaning": "prep.和…一起；随着",
+    "example_en": "The word 'with' is important.",
+    "example_cn": "单词 'with' 很重要。"
+  },
+  {
+    "id": 659,
+    "word": "within",
+    "us_phonetic": "/wiðin/",
+    "uk_phonetic": "/wiðin/",
+    "meaning": "prep.在…里面；不超过",
+    "example_en": "The word 'within' is important.",
+    "example_cn": "单词 'within' 很重要。"
+  },
+  {
+    "id": 660,
+    "word": "without",
+    "us_phonetic": "/wiðaut/",
+    "uk_phonetic": "/wiðaut/",
+    "meaning": "prep.无,没有",
+    "example_en": "The word 'without' is important.",
+    "example_cn": "单词 'without' 很重要。"
+  },
+  {
+    "id": 661,
+    "word": "woman",
+    "us_phonetic": "/wumәn/",
+    "uk_phonetic": "/wumәn/",
+    "meaning": "n.妇女,女性",
+    "example_en": "The word 'woman' is important.",
+    "example_cn": "单词 'woman' 很重要。"
+  },
+  {
+    "id": 663,
+    "word": "word",
+    "us_phonetic": "/wә:d/",
+    "uk_phonetic": "/wә:d/",
+    "meaning": "n.词,话",
+    "example_en": "The word 'word' is important.",
+    "example_cn": "单词 'word' 很重要。"
+  },
+  {
+    "id": 664,
+    "word": "work",
+    "us_phonetic": "/wә:k/",
+    "uk_phonetic": "/wә:k/",
+    "meaning": "n.工作,职业；著作 vi.工作；运转,起作用",
+    "example_en": "The word 'work' is important.",
+    "example_cn": "单词 'work' 很重要。"
+  },
+  {
+    "id": 665,
+    "word": "worker",
+    "us_phonetic": "/wә:kә/",
+    "uk_phonetic": "/wә:kә/",
+    "meaning": "n.工人",
+    "example_en": "The word 'worker' is important.",
+    "example_cn": "单词 'worker' 很重要。"
+  },
+  {
+    "id": 666,
+    "word": "working",
+    "us_phonetic": "/wә:kiŋ/",
+    "uk_phonetic": "/wә:kiŋ/",
+    "meaning": "n. 工作,作用,劳动",
+    "example_en": "The word 'working' is important.",
+    "example_cn": "单词 'working' 很重要。"
+  },
+  {
+    "id": 667,
+    "word": "world",
+    "us_phonetic": "/wә:ld/",
+    "uk_phonetic": "/wә:ld/",
+    "meaning": "n.世界",
+    "example_en": "The word 'world' is important.",
+    "example_cn": "单词 'world' 很重要。"
+  },
+  {
+    "id": 668,
+    "word": "would",
+    "us_phonetic": "/wud/",
+    "uk_phonetic": "/wәd/",
+    "meaning": "aux.将;愿意",
+    "example_en": "The word 'would' is important.",
+    "example_cn": "单词 'would' 很重要。"
+  },
+  {
+    "id": 670,
+    "word": "write",
+    "us_phonetic": "/rait/",
+    "uk_phonetic": "/rait/",
+    "meaning": "vt.写 vi.书写；写作；写信",
+    "example_en": "The word 'write' is important.",
+    "example_cn": "单词 'write' 很重要。"
+  },
+  {
+    "id": 671,
+    "word": "year",
+    "us_phonetic": "/jә:/",
+    "uk_phonetic": "/jiә/",
+    "meaning": "n.年；岁数",
+    "example_en": "The word 'year' is important.",
+    "example_cn": "单词 'year' 很重要。"
+  },
+  {
+    "id": 672,
+    "word": "yes",
+    "us_phonetic": "/jes/",
+    "uk_phonetic": "/jes/",
+    "meaning": "ad.是,是的",
+    "example_en": "The word 'yes' is important.",
+    "example_cn": "单词 'yes' 很重要。"
+  },
+  {
+    "id": 673,
+    "word": "yesterday",
+    "us_phonetic": "/jestәdi/",
+    "uk_phonetic": "/jestәdi/",
+    "meaning": "n.昨天 ad.昨日",
+    "example_en": "The word 'yesterday' is important.",
+    "example_cn": "单词 'yesterday' 很重要。"
+  },
+  {
+    "id": 674,
+    "word": "yet",
+    "us_phonetic": "/jet/",
+    "uk_phonetic": "/jet/",
+    "meaning": "ad.还;已经 conj.而",
+    "example_en": "The word 'yet' is important.",
+    "example_cn": "单词 'yet' 很重要。"
+  },
+  {
+    "id": 675,
+    "word": "you",
+    "us_phonetic": "/ju:/",
+    "uk_phonetic": "/ju/",
+    "meaning": "pron.你,你们",
+    "example_en": "The word 'you' is important.",
+    "example_cn": "单词 'you' 很重要。"
+  },
+  {
+    "id": 676,
+    "word": "young",
+    "us_phonetic": "/jʌŋ/",
+    "uk_phonetic": "/jʌŋ/",
+    "meaning": "a.年轻的 n.青年们",
+    "example_en": "The word 'young' is important.",
+    "example_cn": "单词 'young' 很重要。"
+  },
+  {
+    "id": 677,
+    "word": "your",
+    "us_phonetic": "/jɔ:/",
+    "uk_phonetic": "/jɔ:/",
+    "meaning": "pron.你的,你们的",
+    "example_en": "The word 'your' is important.",
+    "example_cn": "单词 'your' 很重要。"
+  }
+]
